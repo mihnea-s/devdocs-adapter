@@ -1,0 +1,95 @@
+{
+  "name": "devdocs-adapter",
+  "displayName": "DevDocs.io Adapter",
+  "description": "DevDocs.io documentation integration with VSCode",
+  "repository": {
+    "url": "https://github.com/mihnea-s/devdocs-adapter"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:devdocs-adapter.search",
+    "onCommand:devdocs-adapter.docsets.manage",
+    "onCommand:devdocs-adapter.docsets.update"
+  ],
+  "main": "./out/main.js",
+  "contributes": {
+    "configuration": [
+      {
+        "title": "DevDocs Adapter",
+        "properties": {
+          "devdocs-adapter.docsets": {
+            "type": "array",
+            "default": [
+              "javascript"
+            ],
+            "description": "Which DocSets to install",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    ],
+    "commands": [
+      {
+        "command": "devdocs-adapter.search",
+        "title": "DevDocs: Search documentation"
+      },
+      {
+        "command": "devdocs-adapter.docsets.manage",
+        "title": "DevDocs: Manage DocSets"
+      },
+      {
+        "command": "devdocs-adapter.docsets.update",
+        "title": "DevDocs: Update (re-download) DocSets"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "devdocs-adapter.search",
+        "key": "alt+p"
+      }
+    ]
+  },
+  "scripts": {
+    "base": "esbuild ./src/extension.ts --bundle --outfile=out/main.js --external:vscode --format=cjs --platform=node",
+    "compile": "yarn run base --sourcemap",
+    "watch": "yarn run base --sourcemap --watch",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "package": "yarn run vscode:prepublish && vsce package",
+    "pretest": "yarn run compile && yarn run lint",
+    "vscode:prepublish": "yarn run base --minify"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "14.x",
+    "@types/node-fetch": "^2.6.1",
+    "@types/pako": "^1.0.3",
+    "@types/tar-fs": "^2.0.1",
+    "@types/vscode": "^1.63.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "@vscode/test-electron": "^2.1.3",
+    "@vscode/webview-ui-toolkit": "^1.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "esbuild": "^0.14.47",
+    "eslint": "^8.6.0",
+    "glob": "^7.2.0",
+    "mocha": "^9.1.3",
+    "node-fetch": "^2.0.0",
+    "pako": "^2.0.4",
+    "tar-fs": "^2.1.1",
+    "typescript": "^4.5.4",
+    "vsce": "^2.9.2"
+  }
+}

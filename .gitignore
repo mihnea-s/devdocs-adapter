@@ -1,0 +1,12 @@
+# Dev tools
+.vscode/*
+.vscode-test/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.direnv/
+
+# Build files
+node_modules/
+out/
+yarn-error.log

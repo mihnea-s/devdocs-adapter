@@ -1,0 +1,19 @@
+# Dev tools
+.direnv/**
+.vscode/**
+.vscode-test/**
+.gitignore
+.editorconfig
+.envrc
+.yarnrc
+shell.nix
+**/tsconfig.json
+**/.eslintrc.json
+
+# Source files
+src/**
+test/**
+out/test/**
+**/*.map
+**/*.ts
+node_modules/

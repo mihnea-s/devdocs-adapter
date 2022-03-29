@@ -1,0 +1,223 @@
+import * as vscode from 'vscode';
+
+import * as fs from 'fs';
+import * as path from 'path';
+import * as stream from 'stream';
+
+import pako from 'pako';
+import tarfs from 'tar-fs';
+import fetch from 'node-fetch';
+import { load as cheerio } from 'cheerio';
+
+export type DocSlug = string;
+
+export type DocItem = {
+    // Entry information
+    doc: DocSlug,
+    name: string,
+    path: string,
+
+    // Quick Pick item properties
+    label: string,
+    detail: string,
+    description: string,
+};
+
+export type DocManifest = {
+    name: string,
+    slug: DocSlug,
+    version: string,
+    entries: DocItem[],
+};
+
+export class DevDocsAdapter {
+    private static readonly _webviewType = 'devdocs';
+
+    private readonly _storePath: string;
+
+    private _manifests: Map<DocSlug, DocManifest>;
+    private _webviews: Map<DocSlug, vscode.WebviewPanel>;
+
+    constructor(storePath: string) {
+        this._webviews = new Map;
+        this._manifests = new Map;
+        this._storePath = storePath;
+    }
+
+    async load(slug: DocSlug, force = false): Promise<void> {
+        // Manifest is already loaded
+        if (!force && this._manifests.has(slug)) {
+            return;
+        }
+
+        const indexPath = path.join(this._storePath, slug, 'index.json');
+
+        // Check if documentation exists
+        if (!fs.existsSync(indexPath)) {
+            return;
+        }
+
+        const index = await fs.promises.readFile(indexPath);
+        this._manifests.set(slug, JSON.parse(index.toString()));
+    }
+
+    async loadAll(slugs: DocSlug[], force = false): Promise<void> {
+        this._manifests.clear();
+        await Promise.all(slugs.map(doc => this.load(doc, force)));
+    }
+
+    private _categorize(entryType: string): string {
+        const type = entryType.toLowerCase();
+
+        if (['collection', 'container', 'array'].some(s => type.includes(s))) {
+            return '$(symbol-array)';
+        }
+
+        return '$(symbol-misc)';
+    }
+
+    private async _describe(slug: DocSlug, itempath: string): Promise<string> {
+        const [file, anchor] = itempath.split('#', 2);
+        const selector = anchor === "" ? "h1,h2,h3" : `#${anchor}`; 
+
+        const filePath = path.join(this._storePath, slug, file + '.html');
+        const htmlText = (await fs.promises.readFile(filePath)).toString();
+
+        return cheerio(htmlText)(`:is(${selector}) + :is(div, p)`).text();
+    }
+
+    async download(slug: DocSlug, force = false): Promise<void> {
+        const docsetPath = path.join(this._storePath, slug);
+
+        // Docset already on disk
+        if (!force && fs.existsSync(docsetPath)) {
+            return;
+        }
+
+        const resp = await fetch(`https://downloads.devdocs.io/${slug}.tar.gz`);
+
+        if (!resp.ok) {
+            vscode.window.showErrorMessage(`Failed to download '${slug}': ${resp.status}`);
+            return;
+        }
+
+        // Prepare body bytes for extraction
+        const gzip = new Uint8Array(await resp.arrayBuffer());
+
+        // File is .tar.gz, ungzip it first
+        const tar = pako.ungzip(gzip);
+
+        // Extensions are responsible for creating the storagePath
+        await fs.promises.mkdir(this._storePath).catch(() => { });
+        await fs.promises.mkdir(docsetPath).catch(() => { });
+
+        // Extract tar to storagePath
+        const duplex = new stream.Duplex();
+        const extract = tarfs.extract(docsetPath);
+
+        duplex.push(tar);
+        duplex.push(null);
+        duplex.pipe(extract);
+
+        // Wait until all data is extracted
+        await new Promise(res => extract.on('finish', res));
+
+        // Read index and meta
+        const [indexFile, metaFile] = await Promise.all([
+            fs.promises.readFile(path.join(docsetPath, 'index.json')),
+            fs.promises.readFile(path.join(docsetPath, 'meta.json')),
+        ] as const);
+
+        const index = JSON.parse(indexFile.toString()) as {
+            entries: { name: string, path: string, type: string }[];
+        };
+
+        const meta = JSON.parse(metaFile.toString()) as {
+            name: string, slug: string, release: string,
+        };
+
+        const entries = await Promise.all(index.entries.map(async entry => ({
+            doc: meta.slug,
+            name: entry.name,
+            path: entry.path,
+            label: `${this._categorize(entry.type)} ${entry.name}`,
+            detail: await this._describe(meta.slug, entry.path),
+            description: `${meta.name} - ${entry.type}`,
+        })));
+
+        await fs.promises.writeFile(path.join(docsetPath, 'index.json'), JSON.stringify({
+            name: meta.name,
+            slug: meta.slug,
+            version: meta.release,
+            entries,
+        }));
+    }
+
+    async downloadAll(slugs: DocSlug[], force = false): Promise<void> {
+        await vscode.window.withProgress({
+            title: 'Downloading documentation',
+            location: vscode.ProgressLocation.Notification,
+        }, async progress => {
+            await Promise.all(slugs.map(async doc => {
+                await this.download(doc, force);
+
+                progress.report({
+                    message: `installed '${doc}'.`,
+                    increment: 100.0 / slugs.length,
+                });
+            }));
+        });
+    }
+
+    async items(): Promise<DocItem[]> {
+        const items = [] as DocItem[];
+
+        for (const manifest of this._manifests.values()) {
+            items.push(...manifest.entries);
+        }
+
+        return items;
+    }
+
+    private _webview(manifest: DocManifest): vscode.WebviewPanel {
+        const type = DevDocsAdapter._webviewType;
+        const name = `${manifest.name} Documentation`;
+        const besides = vscode.ViewColumn.Beside;
+
+        const panel = vscode.window.createWebviewPanel(type, name, besides, {
+            localResourceRoots: [vscode.Uri.parse(this._storePath)],
+            enableFindWidget: true,
+            enableScripts: true,
+        });
+
+        panel.onDidDispose(() => {
+            this._webviews.delete(manifest.slug);
+            panel.dispose();
+        });
+
+        this._webviews.set(manifest.slug, panel);
+        return panel;
+    }
+
+    private _postprocess(document: string, anchor?: string): string {
+        const script = (!anchor) ? "" : `
+            <script>
+                document.getElementById("${anchor}").scrollIntoView()
+            </script>
+        `;
+
+        return document + script;
+    }
+
+    async open(item: DocItem): Promise<void> {
+        const index = this._manifests.get(item.doc)!;
+        const panel = this._webviews.get(item.doc) ?? this._webview(index);
+
+        const [file, anchor] = item.path.split('#', 2);
+        const filePath = path.join(this._storePath, index.slug, file + '.html');
+        const document = (await fs.promises.readFile(filePath)).toString();
+
+        panel.webview.html = this._postprocess(document, anchor);
+        panel.reveal();
+    }
+}
