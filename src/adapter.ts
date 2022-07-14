@@ -7,7 +7,8 @@ import * as stream from 'stream';
 import pako from 'pako';
 import tarfs from 'tar-fs';
 import fetch from 'node-fetch';
-import { load as cheerio } from 'cheerio';
+import { LRUMap } from 'lru_map';
+import { CheerioAPI, load as cheerio } from 'cheerio';
 
 export type DocSlug = string;
 
@@ -76,14 +77,17 @@ export class DevDocsAdapter {
         return '$(symbol-misc)';
     }
 
-    private async _describe(slug: DocSlug, itempath: string): Promise<string> {
+    private async _describe(context: LRUMap<string, CheerioAPI>, slug: DocSlug, itempath: string): Promise<string> {
         const [file, anchor] = itempath.split('#', 2);
-        const selector = anchor === "" ? "h1,h2,h3" : `#${anchor}`; 
-
+        const selector = anchor === "" ? "h1,h2,h3" : `#${anchor}`;
         const filePath = path.join(this._storePath, slug, file + '.html');
-        const htmlText = (await fs.promises.readFile(filePath)).toString();
 
-        return cheerio(htmlText)(`:is(${selector}) + :is(div, p)`).text();
+        if (!context.has(filePath)) {
+            const htmlText = (await fs.promises.readFile(filePath)).toString();
+            context.set(filePath, cheerio(htmlText));
+        }
+
+        return context.get(filePath)!(`:is(${selector}) + :is(div, p)`).text();
     }
 
     async download(slug: DocSlug, force = false): Promise<void> {
@@ -136,14 +140,22 @@ export class DevDocsAdapter {
             name: string, slug: string, release: string,
         };
 
-        const entries = await Promise.all(index.entries.map(async entry => ({
-            doc: meta.slug,
-            name: entry.name,
-            path: entry.path,
-            label: `${this._categorize(entry.type)} ${entry.name}`,
-            detail: await this._describe(meta.slug, entry.path),
-            description: `${meta.name} - ${entry.type}`,
-        })));
+        // Used for caching file contents as CheerioAPIs
+        const entries = new Array(index.entries.length);
+        const describeContext = new LRUMap<string, CheerioAPI>(20);
+
+        for (let i = 0; i < index.entries.length; i++) {
+            const entry = index.entries[i];
+
+            entries[i] = {
+                doc: meta.slug,
+                name: entry.name,
+                path: entry.path,
+                label: `${this._categorize(entry.type)} ${entry.name}`,
+                detail: await this._describe(describeContext, meta.slug, entry.path),
+                description: `${meta.name} - ${entry.type}`,
+            };
+        }
 
         await fs.promises.writeFile(path.join(docsetPath, 'index.json'), JSON.stringify({
             name: meta.name,
