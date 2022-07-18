@@ -1,6 +1,7 @@
 {
   "name": "devdocs-adapter",
   "displayName": "DevDocs.io Adapter",
+  "publisher": "devdocs-adapter",
   "description": "DevDocs.io documentation integration with VSCode",
   "repository": {
     "url": "https://github.com/mihnea-s/devdocs-adapter"
