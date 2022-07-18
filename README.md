@@ -1,54 +1,26 @@
 # DevDocs Adapter
 
-## Extension Settings
+Use **[devdocs.io](devdocs.io)** documentation directly in VSCode!
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+![A demo video showing the use of the extension](https://github.com/mihnea-s/devdocs-adapter/raw/main/demo.gif)
 
-For example:
+## Usage
 
-This extension contributes the following settings:
+Use the command `DevDocs: Manage DocSets` to select which docsets to download and install, or manually
+set their slug IDs in your preferences and reload:
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+```json
+{
+    "devdocs-adapter.docsets": [ "javascript", "rust" ]
+}
+```
 
-## Known Issues
+Now you can use the search command `DevDocs: Search documentaiton`, or the keyboard shortcut `Alt + P`, to
+search for items in your docsets!
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## Links
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Source Code](https://github.com/mihnea-s/devdocs-adapter)
+- [Marketplace](https://marketplace.visualstudio.com/items?itemName=devdocs-adapter.devdocs-adapter)
 
 **Enjoy!**

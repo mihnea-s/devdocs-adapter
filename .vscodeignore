@@ -7,6 +7,7 @@
 .envrc
 .yarnrc
 shell.nix
+demo.gif
 **/tsconfig.json
 **/.eslintrc.json
 
