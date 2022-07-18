@@ -66,6 +66,7 @@
     "watch": "yarn run base --sourcemap --watch",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
+    "changelog": "auto-changelog -u",
     "package": "yarn run vscode:prepublish && vsce package",
     "pretest": "yarn run compile && yarn run lint",
     "vscode:prepublish": "yarn run base --minify"
@@ -82,6 +83,7 @@
     "@typescript-eslint/parser": "^5.9.1",
     "@vscode/test-electron": "^2.1.3",
     "@vscode/webview-ui-toolkit": "^1.0.0",
+    "auto-changelog": "^2.4.0",
     "cheerio": "^1.0.0-rc.12",
     "esbuild": "^0.14.47",
     "eslint": "^8.6.0",
