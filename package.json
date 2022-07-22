@@ -36,6 +36,11 @@
             "items": {
               "type": "string"
             }
+          },
+          "devdocs-adapter.searchCursorHighlight": {
+            "type": "boolean",
+            "default": true,
+            "description": "Begin searching documentation with highlight under cursor"
           }
         }
       }

@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 
-import { DevDocsAdapter, DocSlug } from './adapter';
+import { DevDocsAdapter, DocSlug, DocItem } from './adapter';
 
 import docs from './data/docs.json';
 
@@ -32,11 +32,38 @@ export async function activate(context: vscode.ExtensionContext) {
     }));
 
     context.subscriptions.push(vscode.commands.registerCommand(`${EXT_ID}.search`, async () => {
+        const editor = vscode.window.activeTextEditor;
+        const config = vscode.workspace.getConfiguration(EXT_ID);
+        const searchCursorHighlight = config.get<boolean>('searchCursorHighlight');
+
+        let highlight = '';
+
+        if (searchCursorHighlight && editor) {
+            let cursorPosition = editor.selection.start;
+            let wordRange = editor.document.getWordRangeAtPosition(cursorPosition);
+            if (wordRange) {
+                highlight = editor.document.getText(wordRange) ?? highlight;
+            }
+        }
+
         const items = await adapter.items();
 
-        const item = await vscode.window.showQuickPick(items, {
-            placeHolder: 'Search documentation..',
-            matchOnDescription: true,
+        const item = await new Promise<DocItem | undefined>(done => {
+            const quickpick = vscode.window.createQuickPick<DocItem>();
+
+            quickpick.items = items;
+            quickpick.value = highlight;
+
+            quickpick.matchOnDescription = true;
+            quickpick.placeholder = 'Search documentation..';
+
+            quickpick.onDidHide(() => quickpick.dispose());
+            quickpick.onDidAccept(() => {
+                done(quickpick.selectedItems[0]);
+                quickpick.hide();
+            });
+
+            quickpick.show();
         });
 
         if (item) {
