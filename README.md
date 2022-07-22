@@ -15,7 +15,7 @@ set their slug IDs in your preferences and reload:
 }
 ```
 
-Now you can use the search command `DevDocs: Search documentaiton`, or the keyboard shortcut `Alt + P`, to
+Now you can use the search command `DevDocs: Search documentation`, or the keyboard shortcut `Alt + P`, to
 search for items in your docsets!
 
 ## Links
