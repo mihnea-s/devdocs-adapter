@@ -8,9 +8,113 @@
       "code": "https://github.com/angular/angular"
     },
     "version": "",
-    "release": "6.0.4",
-    "mtime": 1528681713,
-    "db_size": 10106727
+    "release": "14.0.0",
+    "mtime": 1654201853,
+    "db_size": 12433064
+  },
+  {
+    "name": "Angular",
+    "slug": "angular~13",
+    "type": "angular",
+    "links": {
+      "home": "https://angular.io/",
+      "code": "https://github.com/angular/angular"
+    },
+    "version": "13",
+    "release": "13.3.8",
+    "mtime": 1654202014,
+    "db_size": 12301262
+  },
+  {
+    "name": "Angular",
+    "slug": "angular~12",
+    "type": "angular",
+    "links": {
+      "home": "https://angular.io/",
+      "code": "https://github.com/angular/angular"
+    },
+    "version": "12",
+    "release": "12.2.13",
+    "mtime": 1637796435,
+    "db_size": 12068716
+  },
+  {
+    "name": "Angular",
+    "slug": "angular~11",
+    "type": "angular",
+    "links": {
+      "home": "https://angular.io/",
+      "code": "https://github.com/angular/angular"
+    },
+    "version": "11",
+    "release": "11.2.14",
+    "mtime": 1620904631,
+    "db_size": 10762429
+  },
+  {
+    "name": "Angular",
+    "slug": "angular~10",
+    "type": "angular",
+    "links": {
+      "home": "https://angular.io/",
+      "code": "https://github.com/angular/angular"
+    },
+    "version": "10",
+    "release": "10.2.3",
+    "mtime": 1605349931,
+    "db_size": 10810159
+  },
+  {
+    "name": "Angular",
+    "slug": "angular~9",
+    "type": "angular",
+    "links": {
+      "home": "https://angular.io/",
+      "code": "https://github.com/angular/angular"
+    },
+    "version": "9",
+    "release": "9.1.12",
+    "mtime": 1605348993,
+    "db_size": 11269302
+  },
+  {
+    "name": "Angular",
+    "slug": "angular~8",
+    "type": "angular",
+    "links": {
+      "home": "https://angular.io/",
+      "code": "https://github.com/angular/angular"
+    },
+    "version": "8",
+    "release": "8.2.14",
+    "mtime": 1605348882,
+    "db_size": 11258180
+  },
+  {
+    "name": "Angular",
+    "slug": "angular~7",
+    "type": "angular",
+    "links": {
+      "home": "https://angular.io/",
+      "code": "https://github.com/angular/angular"
+    },
+    "version": "7",
+    "release": "7.2.15",
+    "mtime": 1578506637,
+    "db_size": 11251926
+  },
+  {
+    "name": "Angular",
+    "slug": "angular~6",
+    "type": "angular",
+    "links": {
+      "home": "https://angular.io/",
+      "code": "https://github.com/angular/angular"
+    },
+    "version": "6",
+    "release": "6.1.10",
+    "mtime": 1578515196,
+    "db_size": 10532202
   },
   {
     "name": "Angular",
@@ -53,12 +157,30 @@
   },
   {
     "name": "Angular.js",
+    "slug": "angularjs~1.8",
+    "type": "angularjs",
+    "version": "1.8",
+    "release": "1.8.2",
+    "mtime": 1605224318,
+    "db_size": 2203253
+  },
+  {
+    "name": "Angular.js",
+    "slug": "angularjs~1.7",
+    "type": "angularjs",
+    "version": "1.7",
+    "release": "1.7.8",
+    "mtime": 1565296342,
+    "db_size": 2105039
+  },
+  {
+    "name": "Angular.js",
     "slug": "angularjs~1.6",
     "type": "angularjs",
     "version": "1.6",
-    "release": "1.6.6",
-    "mtime": 1509291873,
-    "db_size": 2078695
+    "release": "1.6.9",
+    "mtime": 1565296194,
+    "db_size": 2134014
   },
   {
     "name": "Angular.js",
@@ -98,6 +220,70 @@
   },
   {
     "name": "Ansible",
+    "slug": "ansible",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.ansible.com/",
+      "code": "https://github.com/ansible/ansible"
+    },
+    "version": "",
+    "mtime": 1637199088,
+    "db_size": 81238289
+  },
+  {
+    "name": "Ansible",
+    "slug": "ansible~2.11",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.ansible.com/",
+      "code": "https://github.com/ansible/ansible"
+    },
+    "version": "2.11",
+    "release": "2.11.0",
+    "mtime": 1620152691,
+    "db_size": 66680146
+  },
+  {
+    "name": "Ansible",
+    "slug": "ansible~2.10",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.ansible.com/",
+      "code": "https://github.com/ansible/ansible"
+    },
+    "version": "2.10",
+    "release": "2.10.5",
+    "mtime": 1611397133,
+    "db_size": 60276270
+  },
+  {
+    "name": "Ansible",
+    "slug": "ansible~2.9",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.ansible.com/",
+      "code": "https://github.com/ansible/ansible"
+    },
+    "version": "2.9",
+    "release": "2.9.15",
+    "mtime": 1605344733,
+    "db_size": 51592361
+  },
+  {
+    "name": "Ansible",
+    "slug": "ansible~2.8",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.ansible.com/",
+      "code": "https://github.com/ansible/ansible"
+    },
+    "version": "2.8",
+    "release": "2.8.16",
+    "mtime": 1605345113,
+    "db_size": 42365857
+  },
+  {
+    "name": "Ansible",
     "slug": "ansible~2.7",
     "type": "sphinx",
     "links": {
@@ -105,9 +291,9 @@
       "code": "https://github.com/ansible/ansible"
     },
     "version": "2.7",
-    "release": "2.7.1",
-    "mtime": 1541343979,
-    "db_size": 26890528
+    "release": "2.7.17",
+    "mtime": 1605345317,
+    "db_size": 28244128
   },
   {
     "name": "Ansible",
@@ -118,9 +304,9 @@
       "code": "https://github.com/ansible/ansible"
     },
     "version": "2.6",
-    "release": "2.6.7",
-    "mtime": 1541341966,
-    "db_size": 23261250
+    "release": "2.6.18",
+    "mtime": 1565300911,
+    "db_size": 23323920
   },
   {
     "name": "Ansible",
@@ -131,9 +317,9 @@
       "code": "https://github.com/ansible/ansible"
     },
     "version": "2.5",
-    "release": "2.5.3",
-    "mtime": 1528678186,
-    "db_size": 19502653
+    "release": "2.5.15",
+    "mtime": 1565301756,
+    "db_size": 19537519
   },
   {
     "name": "Ansible",
@@ -144,9 +330,9 @@
       "code": "https://github.com/ansible/ansible"
     },
     "version": "2.4",
-    "release": "2.4.3",
-    "mtime": 1528674845,
-    "db_size": 12975660
+    "release": "2.4.6",
+    "mtime": 1565301882,
+    "db_size": 13106288
   },
   {
     "name": "Apache HTTP Server",
@@ -155,9 +341,9 @@
     "links": {
       "home": "https://httpd.apache.org/"
     },
-    "release": "2.4.37",
-    "mtime": 1541340698,
-    "db_size": 3631451
+    "release": "2.4.52",
+    "mtime": 1640622188,
+    "db_size": 3738207
   },
   {
     "name": "Apache Pig",
@@ -227,18 +413,32 @@
       "home": "https://caolan.github.io/async/",
       "code": "https://github.com/caolan/async"
     },
-    "release": "2.6.1",
-    "mtime": 1541340745,
-    "db_size": 207425
+    "release": "3.2.0",
+    "mtime": 1605779467,
+    "db_size": 222054
   },
   {
     "name": "Babel",
-    "slug": "babel",
+    "slug": "babel~7",
     "type": "simple",
     "links": {
       "home": "https://babeljs.io/",
       "code": "https://github.com/babel/babel"
     },
+    "version": "7",
+    "release": "7.16.4",
+    "mtime": 1637205454,
+    "db_size": 789416
+  },
+  {
+    "name": "Babel",
+    "slug": "babel~6",
+    "type": "simple",
+    "links": {
+      "home": "https://babeljs.io/",
+      "code": "https://github.com/babel/babel"
+    },
+    "version": "6",
     "release": "6.26.1",
     "mtime": 1517763345,
     "db_size": 371969
@@ -248,12 +448,12 @@
     "slug": "backbone",
     "type": "underscore",
     "links": {
-      "home": "http://backbonejs.org/",
+      "home": "https://backbonejs.org/",
       "code": "https://github.com/jashkenas/backbone"
     },
-    "release": "1.3.3",
-    "mtime": 1460208458,
-    "db_size": 84906
+    "release": "1.4.0",
+    "mtime": 1567459864,
+    "db_size": 88360
   },
   {
     "name": "Bash",
@@ -263,9 +463,9 @@
       "home": "https://www.gnu.org/software/bash/",
       "code": "http://git.savannah.gnu.org/cgit/bash.git"
     },
-    "release": "4.4",
-    "mtime": 1532899814,
-    "db_size": 780345
+    "release": "5.1",
+    "mtime": 1634798647,
+    "db_size": 804638
   },
   {
     "name": "Bluebird",
@@ -275,9 +475,22 @@
       "home": "http://bluebirdjs.com/",
       "code": "https://github.com/petkaantonov/bluebird/"
     },
-    "release": "3.5.1",
-    "mtime": 1511735064,
-    "db_size": 444684
+    "release": "3.7.2",
+    "mtime": 1605779492,
+    "db_size": 456762
+  },
+  {
+    "name": "Bootstrap",
+    "slug": "bootstrap~5",
+    "type": "bootstrap",
+    "links": {
+      "home": "https://getbootstrap.com/",
+      "code": "https://github.com/twbs/bootstrap"
+    },
+    "version": "5",
+    "release": "5.2",
+    "mtime": 1657043825,
+    "db_size": 1008638
   },
   {
     "name": "Bootstrap",
@@ -288,9 +501,9 @@
       "code": "https://github.com/twbs/bootstrap"
     },
     "version": "4",
-    "release": "4.1.3",
-    "mtime": 1534716040,
-    "db_size": 701850
+    "release": "4.5",
+    "mtime": 1605739179,
+    "db_size": 814853
   },
   {
     "name": "Bootstrap",
@@ -301,9 +514,9 @@
       "code": "https://github.com/twbs/bootstrap"
     },
     "version": "3",
-    "release": "3.3.7",
-    "mtime": 1511736590,
-    "db_size": 1692281
+    "release": "3.4.1",
+    "mtime": 1580689306,
+    "db_size": 1697424
   },
   {
     "name": "Bottle",
@@ -340,22 +553,87 @@
       "code": "https://github.com/bower/bower"
     },
     "release": "1.8.4",
-    "mtime": 1524923407,
-    "db_size": 46027
+    "mtime": 1606742155,
+    "db_size": 40717
   },
   {
-    "name": "C",
+    "name": "c",
     "slug": "c",
-    "type": "c",
-    "mtime": 1543188065,
-    "db_size": 3795272
+    "type": "cppref",
+    "mtime": 1654207006,
+    "db_size": 4211094
   },
   {
     "name": "C++",
     "slug": "cpp",
-    "type": "c",
-    "mtime": 1543189497,
-    "db_size": 21895234
+    "type": "cppref",
+    "mtime": 1654207353,
+    "db_size": 31991652
+  },
+  {
+    "name": "CakePHP",
+    "slug": "cakephp~4.1",
+    "type": "cakephp",
+    "links": {
+      "home": "https://cakephp.org/",
+      "code": "https://github.com/cakephp/cakephp"
+    },
+    "version": "4.1",
+    "release": "4.1.6",
+    "mtime": 1605475888,
+    "db_size": 14794051
+  },
+  {
+    "name": "CakePHP",
+    "slug": "cakephp~4.0",
+    "type": "cakephp",
+    "links": {
+      "home": "https://cakephp.org/",
+      "code": "https://github.com/cakephp/cakephp"
+    },
+    "version": "4.0",
+    "release": "4.0.8",
+    "mtime": 1605475696,
+    "db_size": 14522103
+  },
+  {
+    "name": "CakePHP",
+    "slug": "cakephp~3.9",
+    "type": "cakephp",
+    "links": {
+      "home": "https://cakephp.org/",
+      "code": "https://github.com/cakephp/cakephp"
+    },
+    "version": "3.9",
+    "release": "3.9.4",
+    "mtime": 1605475574,
+    "db_size": 15499317
+  },
+  {
+    "name": "CakePHP",
+    "slug": "cakephp~3.8",
+    "type": "cakephp",
+    "links": {
+      "home": "https://cakephp.org/",
+      "code": "https://github.com/cakephp/cakephp"
+    },
+    "version": "3.8",
+    "release": "3.8.3",
+    "mtime": 1567467580,
+    "db_size": 11635384
+  },
+  {
+    "name": "CakePHP",
+    "slug": "cakephp~3.7",
+    "type": "cakephp",
+    "links": {
+      "home": "https://cakephp.org/",
+      "code": "https://github.com/cakephp/cakephp"
+    },
+    "version": "3.7",
+    "release": "3.7.9",
+    "mtime": 1567467530,
+    "db_size": 11569246
   },
   {
     "name": "CakePHP",
@@ -366,9 +644,9 @@
       "code": "https://github.com/cakephp/cakephp"
     },
     "version": "3.6",
-    "release": "3.6.2",
-    "mtime": 1524923828,
-    "db_size": 11125017
+    "release": "3.6.15",
+    "mtime": 1567467484,
+    "db_size": 11169983
   },
   {
     "name": "CakePHP",
@@ -492,12 +770,51 @@
     "slug": "chai",
     "type": "simple",
     "links": {
-      "home": "http://chaijs.com/",
+      "home": "https://www.chaijs.com/",
       "code": "https://github.com/chaijs/chai"
     },
-    "release": "4.1.0",
-    "mtime": 1500290759,
-    "db_size": 394800
+    "release": "4.3.4",
+    "mtime": 1616341781,
+    "db_size": 409158
+  },
+  {
+    "name": "Chef",
+    "slug": "chef~18",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://www.chef.io/",
+      "code": "https://github.com/chef/chef"
+    },
+    "version": "18",
+    "release": "18.0.15",
+    "mtime": 1642869336,
+    "db_size": 39100800
+  },
+  {
+    "name": "Chef",
+    "slug": "chef~17",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://www.chef.io/",
+      "code": "https://github.com/chef/chef"
+    },
+    "version": "17",
+    "release": "17.9.18",
+    "mtime": 1640623092,
+    "db_size": 39400936
+  },
+  {
+    "name": "Chef",
+    "slug": "chef~16",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://www.chef.io/",
+      "code": "https://github.com/chef/chef"
+    },
+    "version": "16",
+    "release": "16.8.14",
+    "mtime": 1609092122,
+    "db_size": 30557798
   },
   {
     "name": "Chef",
@@ -527,30 +844,173 @@
   },
   {
     "name": "Clojure",
+    "slug": "clojure~1.11",
+    "type": "clojure",
+    "links": {
+      "home": "https://clojure.org",
+      "code": "https://github.com/clojure/clojure"
+    },
+    "version": "1.11",
+    "release": "1.11",
+    "mtime": 1654203215,
+    "db_size": 613733
+  },
+  {
+    "name": "Clojure",
+    "slug": "clojure~1.10",
+    "type": "clojure",
+    "links": {
+      "home": "https://clojure.org",
+      "code": "https://github.com/clojure/clojure"
+    },
+    "version": "1.10",
+    "release": "1.10.3",
+    "mtime": 1654203157,
+    "db_size": 568238
+  },
+  {
+    "name": "Clojure",
     "slug": "clojure~1.9",
     "type": "clojure",
     "version": "1.9",
-    "release": "1.9",
-    "mtime": 1515366982,
-    "db_size": 551767
+    "release": "1.9 (legacy)",
+    "mtime": 1564989950,
+    "db_size": 552293
   },
   {
     "name": "Clojure",
     "slug": "clojure~1.8",
     "type": "clojure",
     "version": "1.8",
-    "release": "1.8",
-    "mtime": 1453669840,
-    "db_size": 534449
+    "release": "1.8 (legacy)",
+    "mtime": 1564989936,
+    "db_size": 536469
   },
   {
     "name": "Clojure",
     "slug": "clojure~1.7",
     "type": "clojure",
     "version": "1.7",
-    "release": "1.7",
-    "mtime": 1453669823,
-    "db_size": 525307
+    "release": "1.7 (legacy)",
+    "mtime": 1564989924,
+    "db_size": 529090
+  },
+  {
+    "name": "CMake",
+    "slug": "cmake~3.21",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://cmake.org/",
+      "code": "https://cmake.org/gitweb?p=cmake.git;a=summary"
+    },
+    "version": "3.21",
+    "release": "3.21",
+    "mtime": 1626242515,
+    "db_size": 5338206
+  },
+  {
+    "name": "CMake",
+    "slug": "cmake~3.20",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://cmake.org/",
+      "code": "https://cmake.org/gitweb?p=cmake.git;a=summary"
+    },
+    "version": "3.20",
+    "release": "3.20",
+    "mtime": 1614980656,
+    "db_size": 5288704
+  },
+  {
+    "name": "CMake",
+    "slug": "cmake~3.19",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://cmake.org/",
+      "code": "https://cmake.org/gitweb?p=cmake.git;a=summary"
+    },
+    "version": "3.19",
+    "release": "3.19.0",
+    "mtime": 1605381436,
+    "db_size": 5039942
+  },
+  {
+    "name": "CMake",
+    "slug": "cmake~3.18",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://cmake.org/",
+      "code": "https://cmake.org/gitweb?p=cmake.git;a=summary"
+    },
+    "version": "3.18",
+    "release": "3.18.4",
+    "mtime": 1605381504,
+    "db_size": 4744863
+  },
+  {
+    "name": "CMake",
+    "slug": "cmake~3.17",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://cmake.org/",
+      "code": "https://cmake.org/gitweb?p=cmake.git;a=summary"
+    },
+    "version": "3.17",
+    "release": "3.17.5",
+    "mtime": 1605381534,
+    "db_size": 4609039
+  },
+  {
+    "name": "CMake",
+    "slug": "cmake~3.16",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://cmake.org/",
+      "code": "https://cmake.org/gitweb?p=cmake.git;a=summary"
+    },
+    "version": "3.16",
+    "release": "3.16.9",
+    "mtime": 1605381566,
+    "db_size": 4321342
+  },
+  {
+    "name": "CMake",
+    "slug": "cmake~3.15",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://cmake.org/",
+      "code": "https://cmake.org/gitweb?p=cmake.git;a=summary"
+    },
+    "version": "3.15",
+    "release": "3.15.7",
+    "mtime": 1605381587,
+    "db_size": 4035439
+  },
+  {
+    "name": "CMake",
+    "slug": "cmake~3.14",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://cmake.org/",
+      "code": "https://cmake.org/gitweb?p=cmake.git;a=summary"
+    },
+    "version": "3.14",
+    "release": "3.14.7",
+    "mtime": 1605381604,
+    "db_size": 3827740
+  },
+  {
+    "name": "CMake",
+    "slug": "cmake~3.13",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://cmake.org/",
+      "code": "https://cmake.org/gitweb?p=cmake.git;a=summary"
+    },
+    "version": "3.13",
+    "release": "3.13.5",
+    "mtime": 1565299044,
+    "db_size": 3595991
   },
   {
     "name": "CMake",
@@ -561,9 +1021,9 @@
       "code": "https://cmake.org/gitweb?p=cmake.git;a=summary"
     },
     "version": "3.12",
-    "release": "3.12.1",
-    "mtime": 1534717180,
-    "db_size": 3544400
+    "release": "3.12.4",
+    "mtime": 1565299067,
+    "db_size": 3574125
   },
   {
     "name": "CMake",
@@ -575,8 +1035,8 @@
     },
     "version": "3.11",
     "release": "3.11.4",
-    "mtime": 1534717159,
-    "db_size": 3365352
+    "mtime": 1565299091,
+    "db_size": 3390569
   },
   {
     "name": "CMake",
@@ -588,8 +1048,8 @@
     },
     "version": "3.10",
     "release": "3.10.3",
-    "mtime": 1534717115,
-    "db_size": 3261032
+    "mtime": 1565299119,
+    "db_size": 3286249
   },
   {
     "name": "CMake",
@@ -601,8 +1061,8 @@
     },
     "version": "3.9",
     "release": "3.9.6",
-    "mtime": 1515367068,
-    "db_size": 3094540
+    "mtime": 1565299138,
+    "db_size": 3094532
   },
   {
     "name": "CMake",
@@ -614,8 +1074,8 @@
     },
     "version": "3.8",
     "release": "3.8.2",
-    "mtime": 1500742171,
-    "db_size": 2975592
+    "mtime": 1565299154,
+    "db_size": 2975086
   },
   {
     "name": "CMake",
@@ -627,8 +1087,8 @@
     },
     "version": "3.7",
     "release": "3.7.2",
-    "mtime": 1492960254,
-    "db_size": 2866766
+    "mtime": 1565299170,
+    "db_size": 2866260
   },
   {
     "name": "CMake",
@@ -640,8 +1100,8 @@
     },
     "version": "3.6",
     "release": "3.6.3",
-    "mtime": 1479055624,
-    "db_size": 2727425
+    "mtime": 1565299186,
+    "db_size": 2690545
   },
   {
     "name": "CMake",
@@ -653,8 +1113,8 @@
     },
     "version": "3.5",
     "release": "3.5.2",
-    "mtime": 1467561510,
-    "db_size": 2656199
+    "mtime": 1565299201,
+    "db_size": 2620325
   },
   {
     "name": "Codeception",
@@ -662,11 +1122,11 @@
     "type": "codeception",
     "links": {
       "home": "https://codeception.com/",
-      "code": "https://github.com/codeception/codeception"
+      "code": "https://github.com/Codeception/Codeception"
     },
-    "release": "2.5.1",
-    "mtime": 1541341182,
-    "db_size": 1643917
+    "release": "4.1.22",
+    "mtime": 1635915214,
+    "db_size": 1835445
   },
   {
     "name": "CodeceptJS",
@@ -676,9 +1136,22 @@
       "home": "https://codecept.io/",
       "code": "https://github.com/codeception/codeceptjs"
     },
-    "release": "1.4.4",
-    "mtime": 1541341418,
-    "db_size": 679573
+    "release": "3.0.2",
+    "mtime": 1605779589,
+    "db_size": 1668904
+  },
+  {
+    "name": "CodeIgniter",
+    "slug": "codeigniter~4",
+    "type": "sphinx",
+    "links": {
+      "home": "https://codeigniter.com/",
+      "code": "https://github.com/bcit-ci/CodeIgniter"
+    },
+    "version": "4",
+    "release": "4.1.5",
+    "mtime": 1638093560,
+    "db_size": 1836654
   },
   {
     "name": "CodeIgniter",
@@ -690,34 +1163,59 @@
     },
     "version": "3",
     "release": "3.1.8",
-    "mtime": 1521915543,
-    "db_size": 1383667
+    "mtime": 1608726321,
+    "db_size": 1383823
   },
   {
     "name": "CoffeeScript",
     "slug": "coffeescript~2",
     "type": "coffeescript",
     "links": {
-      "home": "http://coffeescript.org",
+      "home": "https://coffeescript.org",
       "code": "https://github.com/jashkenas/coffeescript"
     },
     "version": "2",
-    "release": "2.3.0",
-    "mtime": 1526258172,
-    "db_size": 108169
+    "release": "2.7.0",
+    "mtime": 1651127827,
+    "db_size": 113980
   },
   {
     "name": "CoffeeScript",
     "slug": "coffeescript~1",
     "type": "coffeescript",
     "links": {
-      "home": "http://coffeescript.org",
+      "home": "https://coffeescript.org",
       "code": "https://github.com/jashkenas/coffeescript"
     },
     "version": "1",
-    "release": "1.12.6",
-    "mtime": 1507562899,
-    "db_size": 66981
+    "release": "1.12.7",
+    "mtime": 1567469136,
+    "db_size": 66997
+  },
+  {
+    "name": "Composer",
+    "slug": "composer",
+    "type": "simple",
+    "links": {
+      "home": "https://getcomposer.org",
+      "code": "https://github.com/composer/composer"
+    },
+    "release": "2.0.7",
+    "mtime": 1606256108,
+    "db_size": 294695
+  },
+  {
+    "name": "Cordova",
+    "slug": "cordova~9",
+    "type": "cordova",
+    "links": {
+      "home": "https://cordova.apache.org/",
+      "code": "https://github.com/apache/cordova"
+    },
+    "version": "9",
+    "release": "9.0.0",
+    "mtime": 1568233757,
+    "db_size": 1999214
   },
   {
     "name": "Cordova",
@@ -725,12 +1223,12 @@
     "type": "cordova",
     "links": {
       "home": "https://cordova.apache.org/",
-      "code": "https://git-wip-us.apache.org/repos/asf/cordova-cli.git"
+      "code": "https://github.com/apache/cordova"
     },
     "version": "8",
     "release": "8.1.2",
-    "mtime": 1541341658,
-    "db_size": 1449408
+    "mtime": 1568233780,
+    "db_size": 1837553
   },
   {
     "name": "Cordova",
@@ -738,12 +1236,12 @@
     "type": "cordova",
     "links": {
       "home": "https://cordova.apache.org/",
-      "code": "https://git-wip-us.apache.org/repos/asf/cordova-cli.git"
+      "code": "https://github.com/apache/cordova"
     },
     "version": "7",
     "release": "7.1.0",
-    "mtime": 1509299994,
-    "db_size": 2558161
+    "mtime": 1568233822,
+    "db_size": 2561422
   },
   {
     "name": "Cordova",
@@ -751,12 +1249,12 @@
     "type": "cordova",
     "links": {
       "home": "https://cordova.apache.org/",
-      "code": "https://git-wip-us.apache.org/repos/asf/cordova-cli.git"
+      "code": "https://github.com/apache/cordova"
     },
     "version": "6",
     "release": "6.5.0",
-    "mtime": 1506274282,
-    "db_size": 2536890
+    "mtime": 1568233846,
+    "db_size": 2540160
   },
   {
     "name": "Crystal",
@@ -766,16 +1264,28 @@
       "home": "https://crystal-lang.org/",
       "code": "https://github.com/crystal-lang/crystal"
     },
-    "release": "0.27.0",
-    "mtime": 1541342001,
-    "db_size": 10150966
+    "release": "1.4.0",
+    "mtime": 1649699491,
+    "db_size": 14487440
   },
   {
     "name": "CSS",
     "slug": "css",
     "type": "mdn",
-    "mtime": 1543099045,
-    "db_size": 12415944
+    "mtime": 1651080255,
+    "db_size": 17394775
+  },
+  {
+    "name": "Cypress",
+    "slug": "cypress",
+    "type": "cypress",
+    "links": {
+      "home": "https://www.cypress.io/",
+      "code": "https://github.com/cypress-io/cypress"
+    },
+    "release": "9.4.1",
+    "mtime": 1644542245,
+    "db_size": 6467439
   },
   {
     "name": "D",
@@ -785,9 +1295,35 @@
       "home": "https://dlang.org/",
       "code": "https://github.com/dlang/phobos"
     },
-    "release": "2.083.0",
-    "mtime": 1541342127,
-    "db_size": 5910828
+    "release": "2.095.1",
+    "mtime": 1615484906,
+    "db_size": 5606189
+  },
+  {
+    "name": "D3.js",
+    "slug": "d3~7",
+    "type": "d3",
+    "links": {
+      "home": "https://d3js.org/",
+      "code": "https://github.com/d3/d3"
+    },
+    "version": "7",
+    "release": "7.4.0",
+    "mtime": 1649445297,
+    "db_size": 16198210
+  },
+  {
+    "name": "D3.js",
+    "slug": "d3~6",
+    "type": "d3",
+    "links": {
+      "home": "https://d3js.org/",
+      "code": "https://github.com/d3/d3"
+    },
+    "version": "6",
+    "release": "6.7.0",
+    "mtime": 1620901630,
+    "db_size": 16118637
   },
   {
     "name": "D3.js",
@@ -833,13 +1369,13 @@
     "slug": "dart~2",
     "type": "dart",
     "links": {
-      "home": "https://www.dartlang.org/",
+      "home": "https://dart.dev/",
       "code": "https://github.com/dart-lang/sdk"
     },
     "version": "2",
-    "release": "2.0.0",
-    "mtime": 1533592653,
-    "db_size": 30849359
+    "release": "2.17.0",
+    "mtime": 1652512879,
+    "db_size": 32603176
   },
   {
     "name": "Dart",
@@ -855,6 +1391,83 @@
     "db_size": 31726721
   },
   {
+    "name": "Deno",
+    "slug": "deno",
+    "type": "simple",
+    "links": {
+      "home": "https://deno.land/",
+      "code": "https://github.com/denoland/deno"
+    },
+    "release": "1.23.2",
+    "mtime": 1656968015,
+    "db_size": 1274129
+  },
+  {
+    "name": "Django",
+    "slug": "django~4.0",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.djangoproject.com/",
+      "code": "https://github.com/django/django"
+    },
+    "version": "4.0",
+    "release": "4.0",
+    "mtime": 1638969421,
+    "db_size": 6478583
+  },
+  {
+    "name": "Django",
+    "slug": "django~3.2",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.djangoproject.com/",
+      "code": "https://github.com/django/django"
+    },
+    "version": "3.2",
+    "release": "3.2",
+    "mtime": 1618517198,
+    "db_size": 6381167
+  },
+  {
+    "name": "Django",
+    "slug": "django~3.1",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.djangoproject.com/",
+      "code": "https://github.com/django/django"
+    },
+    "version": "3.1",
+    "release": "3.1.4",
+    "mtime": 1605595927,
+    "db_size": 6299745
+  },
+  {
+    "name": "Django",
+    "slug": "django~3.0",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.djangoproject.com/",
+      "code": "https://github.com/django/django"
+    },
+    "version": "3.0",
+    "release": "3.0.11",
+    "mtime": 1605596007,
+    "db_size": 6205427
+  },
+  {
+    "name": "Django",
+    "slug": "django~2.2",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.djangoproject.com/",
+      "code": "https://github.com/django/django"
+    },
+    "version": "2.2",
+    "release": "2.2.17",
+    "mtime": 1605596059,
+    "db_size": 6246493
+  },
+  {
     "name": "Django",
     "slug": "django~2.1",
     "type": "sphinx",
@@ -863,9 +1476,9 @@
       "code": "https://github.com/django/django"
     },
     "version": "2.1",
-    "release": "2.1.0",
-    "mtime": 1534717304,
-    "db_size": 6138831
+    "release": "2.1.15",
+    "mtime": 1581364985,
+    "db_size": 6132370
   },
   {
     "name": "Django",
@@ -876,9 +1489,9 @@
       "code": "https://github.com/django/django"
     },
     "version": "2.0",
-    "release": "2.0.7",
-    "mtime": 1531082713,
-    "db_size": 6069505
+    "release": "2.0.13",
+    "mtime": 1565033713,
+    "db_size": 6070229
   },
   {
     "name": "Django",
@@ -889,9 +1502,9 @@
       "code": "https://github.com/django/django"
     },
     "version": "1.11",
-    "release": "1.11.9",
-    "mtime": 1515954092,
-    "db_size": 6145924
+    "release": "1.11.29",
+    "mtime": 1605596155,
+    "db_size": 6141190
   },
   {
     "name": "Django",
@@ -933,6 +1546,57 @@
     "db_size": 5201532
   },
   {
+    "name": "Django REST Framework",
+    "slug": "django_rest_framework",
+    "type": "mkdocs",
+    "links": {
+      "home": "https://www.django-rest-framework.org/",
+      "code": "https://github.com/encode/django-rest-framework"
+    },
+    "release": "3.12.4",
+    "mtime": 1638663038,
+    "db_size": 718172
+  },
+  {
+    "name": "Docker",
+    "slug": "docker",
+    "type": "simple",
+    "links": {
+      "home": "https://docker.com/",
+      "code": "https://github.com/docker/docker"
+    },
+    "version": "",
+    "release": "20.10.16",
+    "mtime": 1654206621,
+    "db_size": 4328150
+  },
+  {
+    "name": "Docker",
+    "slug": "docker~19",
+    "type": "simple",
+    "links": {
+      "home": "https://docker.com/",
+      "code": "https://github.com/docker/docker"
+    },
+    "version": "19",
+    "release": "19.03",
+    "mtime": 1565018323,
+    "db_size": 5340967
+  },
+  {
+    "name": "Docker",
+    "slug": "docker~18",
+    "type": "simple",
+    "links": {
+      "home": "https://docker.com/",
+      "code": "https://github.com/docker/docker"
+    },
+    "version": "18",
+    "release": "18.09",
+    "mtime": 1565018170,
+    "db_size": 5307980
+  },
+  {
     "name": "Docker",
     "slug": "docker~17",
     "type": "simple",
@@ -941,9 +1605,9 @@
       "code": "https://github.com/docker/docker"
     },
     "version": "17",
-    "release": "17.06",
-    "mtime": 1504541210,
-    "db_size": 7538709
+    "release": "17.12",
+    "mtime": 1565018048,
+    "db_size": 5632971
   },
   {
     "name": "Docker",
@@ -1010,20 +1674,6 @@
     "db_size": 2007352
   },
   {
-    "name": "DOM",
-    "slug": "dom",
-    "type": "mdn",
-    "mtime": 1543157862,
-    "db_size": 33998524
-  },
-  {
-    "name": "DOM Events",
-    "slug": "dom_events",
-    "type": "mdn",
-    "mtime": 1543099589,
-    "db_size": 1752500
-  },
-  {
     "name": "Drupal",
     "slug": "drupal~8",
     "type": "drupal",
@@ -1050,16 +1700,118 @@
     "db_size": 17249491
   },
   {
+    "name": "Eigen3",
+    "slug": "eigen3",
+    "type": "eigen3",
+    "links": {
+      "home": "https://eigen.tuxfamily.org",
+      "code": "https://gitlab.com/libeigen/eigen"
+    },
+    "release": "3.4.0",
+    "mtime": 1648707897,
+    "db_size": 7515699
+  },
+  {
     "name": "Electron",
     "slug": "electron",
     "type": "simple",
     "links": {
-      "home": "https://electronjs.org/",
+      "home": "https://www.electronjs.org/",
       "code": "https://github.com/electron/electron"
     },
-    "release": "2.0.2",
-    "mtime": 1531082744,
-    "db_size": 1736011
+    "release": "18.0.1",
+    "mtime": 1649699047,
+    "db_size": 5320031
+  },
+  {
+    "name": "Elisp",
+    "slug": "elisp",
+    "type": "elisp",
+    "links": {
+      "home": "https://www.gnu.org/software/emacs/manual/elisp",
+      "code": "https://git.savannah.gnu.org/cgit/emacs.git"
+    },
+    "release": "27.2",
+    "mtime": 1618188717,
+    "db_size": 4754859
+  },
+  {
+    "name": "Elixir",
+    "slug": "elixir~1.13",
+    "type": "elixir",
+    "links": {
+      "home": "https://elixir-lang.org/",
+      "code": "https://github.com/elixir-lang/elixir"
+    },
+    "version": "1.13",
+    "release": "1.13.4",
+    "mtime": 1653726531,
+    "db_size": 4280359
+  },
+  {
+    "name": "Elixir",
+    "slug": "elixir~1.12",
+    "type": "elixir",
+    "links": {
+      "home": "https://elixir-lang.org/",
+      "code": "https://github.com/elixir-lang/elixir"
+    },
+    "version": "1.12",
+    "release": "1.12.0",
+    "mtime": 1621923627,
+    "db_size": 4192462
+  },
+  {
+    "name": "Elixir",
+    "slug": "elixir~1.11",
+    "type": "elixir",
+    "links": {
+      "home": "https://elixir-lang.org/",
+      "code": "https://github.com/elixir-lang/elixir"
+    },
+    "version": "1.11",
+    "release": "1.11.2",
+    "mtime": 1605353877,
+    "db_size": 3846305
+  },
+  {
+    "name": "Elixir",
+    "slug": "elixir~1.10",
+    "type": "elixir",
+    "links": {
+      "home": "https://elixir-lang.org/",
+      "code": "https://github.com/elixir-lang/elixir"
+    },
+    "version": "1.10",
+    "release": "1.10.4",
+    "mtime": 1605353824,
+    "db_size": 3489436
+  },
+  {
+    "name": "Elixir",
+    "slug": "elixir~1.9",
+    "type": "elixir",
+    "links": {
+      "home": "https://elixir-lang.org/",
+      "code": "https://github.com/elixir-lang/elixir"
+    },
+    "version": "1.9",
+    "release": "1.9.4",
+    "mtime": 1605353547,
+    "db_size": 3322429
+  },
+  {
+    "name": "Elixir",
+    "slug": "elixir~1.8",
+    "type": "elixir",
+    "links": {
+      "home": "https://elixir-lang.org/",
+      "code": "https://github.com/elixir-lang/elixir"
+    },
+    "version": "1.8",
+    "release": "1.8.2",
+    "mtime": 1566479569,
+    "db_size": 2998181
   },
   {
     "name": "Elixir",
@@ -1070,9 +1822,9 @@
       "code": "https://github.com/elixir-lang/elixir"
     },
     "version": "1.7",
-    "release": "1.7.3",
-    "mtime": 1537729830,
-    "db_size": 2808801
+    "release": "1.7.4",
+    "mtime": 1566479817,
+    "db_size": 2854907
   },
   {
     "name": "Elixir",
@@ -1083,9 +1835,9 @@
       "code": "https://github.com/elixir-lang/elixir"
     },
     "version": "1.6",
-    "release": "1.6.5",
-    "mtime": 1526258250,
-    "db_size": 2892867
+    "release": "1.6.6",
+    "mtime": 1566479836,
+    "db_size": 2752818
   },
   {
     "name": "Elixir",
@@ -1097,8 +1849,8 @@
     },
     "version": "1.5",
     "release": "1.5.3",
-    "mtime": 1517182992,
-    "db_size": 2558961
+    "mtime": 1566479860,
+    "db_size": 2566205
   },
   {
     "name": "Elixir",
@@ -1110,8 +1862,8 @@
     },
     "version": "1.4",
     "release": "1.4.5",
-    "mtime": 1498397999,
-    "db_size": 2336862
+    "mtime": 1566479891,
+    "db_size": 2406844
   },
   {
     "name": "Elixir",
@@ -1123,20 +1875,97 @@
     },
     "version": "1.3",
     "release": "1.3.4",
-    "mtime": 1495463739,
-    "db_size": 2113680
+    "mtime": 1566479949,
+    "db_size": 2180461
   },
   {
     "name": "Ember.js",
-    "slug": "ember",
+    "slug": "ember~3",
     "type": "ember",
     "links": {
       "home": "https://emberjs.com/",
       "code": "https://github.com/emberjs/ember.js"
     },
-    "release": "2.15.0",
-    "mtime": 1509308649,
-    "db_size": 5540495
+    "version": "3",
+    "release": "3.25.0",
+    "mtime": 1614024663,
+    "db_size": 4057776
+  },
+  {
+    "name": "Ember.js",
+    "slug": "ember~2",
+    "type": "ember",
+    "links": {
+      "home": "https://emberjs.com/",
+      "code": "https://github.com/emberjs/ember.js"
+    },
+    "version": "2",
+    "release": "2.18.0",
+    "mtime": 1614024862,
+    "db_size": 3350117
+  },
+  {
+    "name": "Enzyme",
+    "slug": "enzyme",
+    "type": "simple",
+    "links": {
+      "code": "https://github.com/airbnb/enzyme"
+    },
+    "release": "3.11.0",
+    "mtime": 1606890727,
+    "db_size": 332962
+  },
+  {
+    "name": "Erlang",
+    "slug": "erlang~25",
+    "type": "erlang",
+    "links": {
+      "home": "https://www.erlang.org/",
+      "code": "https://github.com/erlang/otp"
+    },
+    "version": "25",
+    "release": "25.0",
+    "mtime": 1657041182,
+    "db_size": 18522061
+  },
+  {
+    "name": "Erlang",
+    "slug": "erlang~24",
+    "type": "erlang",
+    "links": {
+      "home": "https://www.erlang.org/",
+      "code": "https://github.com/erlang/otp"
+    },
+    "version": "24",
+    "release": "24.0",
+    "mtime": 1620901092,
+    "db_size": 13535884
+  },
+  {
+    "name": "Erlang",
+    "slug": "erlang~23",
+    "type": "erlang",
+    "links": {
+      "home": "https://www.erlang.org/",
+      "code": "https://github.com/erlang/otp"
+    },
+    "version": "23",
+    "release": "23.2",
+    "mtime": 1611956405,
+    "db_size": 13250294
+  },
+  {
+    "name": "Erlang",
+    "slug": "erlang~22",
+    "type": "erlang",
+    "links": {
+      "home": "https://www.erlang.org/",
+      "code": "https://github.com/erlang/otp"
+    },
+    "version": "22",
+    "release": "22.3",
+    "mtime": 1611956580,
+    "db_size": 12894945
   },
   {
     "name": "Erlang",
@@ -1191,6 +2020,18 @@
     "db_size": 8909158
   },
   {
+    "name": "esbuild",
+    "slug": "esbuild",
+    "type": "simple",
+    "links": {
+      "home": "https://esbuild.github.io/",
+      "code": "https://github.com/evanw/esbuild"
+    },
+    "release": "0.14.2",
+    "mtime": 1638663473,
+    "db_size": 323233
+  },
+  {
     "name": "ESLint",
     "slug": "eslint",
     "type": "simple",
@@ -1198,9 +2039,9 @@
       "home": "https://eslint.org/",
       "code": "https://github.com/eslint/eslint"
     },
-    "release": "5.8.0",
-    "mtime": 1541342339,
-    "db_size": 2113100
+    "release": "8.16.0",
+    "mtime": 1653506484,
+    "db_size": 2565745
   },
   {
     "name": "Express",
@@ -1210,9 +2051,22 @@
       "home": "http://expressjs.com/",
       "code": "https://github.com/strongloop/express/"
     },
-    "release": "4.16.3",
-    "mtime": 1538925671,
-    "db_size": 334759
+    "release": "4.17.1",
+    "mtime": 1606255538,
+    "db_size": 351894
+  },
+  {
+    "name": "Falcon",
+    "slug": "falcon~2.0",
+    "type": "sphinx",
+    "links": {
+      "home": "https://falconframework.org/",
+      "code": "https://github.com/falconry/falcon"
+    },
+    "version": "2.0",
+    "release": "2.0.0",
+    "mtime": 1605730657,
+    "db_size": 656610
   },
   {
     "name": "Falcon",
@@ -1252,6 +2106,84 @@
     "release": "1.2.0",
     "mtime": 1505055858,
     "db_size": 442298
+  },
+  {
+    "name": "Fish",
+    "slug": "fish~3.5",
+    "type": "simple",
+    "links": {
+      "home": "https://fishshell.com/",
+      "code": "https://github.com/fish-shell/fish-shell"
+    },
+    "version": "3.5",
+    "release": "3.5.0",
+    "mtime": 1657043609,
+    "db_size": 714563
+  },
+  {
+    "name": "Fish",
+    "slug": "fish~3.4",
+    "type": "simple",
+    "links": {
+      "home": "https://fishshell.com/",
+      "code": "https://github.com/fish-shell/fish-shell"
+    },
+    "version": "3.4",
+    "release": "3.4.0",
+    "mtime": 1647196902,
+    "db_size": 682324
+  },
+  {
+    "name": "Fish",
+    "slug": "fish~3.3",
+    "type": "simple",
+    "links": {
+      "home": "https://fishshell.com/",
+      "code": "https://github.com/fish-shell/fish-shell"
+    },
+    "version": "3.3",
+    "release": "3.3.0",
+    "mtime": 1625389963,
+    "db_size": 617356
+  },
+  {
+    "name": "Fish",
+    "slug": "fish~3.2",
+    "type": "simple",
+    "links": {
+      "home": "https://fishshell.com/",
+      "code": "https://github.com/fish-shell/fish-shell"
+    },
+    "version": "3.2",
+    "release": "3.2.0",
+    "mtime": 1614669925,
+    "db_size": 591802
+  },
+  {
+    "name": "Fish",
+    "slug": "fish~3.1",
+    "type": "simple",
+    "links": {
+      "home": "https://fishshell.com/",
+      "code": "https://github.com/fish-shell/fish-shell"
+    },
+    "version": "3.1",
+    "release": "3.1.2",
+    "mtime": 1605475242,
+    "db_size": 474827
+  },
+  {
+    "name": "Fish",
+    "slug": "fish~3.0",
+    "type": "simple",
+    "links": {
+      "home": "https://fishshell.com/",
+      "code": "https://github.com/fish-shell/fish-shell"
+    },
+    "version": "3.0",
+    "release": "3.0.1",
+    "mtime": 1605475093,
+    "db_size": 358991
   },
   {
     "name": "Fish",
@@ -1332,6 +2264,71 @@
     "db_size": 233348
   },
   {
+    "name": "Flask",
+    "slug": "flask~2.1",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/flask/",
+      "code": "https://github.com/pallets/flask"
+    },
+    "version": "2.1",
+    "release": "2.1.x",
+    "mtime": 1649445089,
+    "db_size": 1565056
+  },
+  {
+    "name": "Flask",
+    "slug": "flask~2.0",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/flask/",
+      "code": "https://github.com/pallets/flask"
+    },
+    "version": "2.0",
+    "release": "2.0.x",
+    "mtime": 1620898779,
+    "db_size": 1365837
+  },
+  {
+    "name": "Flask",
+    "slug": "flask~1.1",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/flask/",
+      "code": "https://github.com/pallets/flask"
+    },
+    "version": "1.1",
+    "release": "1.1.x",
+    "mtime": 1607340443,
+    "db_size": 949376
+  },
+  {
+    "name": "Flask",
+    "slug": "flask~1.0",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/flask/",
+      "code": "https://github.com/pallets/flask"
+    },
+    "version": "1.0",
+    "release": "1.0.x",
+    "mtime": 1607340436,
+    "db_size": 932071
+  },
+  {
+    "name": "Flask",
+    "slug": "flask~0.12",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/flask/",
+      "code": "https://github.com/pallets/flask"
+    },
+    "version": "0.12",
+    "release": "0.12.x",
+    "mtime": 1607340430,
+    "db_size": 814636
+  },
+  {
     "name": "Flow",
     "slug": "flow",
     "type": "simple",
@@ -1339,9 +2336,129 @@
       "home": "https://flow.org/",
       "code": "https://github.com/facebook/flow"
     },
-    "release": "0.85.0",
-    "mtime": 1541342403,
-    "db_size": 346540
+    "release": "0.179.0",
+    "mtime": 1654202410,
+    "db_size": 491361
+  },
+  {
+    "name": "GCC",
+    "slug": "gcc~12",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/"
+    },
+    "version": "12",
+    "release": "12.1.0",
+    "mtime": 1654202646,
+    "db_size": 3500378
+  },
+  {
+    "name": "GCC",
+    "slug": "gcc~12_cpp",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/"
+    },
+    "version": "12 CPP",
+    "release": "12.1.0",
+    "mtime": 1654202663,
+    "db_size": 312690
+  },
+  {
+    "name": "GCC",
+    "slug": "gcc~11",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/"
+    },
+    "version": "11",
+    "release": "11.1.0",
+    "mtime": 1619729386,
+    "db_size": 3419987
+  },
+  {
+    "name": "GCC",
+    "slug": "gcc~11_cpp",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/"
+    },
+    "version": "11 CPP",
+    "release": "11.1.0",
+    "mtime": 1619729417,
+    "db_size": 311821
+  },
+  {
+    "name": "GCC",
+    "slug": "gcc~10",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/"
+    },
+    "version": "10",
+    "release": "10.2.0",
+    "mtime": 1605728466,
+    "db_size": 3341273
+  },
+  {
+    "name": "GCC",
+    "slug": "gcc~10_cpp",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/"
+    },
+    "version": "10 CPP",
+    "release": "10.2.0",
+    "mtime": 1605728564,
+    "db_size": 309257
+  },
+  {
+    "name": "GCC",
+    "slug": "gcc~9",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/"
+    },
+    "version": "9",
+    "release": "9.3.0",
+    "mtime": 1605728637,
+    "db_size": 3248682
+  },
+  {
+    "name": "GCC",
+    "slug": "gcc~9_cpp",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/"
+    },
+    "version": "9 CPP",
+    "release": "9.3.0",
+    "mtime": 1605728657,
+    "db_size": 306687
+  },
+  {
+    "name": "GCC",
+    "slug": "gcc~8",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/"
+    },
+    "version": "8",
+    "release": "8.3.0",
+    "mtime": 1566513387,
+    "db_size": 3148360
+  },
+  {
+    "name": "GCC",
+    "slug": "gcc~8_cpp",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/"
+    },
+    "version": "8 CPP",
+    "release": "8.3.0",
+    "mtime": 1566513367,
+    "db_size": 299015
   },
   {
     "name": "GCC",
@@ -1351,9 +2468,9 @@
       "home": "https://gcc.gnu.org/"
     },
     "version": "7",
-    "release": "7.3.0",
-    "mtime": 1519585911,
-    "db_size": 2942101
+    "release": "7.4.0",
+    "mtime": 1566513380,
+    "db_size": 2958735
   },
   {
     "name": "GCC",
@@ -1363,9 +2480,9 @@
       "home": "https://gcc.gnu.org/"
     },
     "version": "7 CPP",
-    "release": "7.3.0",
-    "mtime": 1519585917,
-    "db_size": 293216
+    "release": "7.4.0",
+    "mtime": 1566513372,
+    "db_size": 295834
   },
   {
     "name": "GCC",
@@ -1447,9 +2564,69 @@
       "home": "https://git-scm.com/",
       "code": "https://github.com/git/git"
     },
-    "release": "2.19.1",
-    "mtime": 1541376880,
-    "db_size": 3247746
+    "release": "2.37.0",
+    "mtime": 1657043675,
+    "db_size": 4183131
+  },
+  {
+    "name": "GNU Fortran",
+    "slug": "gnu_fortran~12",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/fortran/"
+    },
+    "version": "12",
+    "release": "12.1.0",
+    "mtime": 1654202799,
+    "db_size": 1276891
+  },
+  {
+    "name": "GNU Fortran",
+    "slug": "gnu_fortran~11",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/fortran/"
+    },
+    "version": "11",
+    "release": "11.1.0",
+    "mtime": 1619729946,
+    "db_size": 1313643
+  },
+  {
+    "name": "GNU Fortran",
+    "slug": "gnu_fortran~10",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/fortran/"
+    },
+    "version": "10",
+    "release": "10.2.0",
+    "mtime": 1605731856,
+    "db_size": 1309289
+  },
+  {
+    "name": "GNU Fortran",
+    "slug": "gnu_fortran~9",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/fortran/"
+    },
+    "version": "9",
+    "release": "9.3.0",
+    "mtime": 1605731757,
+    "db_size": 1301512
+  },
+  {
+    "name": "GNU Fortran",
+    "slug": "gnu_fortran~8",
+    "type": "simple",
+    "links": {
+      "home": "https://gcc.gnu.org/fortran/"
+    },
+    "version": "8",
+    "release": "8.4.0",
+    "mtime": 1605731716,
+    "db_size": 1267644
   },
   {
     "name": "GNU Fortran",
@@ -1500,6 +2677,42 @@
     "db_size": 853323
   },
   {
+    "name": "GNU Make",
+    "slug": "gnu_make",
+    "type": "gnu_make",
+    "links": {
+      "home": "https://www.gnu.org/software/make/manual/html_node/",
+      "code": "http://git.savannah.gnu.org/cgit/make.git/"
+    },
+    "release": "4.3",
+    "mtime": 1640556302,
+    "db_size": 734046
+  },
+  {
+    "name": "GnuCOBOL",
+    "slug": "gnu_cobol",
+    "type": "simple",
+    "links": {
+      "home": "https://gnucobol.sourceforge.io/",
+      "code": "https://sourceforge.net/p/gnucobol/code/HEAD/tree/trunk/"
+    },
+    "release": "3.1",
+    "mtime": 1605779797,
+    "db_size": 1230454
+  },
+  {
+    "name": "Gnuplot",
+    "slug": "gnuplot",
+    "type": "gnuplot",
+    "links": {
+      "home": "http://www.gnuplot.info/",
+      "code": "https://sourceforge.net/projects/gnuplot/"
+    },
+    "release": "5.4.0",
+    "mtime": 1621922239,
+    "db_size": 1053501
+  },
+  {
     "name": "Go",
     "slug": "go",
     "type": "go",
@@ -1507,22 +2720,35 @@
       "home": "https://golang.org/",
       "code": "https://go.googlesource.com/go"
     },
-    "release": "1.11.2",
-    "mtime": 1541342441,
-    "db_size": 3668220
+    "release": "1.18.0",
+    "mtime": 1647446689,
+    "db_size": 3684064
   },
   {
     "name": "Godot",
-    "slug": "godot~3.0",
+    "slug": "godot~3.3",
     "type": "sphinx_simple",
     "links": {
       "home": "https://godotengine.org/",
       "code": "https://github.com/godotengine/godot"
     },
-    "version": "3.0",
-    "release": "3.0.6",
-    "mtime": 1541342565,
-    "db_size": 3944198
+    "version": "3.3",
+    "release": "3.3.0",
+    "mtime": 1619719645,
+    "db_size": 8447572
+  },
+  {
+    "name": "Godot",
+    "slug": "godot~3.2",
+    "type": "sphinx_simple",
+    "links": {
+      "home": "https://godotengine.org/",
+      "code": "https://github.com/godotengine/godot"
+    },
+    "version": "3.2",
+    "release": "3.2.3",
+    "mtime": 1605474158,
+    "db_size": 7859945
   },
   {
     "name": "Godot",
@@ -1533,9 +2759,9 @@
       "code": "https://github.com/godotengine/godot"
     },
     "version": "2.1",
-    "release": "2.1",
-    "mtime": 1500847393,
-    "db_size": 4249116
+    "release": "2.1.6",
+    "mtime": 1605474195,
+    "db_size": 4289694
   },
   {
     "name": "Graphite",
@@ -1549,12 +2775,120 @@
     "db_size": 448138
   },
   {
+    "name": "Groovy",
+    "slug": "groovy~4.0",
+    "type": "groovy",
+    "links": {
+      "home": "https://groovy-lang.org/",
+      "code": "https://github.com/apache/groovy"
+    },
+    "version": "4.0",
+    "release": "4.0.0",
+    "mtime": 1646154540,
+    "db_size": 32832765
+  },
+  {
+    "name": "Groovy",
+    "slug": "groovy~3.0",
+    "type": "groovy",
+    "links": {
+      "home": "https://groovy-lang.org/",
+      "code": "https://github.com/apache/groovy"
+    },
+    "version": "3.0",
+    "release": "3.0.9",
+    "mtime": 1638102204,
+    "db_size": 36629044
+  },
+  {
+    "name": "Groovy",
+    "slug": "groovy~2.5",
+    "type": "groovy",
+    "links": {
+      "home": "https://groovy-lang.org/",
+      "code": "https://github.com/apache/groovy"
+    },
+    "version": "2.5",
+    "release": "2.5.14",
+    "mtime": 1607339554,
+    "db_size": 31281164
+  },
+  {
+    "name": "Groovy",
+    "slug": "groovy~2.4",
+    "type": "groovy",
+    "links": {
+      "home": "https://groovy-lang.org/",
+      "code": "https://github.com/apache/groovy"
+    },
+    "version": "2.4",
+    "release": "2.4.21",
+    "mtime": 1607339610,
+    "db_size": 29303890
+  },
+  {
     "name": "Grunt",
     "slug": "grunt",
     "type": "simple",
-    "release": "1.0.1",
-    "mtime": 1500740124,
-    "db_size": 183508
+    "links": {
+      "home": "https://gruntjs.com/",
+      "code": "https://github.com/gruntjs/grunt"
+    },
+    "release": "1.4.2",
+    "mtime": 1618517852,
+    "db_size": 182915
+  },
+  {
+    "name": "GTK",
+    "slug": "gtk~4.0",
+    "type": "gtk",
+    "links": {
+      "home": "https://www.gtk.org/",
+      "code": "https://gitlab.gnome.org/GNOME/gtk/"
+    },
+    "version": "4.0",
+    "release": "4.0.0",
+    "mtime": 1608725517,
+    "db_size": 10743610
+  },
+  {
+    "name": "GTK",
+    "slug": "gtk~3.24",
+    "type": "gtk",
+    "links": {
+      "home": "https://www.gtk.org/",
+      "code": "https://gitlab.gnome.org/GNOME/gtk/"
+    },
+    "version": "3.24",
+    "release": "3.24.24",
+    "mtime": 1608725659,
+    "db_size": 14440482
+  },
+  {
+    "name": "GTK",
+    "slug": "gtk~3.22",
+    "type": "gtk",
+    "links": {
+      "home": "https://www.gtk.org/",
+      "code": "https://gitlab.gnome.org/GNOME/gtk/"
+    },
+    "version": "3.22",
+    "release": "3.22.3",
+    "mtime": 1608725720,
+    "db_size": 15480205
+  },
+  {
+    "name": "GTK",
+    "slug": "gtk~3.20",
+    "type": "gtk",
+    "links": {
+      "home": "https://www.gtk.org/",
+      "code": "https://gitlab.gnome.org/GNOME/gtk/"
+    },
+    "version": "3.20",
+    "release": "3.20.4",
+    "mtime": 1608725772,
+    "db_size": 15246961
   },
   {
     "name": "Handlebars.js",
@@ -1569,6 +2903,135 @@
     "db_size": 83745
   },
   {
+    "name": "HAProxy",
+    "slug": "haproxy~2.5",
+    "type": "haproxy",
+    "links": {
+      "home": "https://www.haproxy.org/",
+      "code": "https://github.com/haproxy/haproxy/"
+    },
+    "version": "2.5",
+    "release": "2.5.0",
+    "mtime": 1654203394,
+    "db_size": 2213078
+  },
+  {
+    "name": "HAProxy",
+    "slug": "haproxy~2.4",
+    "type": "haproxy",
+    "links": {
+      "home": "https://www.haproxy.org/",
+      "code": "https://github.com/haproxy/haproxy/"
+    },
+    "version": "2.4",
+    "release": "2.4.0",
+    "mtime": 1654203366,
+    "db_size": 2114186
+  },
+  {
+    "name": "HAProxy",
+    "slug": "haproxy~2.3",
+    "type": "haproxy",
+    "links": {
+      "home": "https://www.haproxy.org/",
+      "code": "https://github.com/haproxy/haproxy/"
+    },
+    "version": "2.3",
+    "release": "2.3.0",
+    "mtime": 1607081435,
+    "db_size": 2003395
+  },
+  {
+    "name": "HAProxy",
+    "slug": "haproxy~2.2",
+    "type": "haproxy",
+    "links": {
+      "home": "https://www.haproxy.org/",
+      "code": "https://github.com/haproxy/haproxy/"
+    },
+    "version": "2.2",
+    "release": "2.2.5",
+    "mtime": 1607081461,
+    "db_size": 1974872
+  },
+  {
+    "name": "HAProxy",
+    "slug": "haproxy~2.1",
+    "type": "haproxy",
+    "links": {
+      "home": "https://www.haproxy.org/",
+      "code": "https://github.com/haproxy/haproxy/"
+    },
+    "version": "2.1",
+    "release": "2.1.10",
+    "mtime": 1607081466,
+    "db_size": 1800369
+  },
+  {
+    "name": "HAProxy",
+    "slug": "haproxy~2.0",
+    "type": "haproxy",
+    "links": {
+      "home": "https://www.haproxy.org/",
+      "code": "https://github.com/haproxy/haproxy/"
+    },
+    "version": "2.0",
+    "release": "2.0.19",
+    "mtime": 1607081474,
+    "db_size": 1868610
+  },
+  {
+    "name": "HAProxy",
+    "slug": "haproxy~1.9",
+    "type": "haproxy",
+    "links": {
+      "home": "https://www.haproxy.org/",
+      "code": "https://github.com/haproxy/haproxy/"
+    },
+    "version": "1.9",
+    "release": "1.9.16",
+    "mtime": 1607081480,
+    "db_size": 1816542
+  },
+  {
+    "name": "HAProxy",
+    "slug": "haproxy~1.8",
+    "type": "haproxy",
+    "links": {
+      "home": "https://www.haproxy.org/",
+      "code": "https://github.com/haproxy/haproxy/"
+    },
+    "version": "1.8",
+    "release": "1.8.27",
+    "mtime": 1607081484,
+    "db_size": 1731236
+  },
+  {
+    "name": "HAProxy",
+    "slug": "haproxy~1.7",
+    "type": "haproxy",
+    "links": {
+      "home": "https://www.haproxy.org/",
+      "code": "https://github.com/haproxy/haproxy/"
+    },
+    "version": "1.7",
+    "release": "1.7.12",
+    "mtime": 1607081488,
+    "db_size": 1651641
+  },
+  {
+    "name": "Haskell",
+    "slug": "haskell~9",
+    "type": "haskell",
+    "links": {
+      "home": "https://www.haskell.org/"
+    },
+    "version": "9",
+    "release": "9.2.1",
+    "mtime": 1640129227,
+    "db_size": 48237832
+  },
+  {
     "name": "Haskell",
     "slug": "haskell~8",
     "type": "haskell",
@@ -1576,9 +3039,9 @@
       "home": "https://www.haskell.org/"
     },
     "version": "8",
-    "release": "8.6.1",
-    "mtime": 1541344361,
-    "db_size": 36270765
+    "release": "8.10.2",
+    "mtime": 1605963532,
+    "db_size": 42753098
   },
   {
     "name": "Haskell",
@@ -1601,108 +3064,117 @@
       "code": "https://github.com/HaxeFoundation/haxe"
     },
     "version": "",
-    "release": "3.4.7",
-    "mtime": 1526520808,
-    "db_size": 1117484
+    "release": "4.1.3",
+    "mtime": 1605222347,
+    "db_size": 1423451
   },
   {
     "name": "Haxe",
     "slug": "haxe~cpp",
     "type": "simple",
     "version": "C++",
-    "release": "3.4.7",
-    "mtime": 1526520811,
-    "db_size": 445145
+    "release": "4.1.3",
+    "mtime": 1605222436,
+    "db_size": 355456
   },
   {
     "name": "Haxe",
     "slug": "haxe~cs",
     "type": "simple",
     "version": "C#",
-    "release": "3.4.7",
-    "mtime": 1526520830,
-    "db_size": 3456326
+    "release": "4.1.3",
+    "mtime": 1605222449,
+    "db_size": 2872191
   },
   {
     "name": "Haxe",
     "slug": "haxe~flash",
     "type": "simple",
     "version": "Flash",
-    "release": "3.4.7",
-    "mtime": 1526520843,
-    "db_size": 1713506
+    "release": "4.1.3",
+    "mtime": 1605222461,
+    "db_size": 1787922
   },
   {
     "name": "Haxe",
     "slug": "haxe~java",
     "type": "simple",
     "version": "Java",
-    "release": "3.4.7",
-    "mtime": 1526520859,
-    "db_size": 2903032
+    "release": "4.1.3",
+    "mtime": 1605222477,
+    "db_size": 3207180
   },
   {
     "name": "Haxe",
     "slug": "haxe~javascript",
     "type": "simple",
     "version": "JavaScript",
-    "release": "3.4.7",
-    "mtime": 1526520906,
-    "db_size": 4491424
+    "release": "4.1.3",
+    "mtime": 1605222512,
+    "db_size": 6117279
   },
   {
     "name": "Haxe",
     "slug": "haxe~neko",
     "type": "simple",
     "version": "Neko",
-    "release": "3.4.7",
-    "mtime": 1526520909,
-    "db_size": 110930
+    "release": "4.1.3",
+    "mtime": 1605222517,
+    "db_size": 79992
   },
   {
     "name": "Haxe",
     "slug": "haxe~php",
     "type": "simple",
     "version": "PHP",
-    "release": "3.4.7",
-    "mtime": 1526520910,
-    "db_size": 93339
+    "release": "4.1.3",
+    "mtime": 1605222522,
+    "db_size": 676188
   },
   {
     "name": "Haxe",
     "slug": "haxe~lua",
     "type": "simple",
     "version": "Lua",
-    "release": "3.4.7",
-    "mtime": 1526520913,
-    "db_size": 365204
+    "release": "4.1.3",
+    "mtime": 1605222528,
+    "db_size": 386374
   },
   {
     "name": "Haxe",
     "slug": "haxe~hashlink",
     "type": "simple",
     "version": "HashLink",
-    "release": "3.4.7",
-    "mtime": 1526520915,
-    "db_size": 233826
+    "release": "4.1.3",
+    "mtime": 1605222534,
+    "db_size": 175002
   },
   {
     "name": "Haxe",
     "slug": "haxe~sys",
     "type": "simple",
     "version": "Sys",
-    "release": "3.4.7",
-    "mtime": 1526520917,
-    "db_size": 166803
+    "release": "4.1.3",
+    "mtime": 1605222538,
+    "db_size": 114650
   },
   {
     "name": "Haxe",
     "slug": "haxe~python",
     "type": "simple",
     "version": "Python",
-    "release": "3.4.7",
-    "mtime": 1526520922,
-    "db_size": 612013
+    "release": "4.1.3",
+    "mtime": 1605222544,
+    "db_size": 641634
+  },
+  {
+    "name": "Haxe",
+    "slug": "haxe~eval",
+    "type": "simple",
+    "version": "Eval",
+    "release": "4.1.3",
+    "mtime": 1605222547,
+    "db_size": 38901
   },
   {
     "name": "Homebrew",
@@ -1712,35 +3184,47 @@
       "home": "https://brew.sh",
       "code": "https://github.com/Homebrew/brew"
     },
-    "release": "1.8.1",
-    "mtime": 1541342674,
-    "db_size": 714377
+    "release": "3.3.11",
+    "mtime": 1642867618,
+    "db_size": 1147825
   },
   {
     "name": "HTML",
     "slug": "html",
     "type": "mdn",
-    "mtime": 1543097764,
-    "db_size": 4141596
+    "mtime": 1651079074,
+    "db_size": 5473817
   },
   {
     "name": "HTTP",
     "slug": "http",
     "type": "mdn",
-    "mtime": 1543099392,
-    "db_size": 4731727
+    "mtime": 1634922407,
+    "db_size": 4919826
+  },
+  {
+    "name": "i3",
+    "slug": "i3",
+    "type": "simple",
+    "links": {
+      "home": "https://i3wm.org/",
+      "code": "https://github.com/i3/i3"
+    },
+    "release": "4.20.1",
+    "mtime": 1638207013,
+    "db_size": 237163
   },
   {
     "name": "Immutable.js",
     "slug": "immutable",
     "type": "simple",
     "links": {
-      "home": "https://facebook.github.io/immutable-js/",
+      "home": "https://immutable-js.com/",
       "code": "https://github.com/facebook/immutable-js"
     },
-    "release": "3.8.1",
-    "mtime": 1479652557,
-    "db_size": 742765
+    "release": "4.0.0",
+    "mtime": 1636895614,
+    "db_size": 843310
   },
   {
     "name": "InfluxData",
@@ -1757,30 +3241,44 @@
   {
     "name": "Jasmine",
     "slug": "jasmine",
-    "type": "simple",
+    "type": "jasmine",
     "links": {
       "home": "https://jasmine.github.io/",
       "code": "https://github.com/jasmine/jasmine"
     },
-    "release": "3.3.0",
-    "mtime": 1541342727,
-    "db_size": 98482
+    "release": "4.0.0",
+    "mtime": 1644541675,
+    "db_size": 187857
   },
   {
     "name": "JavaScript",
     "slug": "javascript",
     "type": "mdn",
-    "mtime": 1543098529,
-    "db_size": 6462141
+    "mtime": 1651125879,
+    "db_size": 13586247
   },
   {
     "name": "Jekyll",
-    "slug": "jekyll",
+    "slug": "jekyll~4",
     "type": "jekyll",
     "links": {
       "home": "https://jekyllrb.com/",
       "code": "https://github.com/jekyll/jekyll"
     },
+    "version": "4",
+    "release": "4.2.0",
+    "mtime": 1608724835,
+    "db_size": 343160
+  },
+  {
+    "name": "Jekyll",
+    "slug": "jekyll~3",
+    "type": "jekyll",
+    "links": {
+      "home": "https://jekyllrb.com/",
+      "code": "https://github.com/jekyll/jekyll"
+    },
+    "version": "3",
     "release": "3.7.2",
     "mtime": 1517761163,
     "db_size": 334606
@@ -1790,12 +3288,75 @@
     "slug": "jest",
     "type": "simple",
     "links": {
-      "home": "https://facebook.github.io/jest/",
+      "home": "https://jestjs.io/",
       "code": "https://github.com/facebook/jest"
     },
-    "release": "23.5.0",
-    "mtime": 1534715514,
-    "db_size": 520890
+    "release": "28.0.3",
+    "mtime": 1651694153,
+    "db_size": 655859
+  },
+  {
+    "name": "Jinja",
+    "slug": "jinja~3.0",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/jinja/",
+      "code": "https://github.com/pallets/jinja"
+    },
+    "version": "3.0",
+    "release": "3.0.x",
+    "mtime": 1620900752,
+    "db_size": 574863
+  },
+  {
+    "name": "Jinja",
+    "slug": "jinja~2.11",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/jinja/",
+      "code": "https://github.com/pallets/jinja"
+    },
+    "version": "2.11",
+    "release": "2.11.x",
+    "mtime": 1607340671,
+    "db_size": 350919
+  },
+  {
+    "name": "Jinja",
+    "slug": "jinja~2.10",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/jinja/",
+      "code": "https://github.com/pallets/jinja"
+    },
+    "version": "2.10",
+    "release": "2.10.x",
+    "mtime": 1607340667,
+    "db_size": 341367
+  },
+  {
+    "name": "Jinja",
+    "slug": "jinja~2.9",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/jinja/",
+      "code": "https://github.com/pallets/jinja"
+    },
+    "version": "2.9",
+    "release": "2.9.x",
+    "mtime": 1607340661,
+    "db_size": 332310
+  },
+  {
+    "name": "jq",
+    "slug": "jq",
+    "type": "jq",
+    "links": {
+      "home": "https://stedolan.github.io/jq/"
+    },
+    "release": "1.6",
+    "mtime": 1622487086,
+    "db_size": 154279
   },
   {
     "name": "jQuery",
@@ -1805,9 +3366,9 @@
       "home": "https://jquery.com/",
       "code": "https://github.com/jquery/jquery"
     },
-    "release": "3.3.1",
-    "mtime": 1524924505,
-    "db_size": 2679861
+    "release": "3.6.0",
+    "mtime": 1614803997,
+    "db_size": 2697790
   },
   {
     "name": "jQuery Mobile",
@@ -1821,21 +3382,112 @@
     "name": "jQuery UI",
     "slug": "jqueryui",
     "type": "jquery",
-    "release": "1.12.1",
-    "mtime": 1500821446,
-    "db_size": 1099745
+    "release": "1.13.0",
+    "mtime": 1635758792,
+    "db_size": 1105612
   },
   {
     "name": "JSDoc",
     "slug": "jsdoc",
     "type": "simple",
     "links": {
-      "home": "http://usejsdoc.org/",
-      "code": "https://github.com/jsdoc3/jsdoc"
+      "home": "https://jsdoc.app/",
+      "code": "https://github.com/jsdoc/jsdoc"
     },
-    "release": "3.5.5",
-    "mtime": 1517758919,
-    "db_size": 283935
+    "release": "3.6.7",
+    "mtime": 1635158076,
+    "db_size": 283287
+  },
+  {
+    "name": "Julia",
+    "slug": "julia~1.7",
+    "type": "julia",
+    "links": {
+      "home": "https://julialang.org/",
+      "code": "https://github.com/JuliaLang/julia"
+    },
+    "version": "1.7",
+    "release": "1.7.0",
+    "mtime": 1638662810,
+    "db_size": 4529013
+  },
+  {
+    "name": "Julia",
+    "slug": "julia~1.6",
+    "type": "julia",
+    "links": {
+      "home": "https://julialang.org/",
+      "code": "https://github.com/JuliaLang/julia"
+    },
+    "version": "1.6",
+    "release": "1.6.0",
+    "mtime": 1616880793,
+    "db_size": 4295051
+  },
+  {
+    "name": "Julia",
+    "slug": "julia~1.5",
+    "type": "julia",
+    "links": {
+      "home": "https://julialang.org/",
+      "code": "https://github.com/JuliaLang/julia"
+    },
+    "version": "1.5",
+    "release": "1.5.3",
+    "mtime": 1606771181,
+    "db_size": 4127258
+  },
+  {
+    "name": "Julia",
+    "slug": "julia~1.4",
+    "type": "julia",
+    "links": {
+      "home": "https://julialang.org/",
+      "code": "https://github.com/JuliaLang/julia"
+    },
+    "version": "1.4",
+    "release": "1.4.2",
+    "mtime": 1606771121,
+    "db_size": 4088933
+  },
+  {
+    "name": "Julia",
+    "slug": "julia~1.3",
+    "type": "julia",
+    "links": {
+      "home": "https://julialang.org/",
+      "code": "https://github.com/JuliaLang/julia"
+    },
+    "version": "1.3",
+    "release": "1.3.1",
+    "mtime": 1606771224,
+    "db_size": 3936345
+  },
+  {
+    "name": "Julia",
+    "slug": "julia~1.2",
+    "type": "julia",
+    "links": {
+      "home": "https://julialang.org/",
+      "code": "https://github.com/JuliaLang/julia"
+    },
+    "version": "1.2",
+    "release": "1.2.0",
+    "mtime": 1581357546,
+    "db_size": 3856675
+  },
+  {
+    "name": "Julia",
+    "slug": "julia~1.1",
+    "type": "julia",
+    "links": {
+      "home": "https://julialang.org/",
+      "code": "https://github.com/JuliaLang/julia"
+    },
+    "version": "1.1",
+    "release": "1.1.1",
+    "mtime": 1581357517,
+    "db_size": 3356572
   },
   {
     "name": "Julia",
@@ -1846,9 +3498,9 @@
       "code": "https://github.com/JuliaLang/julia"
     },
     "version": "1.0",
-    "release": "1.0.1",
-    "mtime": 1541343449,
-    "db_size": 2358444
+    "release": "1.0.4",
+    "mtime": 1581357502,
+    "db_size": 3359580
   },
   {
     "name": "Julia",
@@ -1860,8 +3512,8 @@
     },
     "version": "0.7",
     "release": "0.7.0",
-    "mtime": 1534716955,
-    "db_size": 2352905
+    "mtime": 1581357460,
+    "db_size": 3333596
   },
   {
     "name": "Julia",
@@ -1893,9 +3545,13 @@
     "name": "Knockout.js",
     "slug": "knockout",
     "type": "knockout",
-    "release": "3.4.2",
-    "mtime": 1489346587,
-    "db_size": 417406
+    "links": {
+      "home": "https://knockoutjs.com/",
+      "code": "https://github.com/knockout/knockout"
+    },
+    "release": "3.5.1",
+    "mtime": 1606292302,
+    "db_size": 457680
   },
   {
     "name": "Koa",
@@ -1905,21 +3561,152 @@
       "home": "https://koajs.com/",
       "code": "https://github.com/koajs/koa"
     },
-    "release": "2.6.1",
-    "mtime": 1541343517,
-    "db_size": 160544
+    "release": "2.13.0",
+    "mtime": 1606292491,
+    "db_size": 166586
   },
   {
     "name": "Kotlin",
-    "slug": "kotlin",
+    "slug": "kotlin~1.7",
     "type": "kotlin",
     "links": {
       "home": "https://kotlinlang.org/",
       "code": "https://github.com/JetBrains/kotlin"
     },
-    "release": "1.2.41",
-    "mtime": 1524924945,
-    "db_size": 11707614
+    "version": "1.7",
+    "release": "1.7.0",
+    "mtime": 1656968153,
+    "db_size": 36345642
+  },
+  {
+    "name": "Kotlin",
+    "slug": "kotlin~1.6",
+    "type": "kotlin",
+    "links": {
+      "home": "https://kotlinlang.org/",
+      "code": "https://github.com/JetBrains/kotlin"
+    },
+    "version": "1.6",
+    "release": "1.6.20",
+    "mtime": 1649445927,
+    "db_size": 36244921
+  },
+  {
+    "name": "Kotlin",
+    "slug": "kotlin~1.4",
+    "type": "kotlin",
+    "links": {
+      "home": "https://kotlinlang.org/",
+      "code": "https://github.com/JetBrains/kotlin"
+    },
+    "version": "1.4",
+    "release": "1.4.10",
+    "mtime": 1605610517,
+    "db_size": 29132761
+  },
+  {
+    "name": "Kubectl",
+    "slug": "kubectl",
+    "type": "kubectl",
+    "links": {
+      "home": "https://kubernetes.io/docs/reference/kubectl/",
+      "code": "https://github.com/kubernetes/kubernetes"
+    },
+    "version": "",
+    "release": "1.23",
+    "mtime": 1651603883,
+    "db_size": 306105
+  },
+  {
+    "name": "Kubectl",
+    "slug": "kubectl~1.20",
+    "type": "kubectl",
+    "links": {
+      "home": "https://kubernetes.io/docs/reference/kubectl/",
+      "code": "https://github.com/kubernetes/kubernetes"
+    },
+    "version": "1.20",
+    "release": "1.20",
+    "mtime": 1651603888,
+    "db_size": 296365
+  },
+  {
+    "name": "Kubernetes",
+    "slug": "kubernetes",
+    "type": "kubernetes",
+    "links": {
+      "home": "https://kubernetes.io/",
+      "code": "https://github.com/kubernetes/kubernetes"
+    },
+    "version": "",
+    "release": "1.23",
+    "mtime": 1651603850,
+    "db_size": 875579
+  },
+  {
+    "name": "Kubernetes",
+    "slug": "kubernetes~1.20",
+    "type": "kubernetes",
+    "links": {
+      "home": "https://kubernetes.io/",
+      "code": "https://github.com/kubernetes/kubernetes"
+    },
+    "version": "1.20",
+    "release": "1.20",
+    "mtime": 1651603865,
+    "db_size": 872090
+  },
+  {
+    "name": "Laravel",
+    "slug": "laravel~8",
+    "type": "laravel",
+    "links": {
+      "home": "https://laravel.com/",
+      "code": "https://github.com/laravel/laravel"
+    },
+    "version": "8",
+    "release": "8.4.1",
+    "mtime": 1605356342,
+    "db_size": 24862494
+  },
+  {
+    "name": "Laravel",
+    "slug": "laravel~7",
+    "type": "laravel",
+    "links": {
+      "home": "https://laravel.com/",
+      "code": "https://github.com/laravel/laravel"
+    },
+    "version": "7",
+    "release": "7.30.1",
+    "mtime": 1605355985,
+    "db_size": 23304426
+  },
+  {
+    "name": "Laravel",
+    "slug": "laravel~6",
+    "type": "laravel",
+    "links": {
+      "home": "https://laravel.com/",
+      "code": "https://github.com/laravel/laravel"
+    },
+    "version": "6",
+    "release": "6.20.0",
+    "mtime": 1605356125,
+    "db_size": 22068948
+  },
+  {
+    "name": "Laravel",
+    "slug": "laravel~5.8",
+    "type": "laravel",
+    "links": {
+      "home": "https://laravel.com/",
+      "code": "https://github.com/laravel/laravel"
+    },
+    "version": "5.8",
+    "release": "5.8.38",
+    "mtime": 1605356185,
+    "db_size": 20593064
   },
   {
     "name": "Laravel",
@@ -2026,6 +3813,81 @@
     "db_size": 7711773
   },
   {
+    "name": "LaTeX",
+    "slug": "latex",
+    "type": "simple",
+    "links": {
+      "home": "https://ctan.org/pkg/latex2e-help-texinfo/"
+    },
+    "mtime": 1622487100,
+    "db_size": 1381446
+  },
+  {
+    "name": "Leaflet",
+    "slug": "leaflet~1.8",
+    "type": "simple",
+    "links": {
+      "home": "https://leafletjs.com/",
+      "code": "https://github.com/Leaflet/Leaflet"
+    },
+    "version": "1.8",
+    "release": "1.8.0",
+    "mtime": 1650351577,
+    "db_size": 763883
+  },
+  {
+    "name": "Leaflet",
+    "slug": "leaflet~1.7",
+    "type": "simple",
+    "links": {
+      "home": "https://leafletjs.com/",
+      "code": "https://github.com/Leaflet/Leaflet"
+    },
+    "version": "1.7",
+    "release": "1.7.1",
+    "mtime": 1605214569,
+    "db_size": 728726
+  },
+  {
+    "name": "Leaflet",
+    "slug": "leaflet~1.6",
+    "type": "simple",
+    "links": {
+      "home": "https://leafletjs.com/",
+      "code": "https://github.com/Leaflet/Leaflet"
+    },
+    "version": "1.6",
+    "release": "1.6.0",
+    "mtime": 1578593193,
+    "db_size": 722507
+  },
+  {
+    "name": "Leaflet",
+    "slug": "leaflet~1.5",
+    "type": "simple",
+    "links": {
+      "home": "https://leafletjs.com/",
+      "code": "https://github.com/Leaflet/Leaflet"
+    },
+    "version": "1.5",
+    "release": "1.5.1",
+    "mtime": 1578594002,
+    "db_size": 729474
+  },
+  {
+    "name": "Leaflet",
+    "slug": "leaflet~1.4",
+    "type": "simple",
+    "links": {
+      "home": "https://leafletjs.com/",
+      "code": "https://github.com/Leaflet/Leaflet"
+    },
+    "version": "1.4",
+    "release": "1.4.0",
+    "mtime": 1565300133,
+    "db_size": 704120
+  },
+  {
     "name": "Leaflet",
     "slug": "leaflet~1.3",
     "type": "simple",
@@ -2079,12 +3941,39 @@
   },
   {
     "name": "Less",
-    "slug": "less",
+    "slug": "less~4",
     "type": "simple",
     "links": {
       "home": "http://lesscss.org/",
       "code": "https://github.com/less/less.js"
     },
+    "version": "4",
+    "release": "4.0.0",
+    "mtime": 1609092513,
+    "db_size": 162726
+  },
+  {
+    "name": "Less",
+    "slug": "less~3",
+    "type": "simple",
+    "links": {
+      "home": "http://lesscss.org/",
+      "code": "https://github.com/less/less.js"
+    },
+    "version": "3",
+    "release": "3.12.0",
+    "mtime": 1605731084,
+    "db_size": 161488
+  },
+  {
+    "name": "Less",
+    "slug": "less~2",
+    "type": "simple",
+    "links": {
+      "home": "http://lesscss.org/",
+      "code": "https://github.com/less/less.js"
+    },
+    "version": "2",
     "release": "2.7.2",
     "mtime": 1495470772,
     "db_size": 150274
@@ -2097,9 +3986,9 @@
       "home": "https://shopify.github.io/liquid/",
       "code": "https://github.com/Shopify/liquid"
     },
-    "release": "4.0.0",
-    "mtime": 1498406903,
-    "db_size": 74772
+    "release": "5.0.0",
+    "mtime": 1612299362,
+    "db_size": 100069
   },
   {
     "name": "lodash",
@@ -2142,12 +4031,21 @@
   },
   {
     "name": "Lua",
+    "slug": "lua~5.4",
+    "type": "lua",
+    "version": "5.4",
+    "release": "5.4.1",
+    "mtime": 1605205878,
+    "db_size": 356766
+  },
+  {
+    "name": "Lua",
     "slug": "lua~5.3",
     "type": "lua",
     "version": "5.3",
-    "release": "5.3.4",
-    "mtime": 1500739922,
-    "db_size": 325966
+    "release": "5.3.6",
+    "mtime": 1605205897,
+    "db_size": 325692
   },
   {
     "name": "Lua",
@@ -2173,11 +4071,23 @@
     "type": "love",
     "links": {
       "home": "https://love2d.org/",
-      "code": "https://bitbucket.org/rude/love"
+      "code": "https://github.com/love2d/love"
     },
-    "release": "0.10.2",
-    "mtime": 1480270799,
-    "db_size": 2655816
+    "release": "11.3",
+    "mtime": 1606513699,
+    "db_size": 3786685
+  },
+  {
+    "name": "MariaDB",
+    "slug": "mariadb",
+    "type": "mariadb",
+    "links": {
+      "home": "https://mariadb.com/",
+      "code": "https://github.com/MariaDB/server"
+    },
+    "release": "10.6.4",
+    "mtime": 1632379323,
+    "db_size": 23003178
   },
   {
     "name": "Marionette.js",
@@ -2224,6 +4134,71 @@
     "type": "simple",
     "mtime": 1426424874,
     "db_size": 31338
+  },
+  {
+    "name": "Matplotlib",
+    "slug": "matplotlib~3.5",
+    "type": "sphinx",
+    "links": {
+      "home": "https://matplotlib.org/",
+      "code": "https://github.com/matplotlib/matplotlib"
+    },
+    "version": "3.5",
+    "release": "3.5.1",
+    "mtime": 1641877238,
+    "db_size": 52121211
+  },
+  {
+    "name": "Matplotlib",
+    "slug": "matplotlib~3.4",
+    "type": "sphinx",
+    "links": {
+      "home": "https://matplotlib.org/",
+      "code": "https://github.com/matplotlib/matplotlib"
+    },
+    "version": "3.4",
+    "release": "3.4.3",
+    "mtime": 1638097062,
+    "db_size": 51421402
+  },
+  {
+    "name": "Matplotlib",
+    "slug": "matplotlib~3.3",
+    "type": "sphinx",
+    "links": {
+      "home": "https://matplotlib.org/",
+      "code": "https://github.com/matplotlib/matplotlib"
+    },
+    "version": "3.3",
+    "release": "3.3.3",
+    "mtime": 1609088279,
+    "db_size": 58607046
+  },
+  {
+    "name": "Matplotlib",
+    "slug": "matplotlib~3.2",
+    "type": "sphinx",
+    "links": {
+      "home": "https://matplotlib.org/",
+      "code": "https://github.com/matplotlib/matplotlib"
+    },
+    "version": "3.2",
+    "release": "3.2.2",
+    "mtime": 1609091519,
+    "db_size": 73124849
+  },
+  {
+    "name": "Matplotlib",
+    "slug": "matplotlib~3.1",
+    "type": "sphinx",
+    "links": {
+      "home": "https://matplotlib.org/",
+      "code": "https://github.com/matplotlib/matplotlib"
+    },
+    "version": "3.1",
+    "release": "3.1.1",
+    "mtime": 1565298356,
+    "db_size": 41535835
   },
   {
     "name": "Matplotlib",
@@ -2337,17 +4312,17 @@
       "home": "https://mochajs.org/",
       "code": "https://github.com/mochajs/mocha"
     },
-    "release": "5.2.0",
-    "mtime": 1541369066,
-    "db_size": 1023112
+    "release": "9.0.2",
+    "mtime": 1625795050,
+    "db_size": 521006
   },
   {
     "name": "Modernizr",
     "slug": "modernizr",
     "type": "modernizr",
-    "release": "3.5.0",
-    "mtime": 1492958610,
-    "db_size": 78016
+    "release": "3.11.3",
+    "mtime": 1605742986,
+    "db_size": 78360
   },
   {
     "name": "Moment.js",
@@ -2369,9 +4344,9 @@
       "home": "http://mongoosejs.com/",
       "code": "https://github.com/Automattic/mongoose"
     },
-    "release": "4.13.1",
-    "mtime": 1510332286,
-    "db_size": 703709
+    "release": "5.7.7",
+    "mtime": 1578514453,
+    "db_size": 1024418
   },
   {
     "name": "nginx",
@@ -2379,11 +4354,11 @@
     "type": "nginx",
     "links": {
       "home": "https://nginx.org/",
-      "code": "http://hg.nginx.org/nginx"
+      "code": "https://hg.nginx.org/nginx"
     },
-    "release": "1.15.5",
-    "mtime": 1541369159,
-    "db_size": 1512132
+    "release": "1.22.0",
+    "mtime": 1653504882,
+    "db_size": 1804629
   },
   {
     "name": "nginx / Lua Module",
@@ -2401,9 +4376,21 @@
       "home": "https://nim-lang.org/",
       "code": "https://github.com/nim-lang/Nim"
     },
-    "release": "0.19.0",
-    "mtime": 1541373662,
-    "db_size": 2491615
+    "release": "1.4.8",
+    "mtime": 1630441166,
+    "db_size": 7498475
+  },
+  {
+    "name": "Nix",
+    "slug": "nix",
+    "type": "simple",
+    "links": {
+      "home": "https://nixos.org/",
+      "code": "https://github.com/NixOS/nix"
+    },
+    "release": "2.8.0",
+    "mtime": 1650919754,
+    "db_size": 336472
   },
   {
     "name": "Node.js",
@@ -2414,9 +4401,48 @@
       "code": "https://github.com/nodejs/node"
     },
     "version": "",
-    "release": "11.1.0",
-    "mtime": 1541369681,
-    "db_size": 2870694
+    "release": "18.0.0",
+    "mtime": 1650457600,
+    "db_size": 4618442
+  },
+  {
+    "name": "Node.js",
+    "slug": "node~16_lts",
+    "type": "node",
+    "links": {
+      "home": "https://nodejs.org/",
+      "code": "https://github.com/nodejs/node"
+    },
+    "version": "16 LTS",
+    "release": "16.13.2",
+    "mtime": 1642868465,
+    "db_size": 4404915
+  },
+  {
+    "name": "Node.js",
+    "slug": "node~14_lts",
+    "type": "node",
+    "links": {
+      "home": "https://nodejs.org/",
+      "code": "https://github.com/nodejs/node"
+    },
+    "version": "14 LTS",
+    "release": "14.17.0",
+    "mtime": 1620858545,
+    "db_size": 3751695
+  },
+  {
+    "name": "Node.js",
+    "slug": "node~12_lts",
+    "type": "node",
+    "links": {
+      "home": "https://nodejs.org/",
+      "code": "https://github.com/nodejs/node"
+    },
+    "version": "12 LTS",
+    "release": "12.22.1",
+    "mtime": 1620858747,
+    "db_size": 3587901
   },
   {
     "name": "Node.js",
@@ -2427,9 +4453,9 @@
       "code": "https://github.com/nodejs/node"
     },
     "version": "10 LTS",
-    "release": "10.13.0",
-    "mtime": 1541369696,
-    "db_size": 2844698
+    "release": "10.24.1",
+    "mtime": 1620858755,
+    "db_size": 2949230
   },
   {
     "name": "Node.js",
@@ -2440,9 +4466,9 @@
       "code": "https://github.com/nodejs/node"
     },
     "version": "8 LTS",
-    "release": "8.12.0",
-    "mtime": 1541369707,
-    "db_size": 2206615
+    "release": "8.17.0",
+    "mtime": 1620858760,
+    "db_size": 2277032
   },
   {
     "name": "Node.js",
@@ -2453,9 +4479,9 @@
       "code": "https://github.com/nodejs/node"
     },
     "version": "6 LTS",
-    "release": "6.14.4",
-    "mtime": 1534715052,
-    "db_size": 1612581
+    "release": "6.17.1",
+    "mtime": 1620858765,
+    "db_size": 1616160
   },
   {
     "name": "Node.js",
@@ -2467,16 +4493,16 @@
     },
     "version": "4 LTS",
     "release": "4.9.1",
-    "mtime": 1534715054,
-    "db_size": 982448
+    "mtime": 1620859104,
+    "db_size": 982096
   },
   {
     "name": "Nokogiri",
     "slug": "nokogiri",
     "type": "rdoc",
-    "release": "1.8.1",
-    "mtime": 1507477019,
-    "db_size": 500307
+    "release": "1.13.0",
+    "mtime": 1641878220,
+    "db_size": 583935
   },
   {
     "name": "npm",
@@ -2486,22 +4512,126 @@
       "home": "https://www.npmjs.com/",
       "code": "https://github.com/npm/npm"
     },
-    "release": "6.4.0",
-    "mtime": 1534716051,
-    "db_size": 1857027
+    "release": "8.3.0",
+    "mtime": 1641879352,
+    "db_size": 6320198
+  },
+  {
+    "name": "NumPy",
+    "slug": "numpy~1.22",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.numpy.org/",
+      "code": "https://github.com/numpy/numpy"
+    },
+    "version": "1.22",
+    "release": "1.22.0",
+    "mtime": 1641489581,
+    "db_size": 12828219
+  },
+  {
+    "name": "NumPy",
+    "slug": "numpy~1.21",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.numpy.org/",
+      "code": "https://github.com/numpy/numpy"
+    },
+    "version": "1.21",
+    "release": "1.21.4",
+    "mtime": 1638097470,
+    "db_size": 12701526
+  },
+  {
+    "name": "NumPy",
+    "slug": "numpy~1.20",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.numpy.org/",
+      "code": "https://github.com/numpy/numpy"
+    },
+    "version": "1.20",
+    "release": "1.20.1",
+    "mtime": 1613677417,
+    "db_size": 19057419
+  },
+  {
+    "name": "NumPy",
+    "slug": "numpy~1.19",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.numpy.org/",
+      "code": "https://github.com/numpy/numpy"
+    },
+    "version": "1.19",
+    "release": "1.19.0",
+    "mtime": 1609672265,
+    "db_size": 20631946
+  },
+  {
+    "name": "NumPy",
+    "slug": "numpy~1.18",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.numpy.org/",
+      "code": "https://github.com/numpy/numpy"
+    },
+    "version": "1.18",
+    "release": "1.18.5",
+    "mtime": 1609672666,
+    "db_size": 18845479
+  },
+  {
+    "name": "NumPy",
+    "slug": "numpy~1.17",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.numpy.org/",
+      "code": "https://github.com/numpy/numpy"
+    },
+    "version": "1.17",
+    "release": "1.17.0",
+    "mtime": 1567476462,
+    "db_size": 14687962
+  },
+  {
+    "name": "NumPy",
+    "slug": "numpy~1.16",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.numpy.org/",
+      "code": "https://github.com/numpy/numpy"
+    },
+    "version": "1.16",
+    "release": "1.16.1",
+    "mtime": 1567476550,
+    "db_size": 14195886
+  },
+  {
+    "name": "NumPy",
+    "slug": "numpy~1.15",
+    "type": "sphinx",
+    "links": {
+      "home": "https://www.numpy.org/",
+      "code": "https://github.com/numpy/numpy"
+    },
+    "version": "1.15",
+    "release": "1.15.4",
+    "mtime": 1567476633,
+    "db_size": 13978118
   },
   {
     "name": "NumPy",
     "slug": "numpy~1.14",
     "type": "sphinx",
     "links": {
-      "home": "http://www.numpy.org/",
+      "home": "https://www.numpy.org/",
       "code": "https://github.com/numpy/numpy"
     },
     "version": "1.14",
-    "release": "1.14.2",
-    "mtime": 1524925556,
-    "db_size": 12950488
+    "release": "1.14.5",
+    "mtime": 1567476769,
+    "db_size": 13107582
   },
   {
     "name": "NumPy",
@@ -2556,31 +4686,133 @@
     "db_size": 5821391
   },
   {
+    "name": "OCaml",
+    "slug": "ocaml",
+    "type": "ocaml",
+    "links": {
+      "home": "https://ocaml.org/",
+      "code": "https://github.com/ocaml/ocaml"
+    },
+    "release": "4.14",
+    "mtime": 1649444590,
+    "db_size": 5680633
+  },
+  {
+    "name": "Octave",
+    "slug": "octave~7",
+    "type": "octave",
+    "links": {
+      "home": "http://www.octave.org/",
+      "code": "http://www.octave.org/hg/octave"
+    },
+    "version": "7",
+    "release": "7.1.0",
+    "mtime": 1649444796,
+    "db_size": 6327296
+  },
+  {
+    "name": "Octave",
+    "slug": "octave~6",
+    "type": "octave",
+    "links": {
+      "home": "http://www.octave.org/",
+      "code": "http://www.octave.org/hg/octave"
+    },
+    "version": "6",
+    "release": "6.4.0",
+    "mtime": 1640129903,
+    "db_size": 5662561
+  },
+  {
+    "name": "Octave",
+    "slug": "octave~5",
+    "type": "octave",
+    "links": {
+      "home": "http://www.octave.org/",
+      "code": "http://www.octave.org/hg/octave"
+    },
+    "version": "5",
+    "release": "5.2.0",
+    "mtime": 1607974685,
+    "db_size": 5082346
+  },
+  {
+    "name": "OpenJDK",
+    "slug": "openjdk~18",
+    "type": "openjdk",
+    "links": {
+      "home": "https://openjdk.java.net/",
+      "code": "https://github.com/openjdk/jdk"
+    },
+    "version": "18",
+    "release": "18",
+    "mtime": 1650655199,
+    "db_size": 101764673
+  },
+  {
+    "name": "OpenJDK",
+    "slug": "openjdk~17",
+    "type": "openjdk",
+    "links": {
+      "home": "https://openjdk.java.net/",
+      "code": "https://github.com/openjdk/jdk"
+    },
+    "version": "17",
+    "release": "17",
+    "mtime": 1635800919,
+    "db_size": 101139714
+  },
+  {
+    "name": "OpenJDK",
+    "slug": "openjdk~11",
+    "type": "openjdk",
+    "links": {
+      "home": "https://openjdk.java.net/",
+      "code": "https://github.com/openjdk/jdk"
+    },
+    "version": "11",
+    "release": "11.0.11",
+    "mtime": 1623654507,
+    "db_size": 81635907
+  },
+  {
     "name": "OpenJDK",
     "slug": "openjdk~8",
     "type": "openjdk",
+    "links": {
+      "home": "https://openjdk.java.net/",
+      "code": "https://github.com/openjdk/jdk"
+    },
     "version": "8",
     "release": "8",
-    "mtime": 1493584121,
-    "db_size": 24834497
+    "mtime": 1614022668,
+    "db_size": 33586141
   },
   {
     "name": "OpenJDK",
     "slug": "openjdk~8_gui",
     "type": "openjdk",
+    "links": {
+      "home": "https://openjdk.java.net/",
+      "code": "https://github.com/openjdk/jdk"
+    },
     "version": "8 GUI",
     "release": "8",
-    "mtime": 1493584418,
-    "db_size": 16427435
+    "mtime": 1614022710,
+    "db_size": 29272900
   },
   {
     "name": "OpenJDK",
     "slug": "openjdk~8_web",
     "type": "openjdk",
+    "links": {
+      "home": "https://openjdk.java.net/",
+      "code": "https://github.com/openjdk/jdk"
+    },
     "version": "8 Web",
     "release": "8",
-    "mtime": 1493584241,
-    "db_size": 9963945
+    "mtime": 1614022678,
+    "db_size": 15183342
   },
   {
     "name": "OpenTSDB",
@@ -2602,9 +4834,48 @@
       "home": "http://padrinorb.com/",
       "code": "https://github.com/padrino/padrino-framework"
     },
-    "release": "0.14.1",
-    "mtime": 1509291624,
-    "db_size": 868484
+    "release": "0.15",
+    "mtime": 1607536628,
+    "db_size": 883213
+  },
+  {
+    "name": "pandas",
+    "slug": "pandas~1",
+    "type": "sphinx",
+    "links": {
+      "home": "https://pandas.pydata.org/",
+      "code": "https://github.com/pydata/pandas"
+    },
+    "version": "1",
+    "release": "1.4.0",
+    "mtime": 1642867711,
+    "db_size": 14747848
+  },
+  {
+    "name": "pandas",
+    "slug": "pandas~0.25",
+    "type": "sphinx",
+    "links": {
+      "home": "http://pandas.pydata.org/",
+      "code": "https://github.com/pydata/pandas"
+    },
+    "version": "0.25",
+    "release": "0.25.0",
+    "mtime": 1565040763,
+    "db_size": 7436542
+  },
+  {
+    "name": "pandas",
+    "slug": "pandas~0.24",
+    "type": "sphinx",
+    "links": {
+      "home": "http://pandas.pydata.org/",
+      "code": "https://github.com/pydata/pandas"
+    },
+    "version": "0.24",
+    "release": "0.24.2",
+    "mtime": 1565040693,
+    "db_size": 8062696
   },
   {
     "name": "pandas",
@@ -2616,8 +4887,8 @@
     },
     "version": "0.23",
     "release": "0.23.4",
-    "mtime": 1541373922,
-    "db_size": 5528003
+    "mtime": 1565037562,
+    "db_size": 5530997
   },
   {
     "name": "pandas",
@@ -2629,8 +4900,8 @@
     },
     "version": "0.22",
     "release": "0.22.0",
-    "mtime": 1515368658,
-    "db_size": 4723621
+    "mtime": 1565037476,
+    "db_size": 4727191
   },
   {
     "name": "pandas",
@@ -2641,9 +4912,9 @@
       "code": "https://github.com/pydata/pandas"
     },
     "version": "0.21",
-    "release": "0.21.0",
-    "mtime": 1509302634,
-    "db_size": 4704212
+    "release": "0.21.1",
+    "mtime": 1565037237,
+    "db_size": 4718570
   },
   {
     "name": "pandas",
@@ -2655,8 +4926,8 @@
     },
     "version": "0.20",
     "release": "0.20.3",
-    "mtime": 1509302472,
-    "db_size": 4289994
+    "mtime": 1565036225,
+    "db_size": 4296030
   },
   {
     "name": "pandas",
@@ -2668,8 +4939,8 @@
     },
     "version": "0.19",
     "release": "0.19.2",
-    "mtime": 1498402457,
-    "db_size": 5574756
+    "mtime": 1565036094,
+    "db_size": 7664016
   },
   {
     "name": "pandas",
@@ -2681,8 +4952,68 @@
     },
     "version": "0.18",
     "release": "0.18.1",
-    "mtime": 1476112392,
-    "db_size": 5310831
+    "mtime": 1565035864,
+    "db_size": 7469373
+  },
+  {
+    "name": "Perl",
+    "slug": "perl~5.36",
+    "type": "perl",
+    "links": {
+      "home": "https://www.perl.org/"
+    },
+    "version": "5.36",
+    "release": "5.36.0",
+    "mtime": 1654205685,
+    "db_size": 14815065
+  },
+  {
+    "name": "Perl",
+    "slug": "perl~5.34",
+    "type": "perl",
+    "links": {
+      "home": "https://www.perl.org/"
+    },
+    "version": "5.34",
+    "release": "5.34.0",
+    "mtime": 1635176783,
+    "db_size": 13721787
+  },
+  {
+    "name": "Perl",
+    "slug": "perl~5.32",
+    "type": "perl",
+    "links": {
+      "home": "https://www.perl.org/"
+    },
+    "version": "5.32",
+    "release": "5.32.0",
+    "mtime": 1607063720,
+    "db_size": 14137766
+  },
+  {
+    "name": "Perl",
+    "slug": "perl~5.30",
+    "type": "perl",
+    "links": {
+      "home": "https://www.perl.org/"
+    },
+    "version": "5.30",
+    "release": "5.30.3",
+    "mtime": 1607063504,
+    "db_size": 14032638
+  },
+  {
+    "name": "Perl",
+    "slug": "perl~5.28",
+    "type": "perl",
+    "links": {
+      "home": "https://www.perl.org/"
+    },
+    "version": "5.28",
+    "release": "5.28.3",
+    "mtime": 1607063348,
+    "db_size": 15373940
   },
   {
     "name": "Perl",
@@ -2778,21 +5109,47 @@
       "home": "http://www.phoenixframework.org",
       "code": "https://github.com/phoenixframework/phoenix"
     },
-    "release": "1.3.4",
-    "mtime": 1541373845,
-    "db_size": 1583392
+    "release": "1.6.11",
+    "mtime": 1657913592,
+    "db_size": 3215956
   },
   {
     "name": "PHP",
     "slug": "php",
     "type": "php",
     "links": {
-      "home": "https://secure.php.net/",
+      "home": "https://www.php.net/",
       "code": "https://git.php.net/?p=php-src.git;a=summary"
     },
-    "release": "7.2.9",
-    "mtime": 1534715914,
-    "db_size": 24177350
+    "release": "8.1.5",
+    "mtime": 1650899439,
+    "db_size": 25993841
+  },
+  {
+    "name": "PHPUnit",
+    "slug": "phpunit~9",
+    "type": "phpunit",
+    "links": {
+      "home": "https://phpunit.de/",
+      "code": "https://github.com/sebastianbergmann/phpunit"
+    },
+    "version": "9",
+    "release": "9.5",
+    "mtime": 1611080923,
+    "db_size": 683587
+  },
+  {
+    "name": "PHPUnit",
+    "slug": "phpunit~8",
+    "type": "phpunit",
+    "links": {
+      "home": "https://phpunit.de/",
+      "code": "https://github.com/sebastianbergmann/phpunit"
+    },
+    "version": "8",
+    "release": "8.5",
+    "mtime": 1611080907,
+    "db_size": 695835
   },
   {
     "name": "PHPUnit",
@@ -2834,6 +5191,82 @@
     "db_size": 413036
   },
   {
+    "name": "PointCloudLibrary",
+    "slug": "point_cloud_library",
+    "type": "point_cloud_library",
+    "links": {
+      "home": "https://pointclouds.org/",
+      "code": "https://github.com/PointCloudLibrary/pcl"
+    },
+    "release": "1.12.1",
+    "mtime": 1640805909,
+    "db_size": 53052625
+  },
+  {
+    "name": "Pony",
+    "slug": "pony",
+    "type": "simple",
+    "links": {
+      "home": "https://www.ponylang.io/",
+      "code": "https://github.com/ponylang/ponyc"
+    },
+    "release": "0.38.1",
+    "mtime": 1607341629,
+    "db_size": 2463235
+  },
+  {
+    "name": "PostgreSQL",
+    "slug": "postgresql~14",
+    "type": "postgres",
+    "links": {
+      "home": "https://www.postgresql.org/",
+      "code": "https://git.postgresql.org/gitweb/?p=postgresql.git"
+    },
+    "version": "14",
+    "release": "14.3",
+    "mtime": 1652514181,
+    "db_size": 8078845
+  },
+  {
+    "name": "PostgreSQL",
+    "slug": "postgresql~13",
+    "type": "postgres",
+    "links": {
+      "home": "https://www.postgresql.org/",
+      "code": "https://git.postgresql.org/gitweb/?p=postgresql.git"
+    },
+    "version": "13",
+    "release": "13.4",
+    "mtime": 1634913481,
+    "db_size": 7778521
+  },
+  {
+    "name": "PostgreSQL",
+    "slug": "postgresql~12",
+    "type": "postgres",
+    "links": {
+      "home": "https://www.postgresql.org/",
+      "code": "https://git.postgresql.org/gitweb/?p=postgresql.git"
+    },
+    "version": "12",
+    "release": "12.1",
+    "mtime": 1579105653,
+    "db_size": 7016283
+  },
+  {
+    "name": "PostgreSQL",
+    "slug": "postgresql~11",
+    "type": "postgres",
+    "links": {
+      "home": "https://www.postgresql.org/",
+      "code": "https://git.postgresql.org/gitweb/?p=postgresql.git"
+    },
+    "version": "11",
+    "release": "11.6",
+    "mtime": 1578773415,
+    "db_size": 6781396
+  },
+  {
     "name": "PostgreSQL",
     "slug": "postgresql~10",
     "type": "postgres",
@@ -2842,9 +5275,9 @@
       "code": "https://git.postgresql.org/gitweb/?p=postgresql.git"
     },
     "version": "10",
-    "release": "10.3",
-    "mtime": 1524925881,
-    "db_size": 6483378
+    "release": "10.11",
+    "mtime": 1579100778,
+    "db_size": 6524871
   },
   {
     "name": "PostgreSQL",
@@ -2855,9 +5288,9 @@
       "code": "https://git.postgresql.org/gitweb/?p=postgresql.git"
     },
     "version": "9.6",
-    "release": "9.6.6",
-    "mtime": 1510331640,
-    "db_size": 5816975
+    "release": "9.6.16",
+    "mtime": 1579100900,
+    "db_size": 5824588
   },
   {
     "name": "PostgreSQL",
@@ -2868,9 +5301,9 @@
       "code": "https://git.postgresql.org/gitweb/?p=postgresql.git"
     },
     "version": "9.5",
-    "release": "9.5.10",
-    "mtime": 1510331714,
-    "db_size": 5569465
+    "release": "9.5.20",
+    "mtime": 1579101914,
+    "db_size": 5575494
   },
   {
     "name": "PostgreSQL",
@@ -2881,9 +5314,21 @@
       "code": "https://git.postgresql.org/gitweb/?p=postgresql.git"
     },
     "version": "9.4",
-    "release": "9.4.15",
-    "mtime": 1510331828,
-    "db_size": 5212360
+    "release": "9.4.25",
+    "mtime": 1579102090,
+    "db_size": 5227076
+  },
+  {
+    "name": "Prettier",
+    "slug": "prettier",
+    "type": "simple",
+    "links": {
+      "home": "https://prettier.io/",
+      "code": "https://github.com/prettier/prettier"
+    },
+    "release": "2.6.0",
+    "mtime": 1647445582,
+    "db_size": 513540
   },
   {
     "name": "Pug",
@@ -2893,32 +5338,71 @@
       "home": "https://pugjs.org/",
       "code": "https://github.com/pugjs/pug"
     },
-    "release": "2.0.3",
-    "mtime": 1521915454,
-    "db_size": 78298
+    "release": "3.0.0",
+    "mtime": 1605298885,
+    "db_size": 81617
   },
   {
     "name": "Puppeteer",
     "slug": "puppeteer",
     "type": "github",
     "links": {
-      "code": "https://github.com/GoogleChrome/puppeteer"
+      "code": "https://github.com/puppeteer/puppeteer/"
     },
-    "release": "1.10.0",
-    "mtime": 1541369917,
-    "db_size": 318656
+    "release": "7.1.0",
+    "mtime": 1613603168,
+    "db_size": 406782
   },
   {
     "name": "Pygame",
     "slug": "pygame",
-    "type": "simple",
+    "type": "pygame",
     "links": {
       "home": "https://www.pygame.org/",
       "code": "https://github.com/pygame/pygame"
     },
-    "release": "1.9.4",
-    "mtime": 1532898876,
-    "db_size": 639168
+    "release": "2.0.0",
+    "mtime": 1607536210,
+    "db_size": 958095
+  },
+  {
+    "name": "Python",
+    "slug": "python~3.10",
+    "type": "python",
+    "links": {
+      "home": "https://www.python.org/",
+      "code": "https://github.com/python/cpython"
+    },
+    "version": "3.10",
+    "release": "3.10.4",
+    "mtime": 1649093571,
+    "db_size": 12004003
+  },
+  {
+    "name": "Python",
+    "slug": "python~3.9",
+    "type": "python",
+    "links": {
+      "home": "https://www.python.org/",
+      "code": "https://github.com/python/cpython"
+    },
+    "version": "3.9",
+    "release": "3.9.4",
+    "mtime": 1619733948,
+    "db_size": 9258427
+  },
+  {
+    "name": "Python",
+    "slug": "python~3.8",
+    "type": "python",
+    "links": {
+      "home": "https://www.python.org/",
+      "code": "https://github.com/python/cpython"
+    },
+    "version": "3.8",
+    "release": "3.8.6",
+    "mtime": 1605223028,
+    "db_size": 8956974
   },
   {
     "name": "Python",
@@ -2929,9 +5413,9 @@
       "code": "https://github.com/python/cpython"
     },
     "version": "3.7",
-    "release": "3.7.0",
-    "mtime": 1538925436,
-    "db_size": 8389930
+    "release": "3.7.9",
+    "mtime": 1605223193,
+    "db_size": 8547840
   },
   {
     "name": "Python",
@@ -2942,35 +5426,48 @@
       "code": "https://github.com/python/cpython"
     },
     "version": "3.6",
-    "release": "3.6.4",
-    "mtime": 1531081883,
-    "db_size": 8040080
+    "release": "3.6.12",
+    "mtime": 1605223247,
+    "db_size": 8156588
   },
   {
     "name": "Python",
     "slug": "python~3.5",
-    "type": "sphinx",
+    "type": "python",
     "links": {
       "home": "https://www.python.org/",
       "code": "https://github.com/python/cpython"
     },
     "version": "3.5",
-    "release": "3.5.3",
-    "mtime": 1490460934,
-    "db_size": 7678626
+    "release": "3.5.9",
+    "mtime": 1578589263,
+    "db_size": 7721568
   },
   {
     "name": "Python",
     "slug": "python~2.7",
-    "type": "sphinx",
+    "type": "python",
     "links": {
       "home": "https://www.python.org/",
       "code": "https://github.com/python/cpython"
     },
     "version": "2.7",
-    "release": "2.7.13",
-    "mtime": 1490461005,
-    "db_size": 6466541
+    "release": "2.7.17",
+    "mtime": 1578589341,
+    "db_size": 6488045
+  },
+  {
+    "name": "PyTorch",
+    "slug": "pytorch",
+    "type": "sphinx",
+    "links": {
+      "home": "https://pytorch.org/",
+      "code": "https://github.com/pytorch/pytorch"
+    },
+    "version": "",
+    "release": "1.8.0",
+    "mtime": 1614929491,
+    "db_size": 5299983
   },
   {
     "name": "Q",
@@ -2986,6 +5483,97 @@
   },
   {
     "name": "Qt",
+    "slug": "qt",
+    "type": "qt",
+    "links": {
+      "home": "https://www.qt.io",
+      "code": "https://code.qt.io/cgit/"
+    },
+    "version": "",
+    "release": "6.2",
+    "mtime": 1641879449,
+    "db_size": 76573854
+  },
+  {
+    "name": "Qt",
+    "slug": "qt~6.1",
+    "type": "qt",
+    "links": {
+      "home": "https://www.qt.io",
+      "code": "https://code.qt.io/cgit/"
+    },
+    "version": "6.1",
+    "release": "6.1",
+    "mtime": 1620902067,
+    "db_size": 68561049
+  },
+  {
+    "name": "Qt",
+    "slug": "qt~6.0",
+    "type": "qt",
+    "links": {
+      "home": "https://www.qt.io",
+      "code": "https://code.qt.io/cgit/"
+    },
+    "version": "6.0",
+    "release": "6.0",
+    "mtime": 1608723876,
+    "db_size": 51623622
+  },
+  {
+    "name": "Qt",
+    "slug": "qt~5.15",
+    "type": "qt",
+    "links": {
+      "home": "https://www.qt.io",
+      "code": "https://code.qt.io/cgit/"
+    },
+    "version": "5.15",
+    "release": "5.15",
+    "mtime": 1605815797,
+    "db_size": 83324752
+  },
+  {
+    "name": "Qt",
+    "slug": "qt~5.14",
+    "type": "qt",
+    "links": {
+      "home": "https://www.qt.io",
+      "code": "https://code.qt.io/cgit/"
+    },
+    "version": "5.14",
+    "release": "5.14",
+    "mtime": 1605816922,
+    "db_size": 80528067
+  },
+  {
+    "name": "Qt",
+    "slug": "qt~5.13",
+    "type": "qt",
+    "links": {
+      "home": "https://www.qt.io",
+      "code": "https://code.qt.io/cgit/"
+    },
+    "version": "5.13",
+    "release": "5.13",
+    "mtime": 1564995096,
+    "db_size": 77784680
+  },
+  {
+    "name": "Qt",
+    "slug": "qt~5.12",
+    "type": "qt",
+    "links": {
+      "home": "https://www.qt.io",
+      "code": "https://code.qt.io/cgit/"
+    },
+    "version": "5.12",
+    "release": "5.12",
+    "mtime": 1564995520,
+    "db_size": 80338638
+  },
+  {
+    "name": "Qt",
     "slug": "qt~5.11",
     "type": "qt",
     "links": {
@@ -2994,8 +5582,8 @@
     },
     "version": "5.11",
     "release": "5.11",
-    "mtime": 1534110745,
-    "db_size": 78116282
+    "mtime": 1564995953,
+    "db_size": 78478531
   },
   {
     "name": "Qt",
@@ -3020,8 +5608,20 @@
     },
     "version": "5.6",
     "release": "5.6",
-    "mtime": 1534112349,
-    "db_size": 65762439
+    "mtime": 1564996312,
+    "db_size": 65841485
+  },
+  {
+    "name": "R",
+    "slug": "r",
+    "type": "simple",
+    "links": {
+      "home": "https://www.r-project.org/",
+      "code": "https://svn.r-project.org/R/"
+    },
+    "release": "4.1.0",
+    "mtime": 1623215558,
+    "db_size": 11341782
   },
   {
     "name": "Ramda",
@@ -3031,9 +5631,9 @@
       "home": "http://ramdajs.com/",
       "code": "https://github.com/ramda/ramda/"
     },
-    "release": "0.25.0",
-    "mtime": 1509302864,
-    "db_size": 271964
+    "release": "0.27.0",
+    "mtime": 1609661332,
+    "db_size": 288880
   },
   {
     "name": "React",
@@ -3043,21 +5643,55 @@
       "home": "https://reactjs.org/",
       "code": "https://github.com/facebook/react"
     },
-    "release": "16.6.0",
-    "mtime": 1541374288,
-    "db_size": 1236057
+    "release": "18.1.0",
+    "mtime": 1652514854,
+    "db_size": 1375964
   },
   {
-    "name": "ReactNative",
+    "name": "React Bootstrap",
+    "slug": "react_bootstrap",
+    "type": "simple",
+    "links": {
+      "home": "https://react-bootstrap.github.io",
+      "code": "https://github.com/react-bootstrap/react-bootstrap"
+    },
+    "release": "1.5.0",
+    "mtime": 1614324411,
+    "db_size": 607965
+  },
+  {
+    "name": "React Native",
     "slug": "react_native",
     "type": "react_native",
     "links": {
-      "home": "https://facebook.github.io/react-native/",
+      "home": "https://reactnative.dev/",
       "code": "https://github.com/facebook/react-native"
     },
-    "release": "0.56",
-    "mtime": 1531082387,
-    "db_size": 3711481
+    "release": "0.66",
+    "mtime": 1642020878,
+    "db_size": 4096624
+  },
+  {
+    "name": "React Router",
+    "slug": "react_router",
+    "type": "simple",
+    "links": {
+      "home": "https://reactrouterdotcom.fly.dev/",
+      "code": "https://github.com/remix-run/react-router"
+    },
+    "release": "6.3.0",
+    "mtime": 1650477839,
+    "db_size": 63219
+  },
+  {
+    "name": "ReactiveX",
+    "slug": "reactivex",
+    "type": "reactivex",
+    "links": {
+      "home": "http://reactivex.io/"
+    },
+    "mtime": 1571593308,
+    "db_size": 1167911
   },
   {
     "name": "Redis",
@@ -3065,11 +5699,11 @@
     "type": "redis",
     "links": {
       "home": "https://redis.io/",
-      "code": "https://github.com/antirez/redis"
+      "code": "https://github.com/redis/redis"
     },
-    "release": "5.0.0",
-    "mtime": 1541374489,
-    "db_size": 734979
+    "release": "6.2.1",
+    "mtime": 1614929920,
+    "db_size": 949366
   },
   {
     "name": "Redux",
@@ -3077,23 +5711,64 @@
     "type": "simple",
     "links": {
       "home": "http://redux.js.org/",
+      "code": "https://github.com/reduxjs/redux/"
+    },
+    "version": "",
+    "release": "4.1.2",
+    "mtime": 1638665023,
+    "db_size": 46393
+  },
+  {
+    "name": "Redux",
+    "slug": "redux~3",
+    "type": "simple",
+    "links": {
+      "home": "http://redux.js.org/",
       "code": "https://github.com/reactjs/redux/"
     },
+    "version": "3",
     "release": "3.7.2",
     "mtime": 1503762495,
     "db_size": 841649
   },
   {
     "name": "Relay",
-    "slug": "relay",
+    "slug": "relay~10",
     "type": "simple",
     "links": {
-      "home": "https://facebook.github.io/relay/",
+      "home": "https://relay.dev/",
       "code": "https://github.com/facebook/relay"
     },
-    "release": "1.4.1",
-    "mtime": 1507560082,
-    "db_size": 434956
+    "version": "10",
+    "release": "10.1.0",
+    "mtime": 1607338227,
+    "db_size": 218918
+  },
+  {
+    "name": "Relay",
+    "slug": "relay~9",
+    "type": "simple",
+    "links": {
+      "home": "https://relay.dev/",
+      "code": "https://github.com/facebook/relay"
+    },
+    "version": "9",
+    "release": "9.1.0",
+    "mtime": 1607338221,
+    "db_size": 217190
+  },
+  {
+    "name": "Relay",
+    "slug": "relay~8",
+    "type": "simple",
+    "links": {
+      "home": "https://relay.dev/",
+      "code": "https://github.com/facebook/relay"
+    },
+    "version": "8",
+    "release": "8.0.0",
+    "mtime": 1607338213,
+    "db_size": 216931
   },
   {
     "name": "RequireJS",
@@ -3115,10 +5790,10 @@
       "home": "https://rethinkdb.com/",
       "code": "https://github.com/rethinkdb/rethinkdb"
     },
-    "version": "JavaScript",
-    "release": "2.3.5",
-    "mtime": 1472417557,
-    "db_size": 1361322
+    "version": "javascript",
+    "release": "2.4.1",
+    "mtime": 1608313569,
+    "db_size": 2641686
   },
   {
     "name": "RethinkDB",
@@ -3128,10 +5803,10 @@
       "home": "https://rethinkdb.com/",
       "code": "https://github.com/rethinkdb/rethinkdb"
     },
-    "version": "Ruby",
-    "release": "2.3.5",
-    "mtime": 1472417579,
-    "db_size": 1320925
+    "version": "ruby",
+    "release": "2.4.1",
+    "mtime": 1608313604,
+    "db_size": 2595645
   },
   {
     "name": "RethinkDB",
@@ -3141,10 +5816,10 @@
       "home": "https://rethinkdb.com/",
       "code": "https://github.com/rethinkdb/rethinkdb"
     },
-    "version": "Python",
-    "release": "2.3.5",
-    "mtime": 1472417602,
-    "db_size": 1326675
+    "version": "python",
+    "release": "2.4.1",
+    "mtime": 1608313625,
+    "db_size": 2602836
   },
   {
     "name": "RethinkDB",
@@ -3154,10 +5829,62 @@
       "home": "https://rethinkdb.com/",
       "code": "https://github.com/rethinkdb/rethinkdb"
     },
-    "version": "Java",
-    "release": "2.3.5",
-    "mtime": 1472417625,
-    "db_size": 1320429
+    "version": "java",
+    "release": "2.4.1",
+    "mtime": 1608313647,
+    "db_size": 2655918
+  },
+  {
+    "name": "Ruby",
+    "slug": "ruby~3.1",
+    "type": "rdoc",
+    "links": {
+      "home": "https://www.ruby-lang.org/",
+      "code": "https://github.com/ruby/ruby"
+    },
+    "version": "3.1",
+    "release": "3.1.1",
+    "mtime": 1651695522,
+    "db_size": 9160982
+  },
+  {
+    "name": "Ruby",
+    "slug": "ruby~3",
+    "type": "rdoc",
+    "links": {
+      "home": "https://www.ruby-lang.org/",
+      "code": "https://github.com/ruby/ruby"
+    },
+    "version": "3",
+    "release": "3.0.0",
+    "mtime": 1609538948,
+    "db_size": 8832005
+  },
+  {
+    "name": "Ruby",
+    "slug": "ruby~2.7",
+    "type": "rdoc",
+    "links": {
+      "home": "https://www.ruby-lang.org/",
+      "code": "https://github.com/ruby/ruby"
+    },
+    "version": "2.7",
+    "release": "2.7.2",
+    "mtime": 1605253532,
+    "db_size": 10516199
+  },
+  {
+    "name": "Ruby",
+    "slug": "ruby~2.6",
+    "type": "rdoc",
+    "links": {
+      "home": "https://www.ruby-lang.org/",
+      "code": "https://github.com/ruby/ruby"
+    },
+    "version": "2.6",
+    "release": "2.6.3",
+    "mtime": 1566309056,
+    "db_size": 10200734
   },
   {
     "name": "Ruby",
@@ -3168,9 +5895,9 @@
       "code": "https://github.com/ruby/ruby"
     },
     "version": "2.5",
-    "release": "2.5.0",
-    "mtime": 1515953941,
-    "db_size": 7872220
+    "release": "2.5.3",
+    "mtime": 1545081553,
+    "db_size": 7887594
   },
   {
     "name": "Ruby",
@@ -3181,9 +5908,9 @@
       "code": "https://github.com/ruby/ruby"
     },
     "version": "2.4",
-    "release": "2.4.3",
-    "mtime": 1515953784,
-    "db_size": 7680468
+    "release": "2.4.5",
+    "mtime": 1545082864,
+    "db_size": 7697010
   },
   {
     "name": "Ruby",
@@ -3194,9 +5921,9 @@
       "code": "https://github.com/ruby/ruby"
     },
     "version": "2.3",
-    "release": "2.3.6",
-    "mtime": 1515953288,
-    "db_size": 7522249
+    "release": "2.3.8",
+    "mtime": 1545082731,
+    "db_size": 7535569
   },
   {
     "name": "Ruby",
@@ -3207,9 +5934,9 @@
       "code": "https://github.com/ruby/ruby"
     },
     "version": "2.2",
-    "release": "2.2.9",
-    "mtime": 1515953093,
-    "db_size": 7527824
+    "release": "2.2.10",
+    "mtime": 1545082614,
+    "db_size": 7538440
   },
   {
     "name": "Ruby / Minitest",
@@ -3218,9 +5945,48 @@
     "links": {
       "code": "https://github.com/seattlerb/minitest"
     },
-    "release": "5.10.3",
-    "mtime": 1507477106,
-    "db_size": 194631
+    "release": "5.11.3",
+    "mtime": 1545081916,
+    "db_size": 200656
+  },
+  {
+    "name": "Ruby on Rails",
+    "slug": "rails~7.0",
+    "type": "rdoc",
+    "links": {
+      "home": "https://rubyonrails.org/",
+      "code": "https://github.com/rails/rails"
+    },
+    "version": "7.0",
+    "release": "7.0.0",
+    "mtime": 1641683048,
+    "db_size": 8679089
+  },
+  {
+    "name": "Ruby on Rails",
+    "slug": "rails~6.1",
+    "type": "rdoc",
+    "links": {
+      "home": "http://rubyonrails.org/",
+      "code": "https://github.com/rails/rails"
+    },
+    "version": "6.1",
+    "release": "6.1.1",
+    "mtime": 1611082577,
+    "db_size": 8511715
+  },
+  {
+    "name": "Ruby on Rails",
+    "slug": "rails~6.0",
+    "type": "rdoc",
+    "links": {
+      "home": "http://rubyonrails.org/",
+      "code": "https://github.com/rails/rails"
+    },
+    "version": "6.0",
+    "release": "6.0.0",
+    "mtime": 1572048847,
+    "db_size": 7154859
   },
   {
     "name": "Ruby on Rails",
@@ -3231,9 +5997,9 @@
       "code": "https://github.com/rails/rails"
     },
     "version": "5.2",
-    "release": "5.2.0",
-    "mtime": 1524927355,
-    "db_size": 6670803
+    "release": "5.2.2",
+    "mtime": 1545084238,
+    "db_size": 6703783
   },
   {
     "name": "Ruby on Rails",
@@ -3245,8 +6011,8 @@
     },
     "version": "5.1",
     "release": "5.1.6",
-    "mtime": 1524927281,
-    "db_size": 6229701
+    "mtime": 1545084681,
+    "db_size": 6230373
   },
   {
     "name": "Ruby on Rails",
@@ -3258,8 +6024,8 @@
     },
     "version": "5.0",
     "release": "5.0.7",
-    "mtime": 1524927215,
-    "db_size": 6152345
+    "mtime": 1545084761,
+    "db_size": 6147681
   },
   {
     "name": "Ruby on Rails",
@@ -3270,9 +6036,9 @@
       "code": "https://github.com/rails/rails"
     },
     "version": "4.2",
-    "release": "4.2.10",
-    "mtime": 1507476395,
-    "db_size": 5525311
+    "release": "4.2.11",
+    "mtime": 1545084814,
+    "db_size": 5530698
   },
   {
     "name": "Ruby on Rails",
@@ -3295,9 +6061,33 @@
       "home": "https://www.rust-lang.org/",
       "code": "https://github.com/rust-lang/rust"
     },
-    "release": "1.30.1",
-    "mtime": 1542558758,
-    "db_size": 59706787
+    "release": "1.62.0",
+    "mtime": 1656968060,
+    "db_size": 58935297
+  },
+  {
+    "name": "RxJS",
+    "slug": "rxjs",
+    "type": "rxjs",
+    "links": {
+      "home": "https://rxjs.dev/",
+      "code": "https://github.com/ReactiveX/rxjs"
+    },
+    "release": "7.5.5",
+    "mtime": 1651696662,
+    "db_size": 4251258
+  },
+  {
+    "name": "SaltStack",
+    "slug": "saltstack",
+    "type": "simple",
+    "links": {
+      "home": "https://www.saltproject.io/",
+      "code": "https://github.com/saltstack/salt"
+    },
+    "release": "3003",
+    "mtime": 1619732892,
+    "db_size": 11983829
   },
   {
     "name": "Sass",
@@ -3307,33 +6097,189 @@
       "home": "http://sass-lang.com/",
       "code": "https://github.com/sass/sass"
     },
-    "release": "3.5.3",
-    "mtime": 1509303125,
-    "db_size": 205046
+    "release": "3.6.4",
+    "mtime": 1607974894,
+    "db_size": 1460942
+  },
+  {
+    "name": "Scala",
+    "slug": "scala~3.1",
+    "type": "scala",
+    "links": {
+      "home": "https://www.scala-lang.org/",
+      "code": "https://github.com/scala/scala"
+    },
+    "version": "3.1",
+    "release": "3.1.1",
+    "mtime": 1645481773,
+    "db_size": 53183125
+  },
+  {
+    "name": "Scala",
+    "slug": "scala~2.13_library",
+    "type": "scala",
+    "links": {
+      "home": "http://www.scala-lang.org/",
+      "code": "https://github.com/scala/scala"
+    },
+    "version": "2.13 Library",
+    "release": "2.13.0",
+    "mtime": 1565550548,
+    "db_size": 129662003
+  },
+  {
+    "name": "Scala",
+    "slug": "scala~2.13_reflection",
+    "type": "scala",
+    "links": {
+      "home": "http://www.scala-lang.org/",
+      "code": "https://github.com/scala/scala"
+    },
+    "version": "2.13 Reflection",
+    "release": "2.13.0",
+    "mtime": 1565551408,
+    "db_size": 19046212
+  },
+  {
+    "name": "Scala",
+    "slug": "scala~2.12_library",
+    "type": "scala",
+    "links": {
+      "home": "http://www.scala-lang.org/",
+      "code": "https://github.com/scala/scala"
+    },
+    "version": "2.12 Library",
+    "release": "2.12.9",
+    "mtime": 1565551292,
+    "db_size": 150941113
+  },
+  {
+    "name": "Scala",
+    "slug": "scala~2.12_reflection",
+    "type": "scala",
+    "links": {
+      "home": "http://www.scala-lang.org/",
+      "code": "https://github.com/scala/scala"
+    },
+    "version": "2.12 Reflection",
+    "release": "2.12.9",
+    "mtime": 1565551511,
+    "db_size": 18174235
   },
   {
     "name": "scikit-image",
     "slug": "scikit_image",
     "type": "sphinx",
     "links": {
-      "home": "http://scikit-image.org/",
+      "home": "https://scikit-image.org/",
       "code": "https://github.com/scikit-image/scikit-image"
     },
-    "release": "0.14.1",
-    "mtime": 1541374552,
-    "db_size": 1757620
+    "release": "0.18.1",
+    "mtime": 1615625016,
+    "db_size": 5077141
   },
   {
     "name": "scikit-learn",
     "slug": "scikit_learn",
     "type": "sphinx",
     "links": {
-      "home": "http://scikit-learn.org/",
+      "home": "https://scikit-learn.org/",
       "code": "https://github.com/scikit-learn/scikit-learn"
     },
-    "release": "0.20.0",
-    "mtime": 1541374801,
-    "db_size": 50039186
+    "release": "0.24.1",
+    "mtime": 1615625522,
+    "db_size": 64833719
+  },
+  {
+    "name": "Sequelize",
+    "slug": "sequelize~6",
+    "type": "simple",
+    "links": {
+      "home": "https://sequelize.org/",
+      "code": "https://github.com/sequelize/sequelize"
+    },
+    "version": "6",
+    "release": "6.5.0",
+    "mtime": 1614804244,
+    "db_size": 1560088
+  },
+  {
+    "name": "Sequelize",
+    "slug": "sequelize~5",
+    "type": "simple",
+    "links": {
+      "home": "https://sequelize.org/",
+      "code": "https://github.com/sequelize/sequelize"
+    },
+    "version": "5",
+    "release": "5.22.0",
+    "mtime": 1609093886,
+    "db_size": 1328438
+  },
+  {
+    "name": "Sequelize",
+    "slug": "sequelize~4",
+    "type": "simple",
+    "links": {
+      "home": "https://sequelize.org/",
+      "code": "https://github.com/sequelize/sequelize"
+    },
+    "version": "4",
+    "release": "4.44.4",
+    "mtime": 1609093896,
+    "db_size": 1546768
+  },
+  {
+    "name": "Sinon.JS",
+    "slug": "sinon~11",
+    "type": "sinon",
+    "links": {
+      "home": "https://sinonjs.org/",
+      "code": "https://github.com/sinonjs/sinon"
+    },
+    "version": "11",
+    "release": "11.1.2",
+    "mtime": 1632197055,
+    "db_size": 119760
+  },
+  {
+    "name": "Sinon.JS",
+    "slug": "sinon~10",
+    "type": "sinon",
+    "links": {
+      "home": "https://sinonjs.org/",
+      "code": "https://github.com/sinonjs/sinon"
+    },
+    "version": "10",
+    "release": "10.0.1",
+    "mtime": 1619733139,
+    "db_size": 120101
+  },
+  {
+    "name": "Sinon.JS",
+    "slug": "sinon~9",
+    "type": "sinon",
+    "links": {
+      "home": "https://sinonjs.org/",
+      "code": "https://github.com/sinonjs/sinon"
+    },
+    "version": "9",
+    "release": "9.2.2",
+    "mtime": 1608725356,
+    "db_size": 119250
+  },
+  {
+    "name": "Sinon.JS",
+    "slug": "sinon~8",
+    "type": "sinon",
+    "links": {
+      "home": "https://sinonjs.org/",
+      "code": "https://github.com/sinonjs/sinon"
+    },
+    "version": "8",
+    "release": "8.1.1",
+    "mtime": 1608725353,
+    "db_size": 122546
   },
   {
     "name": "Sinon.JS",
@@ -3344,9 +6290,9 @@
       "code": "https://github.com/sinonjs/sinon"
     },
     "version": "7",
-    "release": "7.1.1",
-    "mtime": 1541374702,
-    "db_size": 120340
+    "release": "7.5.0",
+    "mtime": 1608725350,
+    "db_size": 120246
   },
   {
     "name": "Sinon.JS",
@@ -3428,15 +6374,54 @@
   },
   {
     "name": "Socket.IO",
-    "slug": "socketio",
+    "slug": "socketio~4",
     "type": "socketio",
     "links": {
       "home": "http://socket.io/",
       "code": "https://github.com/socketio/socket.io"
     },
-    "release": "1.4.5",
-    "mtime": 1461429367,
-    "db_size": 44110
+    "version": "4",
+    "release": "4.1.2",
+    "mtime": 1625391249,
+    "db_size": 1279619
+  },
+  {
+    "name": "Socket.IO",
+    "slug": "socketio~3",
+    "type": "socketio",
+    "links": {
+      "home": "http://socket.io/",
+      "code": "https://github.com/socketio/socket.io"
+    },
+    "version": "3",
+    "release": "3.0.5",
+    "mtime": 1615491131,
+    "db_size": 901094
+  },
+  {
+    "name": "Socket.IO",
+    "slug": "socketio~2",
+    "type": "socketio",
+    "links": {
+      "home": "http://socket.io/",
+      "code": "https://github.com/socketio/socket.io"
+    },
+    "version": "2",
+    "release": "2.4.0",
+    "mtime": 1611080946,
+    "db_size": 596167
+  },
+  {
+    "name": "Spring Boot",
+    "slug": "spring_boot",
+    "type": "simple",
+    "links": {
+      "home": "https://spring.io/",
+      "code": "https://github.com/spring-projects/spring-boot"
+    },
+    "release": "2.7.0",
+    "mtime": 1653506949,
+    "db_size": 3208503
   },
   {
     "name": "SQLite",
@@ -3446,9 +6431,9 @@
       "home": "https://sqlite.org/",
       "code": "https://www.sqlite.org/src/"
     },
-    "release": "3.25.2",
-    "mtime": 1541340599,
-    "db_size": 14276768
+    "release": "3.38.0",
+    "mtime": 1645644870,
+    "db_size": 13457503
   },
   {
     "name": "Statsmodels",
@@ -3466,15 +6451,16 @@
     "name": "Support Tables",
     "slug": "browser_support_tables",
     "type": "support_tables",
-    "mtime": 1543167642,
-    "db_size": 29956945
+    "release": "1.0.30001327",
+    "mtime": 1649699348,
+    "db_size": 51347808
   },
   {
     "name": "SVG",
     "slug": "svg",
     "type": "mdn",
-    "mtime": 1543099938,
-    "db_size": 2411023
+    "mtime": 1650478261,
+    "db_size": 6467852
   },
   {
     "name": "Symfony",
@@ -3594,6 +6580,18 @@
     "db_size": 12438508
   },
   {
+    "name": "Tailwind CSS",
+    "slug": "tailwindcss",
+    "type": "tailwindcss",
+    "links": {
+      "home": "tps://tailwindcss.com/",
+      "code": "https://github.com/tailwindlabs/tailwindcss"
+    },
+    "release": "3.0.23",
+    "mtime": 1645482292,
+    "db_size": 2184222
+  },
+  {
     "name": "Tcl/Tk",
     "slug": "tcl_tk",
     "type": "tcl_tk",
@@ -3603,42 +6601,91 @@
   },
   {
     "name": "TensorFlow",
-    "slug": "tensorflow~python",
+    "slug": "tensorflow~2.9",
     "type": "tensorflow",
     "links": {
       "home": "https://www.tensorflow.org/",
       "code": "https://github.com/tensorflow/tensorflow"
     },
-    "version": "Python",
-    "release": "1.8",
-    "mtime": 1526243985,
-    "db_size": 16040756
+    "version": "2.9",
+    "release": "2.9.1",
+    "mtime": 1654205885,
+    "db_size": 31393337
   },
   {
     "name": "TensorFlow",
-    "slug": "tensorflow~cpp",
+    "slug": "tensorflow~2.4",
     "type": "tensorflow",
     "links": {
       "home": "https://www.tensorflow.org/",
       "code": "https://github.com/tensorflow/tensorflow"
     },
-    "version": "C++",
-    "release": "1.8",
-    "mtime": 1526244330,
-    "db_size": 4558634
+    "version": "2.4",
+    "release": "2.4.0",
+    "mtime": 1614803766,
+    "db_size": 27846039
   },
   {
     "name": "TensorFlow",
-    "slug": "tensorflow~guide",
+    "slug": "tensorflow~2.3",
     "type": "tensorflow",
     "links": {
       "home": "https://www.tensorflow.org/",
       "code": "https://github.com/tensorflow/tensorflow"
     },
-    "version": "Guide",
-    "release": "1.8",
-    "mtime": 1526244405,
-    "db_size": 10841303
+    "version": "2.3",
+    "release": "2.3.0",
+    "mtime": 1605729186,
+    "db_size": 26649208
+  },
+  {
+    "name": "TensorFlow",
+    "slug": "tensorflow~1.15",
+    "type": "tensorflow",
+    "links": {
+      "home": "https://www.tensorflow.org/",
+      "code": "https://github.com/tensorflow/tensorflow"
+    },
+    "version": "1.15",
+    "release": "1.15.0",
+    "mtime": 1605729778,
+    "db_size": 26874119
+  },
+  {
+    "name": "TensorFlow C++",
+    "slug": "tensorflow_cpp~2.9",
+    "type": "tensorflow",
+    "version": "2.9",
+    "release": "2.9.1",
+    "mtime": 1654205712,
+    "db_size": 6660258
+  },
+  {
+    "name": "TensorFlow C++",
+    "slug": "tensorflow_cpp~2.4",
+    "type": "tensorflow",
+    "version": "2.4",
+    "release": "2.4.0",
+    "mtime": 1614803828,
+    "db_size": 6610343
+  },
+  {
+    "name": "TensorFlow C++",
+    "slug": "tensorflow_cpp~2.3",
+    "type": "tensorflow",
+    "version": "2.3",
+    "release": "2.3.0",
+    "mtime": 1605594982,
+    "db_size": 6675080
+  },
+  {
+    "name": "TensorFlow C++",
+    "slug": "tensorflow_cpp~1.15",
+    "type": "tensorflow",
+    "version": "1.15",
+    "release": "1.15.0",
+    "mtime": 1605595110,
+    "db_size": 6393571
   },
   {
     "name": "Terraform",
@@ -3653,6 +6700,31 @@
     "db_size": 8289722
   },
   {
+    "name": "Trio",
+    "slug": "trio",
+    "type": "simple",
+    "links": {
+      "home": "https://trio.readthedocs.io/",
+      "code": "https://github.com/python-trio/trio"
+    },
+    "release": "0.18.0",
+    "mtime": 1613678814,
+    "db_size": 734820
+  },
+  {
+    "name": "Twig",
+    "slug": "twig~3",
+    "type": "sphinx",
+    "links": {
+      "home": "https://twig.symfony.com/",
+      "code": "https://github.com/twigphp/Twig"
+    },
+    "version": "3",
+    "release": "3.1.1",
+    "mtime": 1607535850,
+    "db_size": 722515
+  },
+  {
     "name": "Twig",
     "slug": "twig~2",
     "type": "sphinx",
@@ -3661,34 +6733,34 @@
       "code": "https://github.com/twigphp/Twig"
     },
     "version": "2",
-    "release": "2.5.0",
-    "mtime": 1541375008,
-    "db_size": 314176
+    "release": "2.14.1",
+    "mtime": 1607535854,
+    "db_size": 749608
   },
   {
     "name": "Twig",
     "slug": "twig~1",
     "type": "sphinx",
     "links": {
-      "home": "https://twig.sensiolabs.org/",
+      "home": "https://twig.symfony.com/",
       "code": "https://github.com/twigphp/Twig"
     },
     "version": "1",
-    "release": "1.34.3",
-    "mtime": 1498404317,
-    "db_size": 337425
+    "release": "1.44.1",
+    "mtime": 1607535857,
+    "db_size": 667388
   },
   {
     "name": "TypeScript",
     "slug": "typescript",
-    "type": "simple",
+    "type": "typescript",
     "links": {
       "home": "https://www.typescriptlang.org",
       "code": "https://github.com/Microsoft/TypeScript"
     },
-    "release": "3.1.6",
-    "mtime": 1541375092,
-    "db_size": 1373467
+    "release": "4.7.2",
+    "mtime": 1653507583,
+    "db_size": 2248192
   },
   {
     "name": "Underscore.js",
@@ -3698,9 +6770,9 @@
       "home": "https://underscorejs.org",
       "code": "https://github.com/jashkenas/underscore"
     },
-    "release": "1.9.1",
-    "mtime": 1541375135,
-    "db_size": 61671
+    "release": "1.13.1",
+    "mtime": 1624953261,
+    "db_size": 65680
   },
   {
     "name": "Vagrant",
@@ -3715,6 +6787,57 @@
     "db_size": 620133
   },
   {
+    "name": "Vite",
+    "slug": "vite",
+    "type": "simple",
+    "links": {
+      "home": "https://vitejs.dev/",
+      "code": "https://github.com/vitejs/vite"
+    },
+    "release": "2.9.1",
+    "mtime": 1649176747,
+    "db_size": 395954
+  },
+  {
+    "name": "Vue Router",
+    "slug": "vue_router~4",
+    "type": "simple",
+    "links": {
+      "home": "https://router.vuejs.org",
+      "code": "https://github.com/vuejs/vue-router"
+    },
+    "version": "4",
+    "release": "4.0.12",
+    "mtime": 1634931718,
+    "db_size": 538605
+  },
+  {
+    "name": "Vue Router",
+    "slug": "vue_router~3",
+    "type": "simple",
+    "links": {
+      "home": "https://router.vuejs.org",
+      "code": "https://github.com/vuejs/vue-router"
+    },
+    "version": "3",
+    "release": "3.5.1",
+    "mtime": 1611963525,
+    "db_size": 250061
+  },
+  {
+    "name": "Vue.js",
+    "slug": "vue~3",
+    "type": "vue",
+    "links": {
+      "home": "https://vuejs.org/",
+      "code": "https://github.com/vuejs/core"
+    },
+    "version": "3",
+    "release": "3.2.31",
+    "mtime": 1645468312,
+    "db_size": 1704676
+  },
+  {
     "name": "Vue.js",
     "slug": "vue~2",
     "type": "vue",
@@ -3723,9 +6846,9 @@
       "code": "https://github.com/vuejs/vue"
     },
     "version": "2",
-    "release": "2.5.16",
-    "mtime": 1524927908,
-    "db_size": 834509
+    "release": "2.6.12",
+    "mtime": 1611967481,
+    "db_size": 960630
   },
   {
     "name": "Vue.js",
@@ -3737,8 +6860,34 @@
     },
     "version": "1",
     "release": "1.0.28",
-    "mtime": 1491756620,
-    "db_size": 272329
+    "mtime": 1566306946,
+    "db_size": 532776
+  },
+  {
+    "name": "Vuex",
+    "slug": "vuex~4",
+    "type": "simple",
+    "links": {
+      "home": "https://vuex.vuejs.org",
+      "code": "https://github.com/vuejs/vuex"
+    },
+    "version": "4",
+    "release": "4.0.2",
+    "mtime": 1634931821,
+    "db_size": 285608
+  },
+  {
+    "name": "Vuex",
+    "slug": "vuex~3",
+    "type": "simple",
+    "links": {
+      "home": "https://vuex.vuejs.org",
+      "code": "https://github.com/vuejs/vuex"
+    },
+    "version": "3",
+    "release": "3.6.2",
+    "mtime": 1611963127,
+    "db_size": 251057
   },
   {
     "name": "Vulkan",
@@ -3752,17 +6901,47 @@
     "db_size": 1797883
   },
   {
+    "name": "Web APIs",
+    "slug": "dom",
+    "type": "mdn",
+    "mtime": 1651051988,
+    "db_size": 70492569
+  },
+  {
+    "name": "Web Extensions",
+    "slug": "web_extensions",
+    "type": "mdn",
+    "links": {
+      "home": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions"
+    },
+    "mtime": 1651127179,
+    "db_size": 14262961
+  },
+  {
     "name": "webpack",
-    "slug": "webpack",
+    "slug": "webpack~5",
     "type": "webpack",
     "links": {
       "home": "https://webpack.js.org/",
       "code": "https://github.com/webpack/webpack"
     },
-    "version": "",
-    "release": "4.16.5",
-    "mtime": 1534716785,
-    "db_size": 3702481
+    "version": "5",
+    "release": "5.72.0",
+    "mtime": 1651695898,
+    "db_size": 1759207
+  },
+  {
+    "name": "webpack",
+    "slug": "webpack~4",
+    "type": "webpack",
+    "links": {
+      "home": "https://webpack.js.org/",
+      "code": "https://github.com/webpack/webpack"
+    },
+    "version": "4",
+    "release": "4.44.2",
+    "mtime": 1605973966,
+    "db_size": 1025353
   },
   {
     "name": "webpack",
@@ -3778,23 +6957,114 @@
     "db_size": 848140
   },
   {
+    "name": "Werkzeug",
+    "slug": "werkzeug~2.1",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/werkzeug/",
+      "code": "https://github.com/pallets/werkzeug"
+    },
+    "version": "2.1",
+    "release": "2.1.x",
+    "mtime": 1649444940,
+    "db_size": 920521
+  },
+  {
+    "name": "Werkzeug",
+    "slug": "werkzeug~2.0",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/werkzeug/",
+      "code": "https://github.com/pallets/werkzeug"
+    },
+    "version": "2.0",
+    "release": "2.0.x",
+    "mtime": 1620900558,
+    "db_size": 877555
+  },
+  {
+    "name": "Werkzeug",
+    "slug": "werkzeug~1.0",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/werkzeug/",
+      "code": "https://github.com/pallets/werkzeug"
+    },
+    "version": "1.0",
+    "release": "1.0.x",
+    "mtime": 1607340883,
+    "db_size": 703393
+  },
+  {
+    "name": "Werkzeug",
+    "slug": "werkzeug~0.16",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/werkzeug/",
+      "code": "https://github.com/pallets/werkzeug"
+    },
+    "version": "0.16",
+    "release": "0.16.x",
+    "mtime": 1607340756,
+    "db_size": 764243
+  },
+  {
+    "name": "Werkzeug",
+    "slug": "werkzeug~0.15",
+    "type": "sphinx",
+    "links": {
+      "home": "https://palletsprojects.com/p/werkzeug/",
+      "code": "https://github.com/pallets/werkzeug"
+    },
+    "version": "0.15",
+    "release": "0.15.x",
+    "mtime": 1607340745,
+    "db_size": 763921
+  },
+  {
+    "name": "WordPress",
+    "slug": "wordpress",
+    "type": "wordpress",
+    "links": {
+      "home": "https://wordpress.org/",
+      "code": "https://github.com/WordPress/WordPress"
+    },
+    "release": "6.0",
+    "mtime": 1653506378,
+    "db_size": 46669709
+  },
+  {
     "name": "XSLT & XPath",
     "slug": "xslt_xpath",
     "type": "mdn",
-    "mtime": 1506194497,
-    "db_size": 212683
+    "mtime": 1634919277,
+    "db_size": 379080
   },
   {
     "name": "Yarn",
-    "slug": "yarn",
+    "slug": "yarn~berry",
     "type": "simple",
     "links": {
       "home": "https://yarnpkg.com/",
+      "code": "https://github.com/yarnpkg/berry"
+    },
+    "version": "Berry",
+    "release": "3.1.1",
+    "mtime": 1638481366,
+    "db_size": 986037
+  },
+  {
+    "name": "Yarn",
+    "slug": "yarn~classic",
+    "type": "simple",
+    "links": {
+      "home": "https://classic.yarnpkg.com/",
       "code": "https://github.com/yarnpkg/yarn"
     },
-    "release": "1.12.1",
-    "mtime": 1541375257,
-    "db_size": 209796
+    "version": "Classic",
+    "release": "1.22.17",
+    "mtime": 1638481396,
+    "db_size": 239074
   },
   {
     "name": "Yii",
@@ -3821,5 +7091,17 @@
     "release": "1.1.19",
     "mtime": 1498404499,
     "db_size": 13150704
+  },
+  {
+    "name": "Zig",
+    "slug": "zig",
+    "type": "simple",
+    "links": {
+      "home": "https://ziglang.org/",
+      "code": "https://github.com/ziglang/zig"
+    },
+    "release": "0.9.0",
+    "mtime": 1640632595,
+    "db_size": 649349
   }
 ]
