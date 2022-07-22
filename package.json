@@ -72,7 +72,7 @@
     "watch": "yarn run base --sourcemap --watch",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
-    "changelog": "auto-changelog -u",
+    "version": "auto-changelog -p && git add CHANGELOG.md",
     "package": "yarn run vscode:prepublish && vsce package",
     "pretest": "yarn run compile && yarn run lint",
     "vscode:prepublish": "yarn run base --minify"
