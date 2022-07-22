@@ -6,6 +6,7 @@
 .editorconfig
 .envrc
 .yarnrc
+scripts/**
 shell.nix
 demo.gif
 **/tsconfig.json
