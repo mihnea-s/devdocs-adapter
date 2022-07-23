@@ -20,7 +20,7 @@ set -e
 DOCSJS_PATH=$(curl 'https://devdocs.io/' | rg '^.*?<script src="((/\w+)+/docs-[a-f\d]+.js)"></script>.*?$' -r '$1')
 DOCSJS_PATH="https://devdocs.io$DOCSJS_PATH"
 
-curl "$DOCSJS_PATH"                                        \
+curl -L "$DOCSJS_PATH"                                     \
     | sed                                                  \
         -e '1s|^app\.DOCS =|console.log(JSON.stringify(|'  \
         -e '$s|;$|));|'                                    \
