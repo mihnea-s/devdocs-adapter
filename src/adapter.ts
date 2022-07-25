@@ -7,7 +7,7 @@ import * as stream from 'stream';
 import pako from 'pako';
 import tarfs from 'tar-fs';
 import fetch from 'node-fetch';
-import escape from 'css.escape';
+import cssEscape from 'css.escape';
 import { LRUMap } from 'lru_map';
 import { CheerioAPI, load as cheerio } from 'cheerio';
 
@@ -80,7 +80,7 @@ export class DevDocsAdapter {
 
     private async _describe(context: LRUMap<string, CheerioAPI>, slug: DocSlug, itempath: string): Promise<string> {
         const [file, anchor] = itempath.split('#', 2);
-        const selector = (!anchor) ? "h1,h2,h3" : `#${escape(anchor)}`;
+        const selector = (!anchor) ? "h1,h2,h3" : `#${cssEscape(anchor)}`;
         const filePath = path.join(this._storePath, slug, file + '.html');
 
         if (!context.has(filePath)) {

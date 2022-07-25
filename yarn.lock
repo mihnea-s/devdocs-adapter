@@ -87,6 +87,11 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
+"@types/css.escape@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@types/css.escape/-/css.escape-1.5.0.tgz#93e8c1bafdbba0916e535b5618227ee46ed08395"
+  integrity sha512-671nGwh8AQrhdjS584m9wypN0cJEzy7A97sReLuwypIXPiRqRcjKVnrO7Z72sS0QrwxlU7HraNgNITyr9u9Rpw==
+
 "@types/glob@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.2.0.tgz#bc1b5bf3aa92f25bd5dd39f35c57361bdce5b2eb"
