@@ -13,10 +13,6 @@ jobs:
         with: { cmd: install --immutable }
       - uses: borales/actions-yarn@v3.0.0
         with: { cmd: package }
-      - name: Publish to Open VSX Registry
-        uses: HaaLeo/publish-vscode-extension@v1
-        with:
-          pat: ${{ secrets.OPEN_VSX_TOKEN }}
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v1
         with:
