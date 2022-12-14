@@ -8,9 +8,22 @@
       "code": "https://github.com/angular/angular"
     },
     "version": "",
-    "release": "14.2.0",
-    "mtime": 1662466406,
-    "db_size": 12603675
+    "release": "15.0.0",
+    "mtime": 1668718358,
+    "db_size": 12673017
+  },
+  {
+    "name": "Angular",
+    "slug": "angular~14",
+    "type": "angular",
+    "links": {
+      "home": "https://angular.io/",
+      "code": "https://github.com/angular/angular"
+    },
+    "version": "14",
+    "release": "14.2.11",
+    "mtime": 1668718419,
+    "db_size": 12673017
   },
   {
     "name": "Angular",
@@ -438,8 +451,8 @@
       "code": "https://github.com/axios/axios"
     },
     "release": "1.1.3",
-    "mtime": 1667596661,
-    "db_size": 101997
+    "mtime": 1668717869,
+    "db_size": 37974
   },
   {
     "name": "Babel",
@@ -3403,8 +3416,8 @@
     "name": "HTTP",
     "slug": "http",
     "type": "mdn",
-    "mtime": 1663786449,
-    "db_size": 5138194
+    "mtime": 1668720049,
+    "db_size": 5144311
   },
   {
     "name": "i3",
@@ -5647,9 +5660,9 @@
       "home": "https://prettier.io/",
       "code": "https://github.com/prettier/prettier"
     },
-    "release": "2.7.1",
-    "mtime": 1661622664,
-    "db_size": 524603
+    "release": "2.8.0",
+    "mtime": 1669226962,
+    "db_size": 328553
   },
   {
     "name": "Pug",
@@ -6558,8 +6571,8 @@
       "code": "https://github.com/scikit-learn/scikit-learn"
     },
     "release": "1.1.3",
-    "mtime": 1667593533,
-    "db_size": 68084939
+    "mtime": 1668719579,
+    "db_size": 69343913
   },
   {
     "name": "Sequelize",
@@ -6802,9 +6815,9 @@
       "home": "https://sqlite.org/",
       "code": "https://www.sqlite.org/src/"
     },
-    "release": "3.39.2",
-    "mtime": 1661622243,
-    "db_size": 13555678
+    "release": "3.40.0",
+    "mtime": 1668718202,
+    "db_size": 13497521
   },
   {
     "name": "Statsmodels",
@@ -7141,9 +7154,9 @@
       "home": "https://www.typescriptlang.org",
       "code": "https://github.com/Microsoft/TypeScript"
     },
-    "release": "4.8.2",
-    "mtime": 1661621769,
-    "db_size": 2251862
+    "release": "4.9.3",
+    "mtime": 1668717948,
+    "db_size": 1487850
   },
   {
     "name": "Underscore.js",
@@ -7333,9 +7346,9 @@
       "code": "https://github.com/webpack/webpack"
     },
     "version": "5",
-    "release": "5.72.0",
-    "mtime": 1651695898,
-    "db_size": 1759207
+    "release": "5.75.0",
+    "mtime": 1669227048,
+    "db_size": 1738220
   },
   {
     "name": "webpack",
