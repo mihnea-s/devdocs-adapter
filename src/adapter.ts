@@ -212,8 +212,11 @@ export class DevDocsAdapter implements vscode.WebviewPanelSerializer {
 
         panel.webview.onDidReceiveMessage(message => {
             if (message.command === 'open') {
-                // TODO
-                vscode.window.showInformationMessage(`open message: ${message.href}`);
+                this.open({
+                    doc: manifest.slug,
+                    path: path.join(path.dirname(message.base), message.href),
+                    description: '', detail: '', label: '', name: '',
+                });
                 return;
             }
         });
@@ -231,7 +234,8 @@ export class DevDocsAdapter implements vscode.WebviewPanelSerializer {
             .querySelectorAll<HTMLAnchorElement>('a:not([href^="#"])')
             .forEach(a => a.addEventListener('click', _ => vscode.postMessage({
                 command: 'open',
-                href: a.href,
+                base: vscode.getState()?.path,
+                href: a.getAttribute('href'),
             })));
 
         window.addEventListener('message', event => {
@@ -241,6 +245,8 @@ export class DevDocsAdapter implements vscode.WebviewPanelSerializer {
                 vscode.setState(message.state);
             } else if (message.command === 'anchor') {
                 window.document.getElementById(message.anchor)?.scrollIntoView();
+            } else if (message.command === 'reset') {
+                window.scrollTo({ top: 0 });
             }
         });
     };
@@ -257,7 +263,22 @@ export class DevDocsAdapter implements vscode.WebviewPanelSerializer {
 
     private _postprocess(document: string): string {
         const script = `<script defer>(${this._injected})(window);</script>`;
-        return document + script;
+        const style = `
+        <style>
+            a {
+                text-decoration: none;
+            }
+            pre { 
+                padding: 4px 6px;
+                overflow-y: auto;
+                background-color: var(--vscode-textBlockQuote-background);
+            }
+            ._attribution {
+                opacity: 50%;
+            }
+        </style>
+        `;
+        return style + document + script;
     }
 
     async open(item: DocItem): Promise<void> {
@@ -274,6 +295,8 @@ export class DevDocsAdapter implements vscode.WebviewPanelSerializer {
 
         if (anchor) {
             await panel.webview.postMessage({ command: 'anchor', anchor });
+        } else {
+            await panel.webview.postMessage({ command: 'reset' });
         }
 
         panel.reveal();
