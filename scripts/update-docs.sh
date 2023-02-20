@@ -25,7 +25,7 @@ curl -L "$DOCSJS_PATH"                                     \
         -e '1s|^app\.DOCS =|console.log(JSON.stringify(|'  \
         -e '$s|;$|));|'                                    \
     | node                                                 \
-    | jq .                                                 \
+    | jq 'map({name:.name,release:.release,slug:.slug})'   \
     > src/data/docs.json
 
 read -r -p "Do you want to commit the update? [y/N] " MAKE_COMMIT

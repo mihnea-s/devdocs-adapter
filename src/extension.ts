@@ -81,7 +81,7 @@ export async function activate(context: vscode.ExtensionContext) {
         const items = docs.map(doc => ({
             label: doc.name,
             docset: doc.slug,
-            description: doc.release,
+            description: doc.release ?? undefined,
             picked: selected.includes(doc.slug),
         }));
 
