@@ -14,6 +14,9 @@ export async function activate(context: vscode.ExtensionContext) {
         const config = vscode.workspace.getConfiguration(EXT_ID);
         const docsets = config.get<DocSlug[]>('docsets');
         await adapter.loadAll(docsets ?? []);
+
+        // Register webview deserializer
+        context.subscriptions.push(adapter.registerWebviewPanelDeserializer());
     })();
 
     context.subscriptions.push(vscode.workspace.onDidChangeConfiguration(async event => {

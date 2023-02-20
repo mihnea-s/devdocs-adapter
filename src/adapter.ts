@@ -32,7 +32,7 @@ export type DocManifest = {
     entries: DocItem[],
 };
 
-export class DevDocsAdapter {
+export class DevDocsAdapter implements vscode.WebviewPanelSerializer {
     private static readonly _webviewType = 'devdocs';
 
     private readonly _storePath: string;
@@ -192,33 +192,71 @@ export class DevDocsAdapter {
         return items;
     }
 
-    private _webview(manifest: DocManifest): vscode.WebviewPanel {
+    private _webview(manifest: DocManifest, panel?: vscode.WebviewPanel): vscode.WebviewPanel {
         const type = DevDocsAdapter._webviewType;
-        const name = `${manifest.name} Documentation`;
+        const title = `${manifest.name} Documentation`;
         const besides = vscode.ViewColumn.Beside;
 
-        const panel = vscode.window.createWebviewPanel(type, name, besides, {
+        panel ??= vscode.window.createWebviewPanel(type, title, besides, {
             localResourceRoots: [vscode.Uri.parse(this._storePath)],
             enableFindWidget: true,
             enableScripts: true,
         });
 
+        panel.title = title;
+
         panel.onDidDispose(() => {
             this._webviews.delete(manifest.slug);
-            panel.dispose();
+            panel?.dispose();
+        });
+
+        panel.webview.onDidReceiveMessage(message => {
+            if (message.command === 'open') {
+                // TODO
+                vscode.window.showInformationMessage(`open message: ${message.href}`);
+                return;
+            }
         });
 
         this._webviews.set(manifest.slug, panel);
+
         return panel;
     }
 
-    private _postprocess(document: string, anchor?: string): string {
-        const script = (!anchor) ? "" : `
-            <script>
-                document.getElementById("${anchor}").scrollIntoView()
-            </script>
-        `;
+    private _injected = (window: Window) => {
+        const vscode = acquireVsCodeApi<DocItem>();
 
+        // Handle anchor links to external files
+        document
+            .querySelectorAll<HTMLAnchorElement>('a:not([href^="#"])')
+            .forEach(a => a.addEventListener('click', _ => vscode.postMessage({
+                command: 'open',
+                href: a.href,
+            })));
+
+        window.addEventListener('message', event => {
+            const message = event.data;
+
+            if (message.command === 'state') {
+                vscode.setState(message.state);
+            } else if (message.command === 'anchor') {
+                window.document.getElementById(message.anchor)?.scrollIntoView();
+            }
+        });
+    };
+
+    registerWebviewPanelDeserializer(): vscode.Disposable {
+        return vscode.window.registerWebviewPanelSerializer(DevDocsAdapter._webviewType, this);
+    }
+
+    async deserializeWebviewPanel(panel: vscode.WebviewPanel, state: DocItem) {
+        const index = this._manifests.get(state.doc)!;
+        this._webview(index, panel);
+        this.open(state);
+    }
+
+    private _postprocess(document: string): string {
+        const script = `<script defer>(${this._injected})(window);</script>`;
         return document + script;
     }
 
@@ -230,7 +268,14 @@ export class DevDocsAdapter {
         const filePath = path.join(this._storePath, index.slug, file + '.html');
         const document = (await fs.promises.readFile(filePath)).toString();
 
-        panel.webview.html = this._postprocess(document, anchor);
+        panel.webview.html = this._postprocess(document);
+
+        await panel.webview.postMessage({ command: 'state', state: item });
+
+        if (anchor) {
+            await panel.webview.postMessage({ command: 'anchor', anchor });
+        }
+
         panel.reveal();
     }
 }
