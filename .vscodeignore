@@ -1,6 +1,7 @@
 # Dev tools
 .direnv/**
 .vscode/**
+.github/**
 .vscode-test/**
 .gitignore
 .editorconfig
