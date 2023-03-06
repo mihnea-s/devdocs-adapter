@@ -1,19 +1,20 @@
 import * as vscode from 'vscode';
 
-import { DevDocsAdapter, DocSlug, DocItem } from './adapter';
+import { DevDocsAdapter } from './adapter';
+import type { DocSlug, DocItem } from './downloader';
 
 import docs from './data/docs.json';
 
 const EXT_ID = 'devdocs-adapter';
 
 export async function activate(context: vscode.ExtensionContext) {
-    const adapter = new DevDocsAdapter(context.globalStorageUri.fsPath);
+    const adapter = new DevDocsAdapter(context.globalStorageUri.fsPath, context.extensionUri);
 
     // Initial loading
     await (async () => {
         const config = vscode.workspace.getConfiguration(EXT_ID);
         const docsets = config.get<DocSlug[]>('docsets');
-        await adapter.loadAll(docsets ?? []);
+        await adapter.load(docsets ?? []);
 
         // Register webview deserializer
         context.subscriptions.push(adapter.registerWebviewPanelDeserializer());
@@ -28,8 +29,7 @@ export async function activate(context: vscode.ExtensionContext) {
         const docsets = config.get<DocSlug[]>('docsets');
 
         if (docsets) {
-            await adapter.downloadAll(docsets);
-            await adapter.loadAll(docsets);
+            await adapter.load(docsets);
             await vscode.window.showInformationMessage('Documentation reloaded!');
         }
     }));
@@ -104,9 +104,7 @@ export async function activate(context: vscode.ExtensionContext) {
             return;
         }
 
-        await adapter.downloadAll(docsets, true);
-        await adapter.loadAll(docsets, true);
-
+        await adapter.load(docsets, true);
         await vscode.window.showInformationMessage('Documentation updated!');
     }));
 }

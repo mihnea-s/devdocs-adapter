@@ -19,3 +19,4 @@ out/test/**
 **/*.map
 **/*.ts
 node_modules/
+esbuild.mjs
