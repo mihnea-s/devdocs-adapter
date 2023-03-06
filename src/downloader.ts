@@ -5,12 +5,10 @@ import pako from 'pako';
 import tar from 'tar-stream';
 import fetch from 'node-fetch';
 import cssEscape from 'css.escape';
-
-import { workspace, extensions } from 'vscode';
-
 import { LRUMap } from 'lru_map';
 import { CheerioAPI, Element, load as cheerio } from 'cheerio';
-import { getHighlighter, Highlighter, IShikiTheme, loadTheme } from 'shiki';
+import { getHighlighter, Highlighter, loadTheme } from 'shiki';
+import { extensions, workspace, window, ProgressLocation } from 'vscode';
 
 export type DocSlug = string;
 
@@ -66,6 +64,8 @@ export class Downloader {
     private _docsetName: string;
 
     private _highlighter?: Highlighter;
+    private _reporter?: (msg: string, incr: number) => void;
+
     private _documents = new Map<string, Buffer>();
     private _processedDocuments = new Set<string>();
     private _parsedDocuments = new LRUMap<string, CheerioAPI>(64);
@@ -127,8 +127,8 @@ export class Downloader {
         console.error(msg);
     }
 
-    private _progress(msg: string) {
-        console.log(msg);
+    private _progress(msg: string, incr: number) {
+        this._reporter?.(msg, 100 * incr);
     }
 
     private async _fetchExtract(): Promise<void> {
@@ -140,14 +140,11 @@ export class Downloader {
         }
 
         const inflater = new pako.Inflate();
-
-        let bytesRecv = 0;
-        const bytesTotal = resp.headers.get('Content-Length') ?? '???';
+        const bytesTotal = +(resp.headers.get('Content-Length') || 10 ** 6);
 
         resp.body.on('data', (chunk: Buffer) => {
             inflater.push(chunk);
-            bytesRecv += chunk.byteLength;
-            this._progress(`downloaded ${bytesRecv}/${bytesTotal}`);
+            this._progress('downloading', 0.5 * (chunk.byteLength / bytesTotal));
         });
 
         // Wait for download to finish
@@ -173,7 +170,6 @@ export class Downloader {
             stream.on('end', () => {
                 const fileName = path.normalize(headers.name);
                 this._documents.set(fileName, Buffer.concat(content));
-                this._progress(`extracted ${fileName}`);
                 next();
             });
         });
@@ -309,7 +305,7 @@ export class Downloader {
         return { slug: this._slug, name, path, anchor, label, detail, description };
     }
 
-    private async _download(slug: DocSlug, force = false): Promise<void> {
+    private async _download(slug: DocSlug): Promise<void> {
         this._highlighter ??= await this._initHighlighter();
 
         this._documents.clear();
@@ -318,11 +314,6 @@ export class Downloader {
 
         this._slug = slug;
         this._docsetPath = path.join(this._storePath, slug);
-
-        // Docset already on disk
-        if (!force && fs.existsSync(this._docsetPath)) {
-            return;
-        }
 
         await this._fetchExtract();
 
@@ -351,27 +342,27 @@ export class Downloader {
 
         for (let i = 0; i < entries.length; i++) {
             items[i] = await this._processEntry(entries[i]);
-            console.log(`processed ${entries[i].name} (${i}/${entries.length})`);
+            this._progress('post-processing', 0.5 / entries.length);
         }
 
         await this._writeFile('items.json', JSON.stringify(items));
     }
 
     async download(slugs: DocSlug[], force = false): Promise<void> {
-        await Promise.all(slugs.map(doc => this._download(doc, force)));
+        if (!force) {
+            // Docset already on disk
+            slugs = slugs.filter(slug => !fs.existsSync(path.join(this._storePath, slug)));
+        }
 
-        // await vscode.window.withProgress({
-        //     title: 'Downloading documentation',
-        //     location: vscode.ProgressLocation.Notification,
-        // }, async progress => {
-        //     await Promise.all(slugs.map(async doc => {
-        //         await this.download(doc, force);
-
-        //         progress.report({
-        //             message: `installed '${doc}'.`,
-        //             increment: 100.0 / slugs.length,
-        //         });
-        //     }));
-        // });
+        await Promise.all(slugs.map(doc => window.withProgress(
+            {
+                title: `Documentation for '${doc}'`,
+                location: ProgressLocation.Notification,
+            },
+            progress => {
+                this._reporter = (message, increment) => progress.report({ message, increment });
+                return this._download(doc);
+            },
+        )));
     }
 }
