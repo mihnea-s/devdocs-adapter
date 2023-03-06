@@ -17,7 +17,7 @@
 
 set -e
 
-DOCSJS_PATH=$(curl 'https://devdocs.io/' | rg '^.*?<script src="((/\w+)+/docs-[a-f\d]+.js)"></script>.*?$' -r '$1')
+DOCSJS_PATH=$(curl 'https://devdocs.io/' | rg '^.*?<script src="((/\w+)+/docs-[a-f\d]+.js)" type="text/javascript"></script>.*?$' -r '$1')
 DOCSJS_PATH="https://devdocs.io$DOCSJS_PATH"
 
 curl -L "$DOCSJS_PATH"                                     \
