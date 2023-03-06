@@ -1,12 +1,12 @@
 [
   {
     "name": "Angular",
-    "release": "15.0.0",
+    "release": "15.1.5",
     "slug": "angular"
   },
   {
     "name": "Angular",
-    "release": "14.2.11",
+    "release": "14.2.12",
     "slug": "angular~14"
   },
   {
@@ -186,12 +186,12 @@
   },
   {
     "name": "Axios",
-    "release": "1.2.1",
+    "release": "1.3.0",
     "slug": "axios"
   },
   {
     "name": "Babel",
-    "release": "7.16.4",
+    "release": "7.21.1",
     "slug": "babel~7"
   },
   {
@@ -398,6 +398,11 @@
     "name": "Clojure",
     "release": "1.7 (legacy)",
     "slug": "clojure~1.7"
+  },
+  {
+    "name": "CMake",
+    "release": "3.26",
+    "slug": "cmake~3.26"
   },
   {
     "name": "CMake",
@@ -1971,7 +1976,7 @@
   },
   {
     "name": "Nokogiri",
-    "release": "1.13.0",
+    "release": "1.14.2",
     "slug": "nokogiri"
   },
   {
