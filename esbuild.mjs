@@ -56,11 +56,6 @@ await esbuild.build({
           const outPath = path.resolve('out');
           const shikiPath = path.resolve('node_modules', 'shiki');
 
-          fs.copyFileSync(
-            path.join(shikiPath, 'dist', 'onig.wasm'),
-            path.join(outPath, 'shiki', 'onig.wasm'),
-          );
-
           for (const subdir of ['themes', 'languages']) {
             fs.cpSync(
               path.join(shikiPath, subdir),
@@ -68,6 +63,11 @@ await esbuild.build({
               { recursive: true, },
             );
           }
+
+          fs.copyFileSync(
+            path.join(shikiPath, 'dist', 'onig.wasm'),
+            path.join(outPath, 'shiki', 'onig.wasm'),
+          );
         });
       }
     }
