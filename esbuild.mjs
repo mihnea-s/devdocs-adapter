@@ -47,7 +47,7 @@ await esbuild.build({
   entryPoints: ['src/extension.ts'],
   platform: 'node',
   format: 'cjs',
-  external: ['vscode', 'vscode-oniguruma'],
+  external: ['vscode'],
   plugins: [
     {
       name: 'copy-files',
