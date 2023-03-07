@@ -113,14 +113,28 @@ export class Downloader {
             return 'dark-plus';
         })();
 
-        return await getHighlighter({
+        const original = require.resolve;
+
+        let overrideResolve: any = (_: string, __: unknown): string => {
+            return path.resolve(__dirname, 'shiki/onig.wasm');
+        };
+
+        overrideResolve.paths = (_: string): null => {
+            return null;
+        };
+
+        require.resolve = overrideResolve as RequireResolve;
+
+        const highlighter = await getHighlighter({
             theme,
             paths: {
-                wasm: 'out/shiki/onig.wasm',
                 themes: 'out/shiki/themes',
                 languages: 'out/shiki/languages',
             }
         });
+
+        require.resolve = original;
+        return highlighter;
     }
 
     private _error(msg: string) {
