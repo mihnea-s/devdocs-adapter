@@ -250,9 +250,11 @@ export class Downloader {
         document('pre').each((_: number, pre: Element) => {
             const el = document(pre);
 
-            el.html(this._highlighter!.codeToHtml(el.text(), {
-                lang: el.attr('data-language'),
-            }));
+            try {
+                el.html(this._highlighter!.codeToHtml(el.text(), {
+                    lang: el.attr('data-language'),
+                }));
+            } catch { }
         });
 
         // Docset specific fixes
