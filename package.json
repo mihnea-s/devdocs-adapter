@@ -6,7 +6,7 @@
   "repository": {
     "url": "https://github.com/mihnea-s/devdocs-adapter"
   },
-  "version": "0.1.3",
+  "version": "0.1.4",
   "license": "MIT",
   "icon": "icon.png",
   "engines": {
