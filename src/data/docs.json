@@ -191,7 +191,7 @@
   },
   {
     "name": "Babel",
-    "release": "7.21.1",
+    "release": "7.21.4",
     "slug": "babel~7"
   },
   {
@@ -631,6 +631,11 @@
   },
   {
     "name": "Django",
+    "release": "4.2",
+    "slug": "django~4.2"
+  },
+  {
+    "name": "Django",
     "release": "4.1",
     "slug": "django~4.1"
   },
@@ -921,7 +926,7 @@
   },
   {
     "name": "FastAPI",
-    "release": "0.88.0",
+    "release": "0.95.0",
     "slug": "fastapi"
   },
   {
@@ -1116,7 +1121,7 @@
   },
   {
     "name": "Git",
-    "release": "2.39.0",
+    "release": "2.40.0",
     "slug": "git"
   },
   {
@@ -2066,6 +2071,11 @@
   },
   {
     "name": "Octave",
+    "release": "8.1.0",
+    "slug": "octave~8"
+  },
+  {
+    "name": "Octave",
     "release": "7.2.0",
     "slug": "octave~7"
   },
@@ -2481,7 +2491,7 @@
   },
   {
     "name": "Redis",
-    "release": "7.0.8",
+    "release": "7.0.10",
     "slug": "redis"
   },
   {
@@ -2951,7 +2961,7 @@
   },
   {
     "name": "TypeScript",
-    "release": "4.9.3",
+    "release": "5.0.2",
     "slug": "typescript"
   },
   {
@@ -2976,7 +2986,7 @@
   },
   {
     "name": "Vitest",
-    "release": "0.27.1",
+    "release": "0.30.1",
     "slug": "vitest"
   },
   {
@@ -3006,7 +3016,7 @@
   },
   {
     "name": "VueUse",
-    "release": "9.10.0",
+    "release": "10.1.0",
     "slug": "vueuse"
   },
   {
