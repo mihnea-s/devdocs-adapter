@@ -47,6 +47,9 @@ export class Downloader {
             ._attribution {
                 opacity: 50%;
             }
+            pre > code {
+                background-color: unset;
+            }
         </style>
     `;
 
