@@ -20,12 +20,12 @@ set -e
 DOCSJS_PATH=$(curl 'https://devdocs.io/' | rg '^.*?<script src="((/\w+)+/docs-[a-f\d]+.js)" type="text/javascript"></script>.*?$' -r '$1')
 DOCSJS_PATH="https://devdocs.io$DOCSJS_PATH"
 
-curl -L "$DOCSJS_PATH"                                     \
-    | sed                                                  \
-        -e '1s|^app\.DOCS =|console.log(JSON.stringify(|'  \
-        -e '$s|;$|));|'                                    \
-    | node                                                 \
-    | jq 'map({name:.name,release:.release,slug:.slug})'   \
+curl -L "$DOCSJS_PATH"                                      \
+    | sed                                                   \
+        -e '1s|^app\.DOCS\s*=|console.log(JSON.stringify(|' \
+        -e '$s|;$|));|'                                     \
+    | node                                                  \
+    | jq 'map({name:.name,release:.release,slug:.slug})'    \
     > src/data/docs.json
 
 read -r -p "Do you want to commit the update? [y/N] " MAKE_COMMIT
