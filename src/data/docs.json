@@ -1,8 +1,18 @@
 [
   {
     "name": "Angular",
-    "release": "15.1.5",
+    "release": "17.0.8",
     "slug": "angular"
+  },
+  {
+    "name": "Angular",
+    "release": "16.2.12",
+    "slug": "angular~16"
+  },
+  {
+    "name": "Angular",
+    "release": "15.2.9",
+    "slug": "angular~15"
   },
   {
     "name": "Angular",
@@ -176,7 +186,7 @@
   },
   {
     "name": "Astro",
-    "release": "2.0.0",
+    "release": "3.2.0",
     "slug": "astro"
   },
   {
@@ -186,7 +196,7 @@
   },
   {
     "name": "Axios",
-    "release": "1.3.0",
+    "release": "1.6.5",
     "slug": "axios"
   },
   {
@@ -201,13 +211,43 @@
   },
   {
     "name": "Backbone.js",
-    "release": "1.4.0",
+    "release": "1.5.0",
     "slug": "backbone"
   },
   {
     "name": "Bash",
     "release": "5.2",
     "slug": "bash"
+  },
+  {
+    "name": "Bazel",
+    "release": "7.0.0",
+    "slug": "bazel~7.0"
+  },
+  {
+    "name": "Bazel",
+    "release": "6.4.0",
+    "slug": "bazel~6.4"
+  },
+  {
+    "name": "Bazel",
+    "release": "6.3.0",
+    "slug": "bazel~6.3"
+  },
+  {
+    "name": "Bazel",
+    "release": "6.2.0",
+    "slug": "bazel~6.2"
+  },
+  {
+    "name": "Bazel",
+    "release": "6.1.0",
+    "slug": "bazel~6.1"
+  },
+  {
+    "name": "Bazel",
+    "release": "6.0.0",
+    "slug": "bazel~6.0"
   },
   {
     "name": "Bluebird",
@@ -566,7 +606,7 @@
   },
   {
     "name": "Crystal",
-    "release": "1.7.0",
+    "release": "1.11.1",
     "slug": "crystal"
   },
   {
@@ -628,6 +668,11 @@
     "name": "Deno",
     "release": "1.27.0",
     "slug": "deno"
+  },
+  {
+    "name": "Django",
+    "release": "5.0",
+    "slug": "django~5.0"
   },
   {
     "name": "Django",
@@ -771,6 +816,11 @@
   },
   {
     "name": "Elixir",
+    "release": "1.15.4",
+    "slug": "elixir~1.15"
+  },
+  {
+    "name": "Elixir",
     "release": "1.14.1",
     "slug": "elixir~1.14"
   },
@@ -851,7 +901,12 @@
   },
   {
     "name": "Erlang",
-    "release": "25.2.2",
+    "release": "26.0.1",
+    "slug": "erlang~26"
+  },
+  {
+    "name": "Erlang",
+    "release": "25.3.2.2",
     "slug": "erlang~25"
   },
   {
@@ -891,12 +946,12 @@
   },
   {
     "name": "esbuild",
-    "release": "0.17.2",
+    "release": "0.20.0",
     "slug": "esbuild"
   },
   {
     "name": "ESLint",
-    "release": "8.30.0",
+    "release": "8.56.0",
     "slug": "eslint"
   },
   {
@@ -926,8 +981,13 @@
   },
   {
     "name": "FastAPI",
-    "release": "0.95.0",
+    "release": "0.100.1",
     "slug": "fastapi"
+  },
+  {
+    "name": "Fish",
+    "release": "3.7.0",
+    "slug": "fish~3.7"
   },
   {
     "name": "Fish",
@@ -996,6 +1056,16 @@
   },
   {
     "name": "Flask",
+    "release": "3.0.x",
+    "slug": "flask~3.0"
+  },
+  {
+    "name": "Flask",
+    "release": "2.3.x",
+    "slug": "flask~2.3"
+  },
+  {
+    "name": "Flask",
     "release": "2.2.x",
     "slug": "flask~2.2"
   },
@@ -1030,6 +1100,21 @@
     "slug": "flow"
   },
   {
+    "name": "Fluture",
+    "release": "14.0.0",
+    "slug": "fluture"
+  },
+  {
+    "name": "GCC",
+    "release": "13.1.0",
+    "slug": "gcc~13"
+  },
+  {
+    "name": "GCC",
+    "release": "13.1.0",
+    "slug": "gcc~13_cpp"
+  },
+  {
     "name": "GCC",
     "release": "12.2.0",
     "slug": "gcc~12"
@@ -1041,88 +1126,93 @@
   },
   {
     "name": "GCC",
-    "release": "11.1.0",
+    "release": "11.4.0",
     "slug": "gcc~11"
   },
   {
     "name": "GCC",
-    "release": "11.1.0",
+    "release": "11.4.0",
     "slug": "gcc~11_cpp"
   },
   {
     "name": "GCC",
-    "release": "10.2.0",
+    "release": "10.5.0",
     "slug": "gcc~10"
   },
   {
     "name": "GCC",
-    "release": "10.2.0",
+    "release": "10.5.0",
     "slug": "gcc~10_cpp"
   },
   {
     "name": "GCC",
-    "release": "9.3.0",
+    "release": "9.5.0",
     "slug": "gcc~9"
   },
   {
     "name": "GCC",
-    "release": "9.3.0",
+    "release": "9.5.0",
     "slug": "gcc~9_cpp"
   },
   {
     "name": "GCC",
-    "release": "8.3.0",
+    "release": "8.5.0",
     "slug": "gcc~8"
   },
   {
     "name": "GCC",
-    "release": "8.3.0",
+    "release": "8.5.0",
     "slug": "gcc~8_cpp"
   },
   {
     "name": "GCC",
-    "release": "7.4.0",
+    "release": "7.5.0",
     "slug": "gcc~7"
   },
   {
     "name": "GCC",
-    "release": "7.4.0",
+    "release": "7.5.0",
     "slug": "gcc~7_cpp"
   },
   {
     "name": "GCC",
-    "release": "6.4.0",
+    "release": "6.5.0",
     "slug": "gcc~6"
   },
   {
     "name": "GCC",
-    "release": "6.4.0",
+    "release": "6.5.0",
     "slug": "gcc~6_cpp"
   },
   {
     "name": "GCC",
-    "release": "5.4.0",
+    "release": "5.5.0",
     "slug": "gcc~5"
   },
   {
     "name": "GCC",
-    "release": "5.4.0",
+    "release": "5.5.0",
     "slug": "gcc~5_cpp"
   },
   {
     "name": "GCC",
-    "release": "4.9.3",
+    "release": "4.9.4",
     "slug": "gcc~4"
   },
   {
     "name": "GCC",
-    "release": "4.9.3",
+    "release": "4.9.4",
     "slug": "gcc~4_cpp"
   },
   {
     "name": "Git",
-    "release": "2.40.0",
+    "release": "2.43.1",
     "slug": "git"
+  },
+  {
+    "name": "GNU Fortran",
+    "release": "13.1.0",
+    "slug": "gnu_fortran~13"
   },
   {
     "name": "GNU Fortran",
@@ -1186,7 +1276,7 @@
   },
   {
     "name": "Go",
-    "release": "1.20.0",
+    "release": "1.22.0",
     "slug": "go"
   },
   {
@@ -1265,9 +1355,29 @@
     "slug": "gtk~3.20"
   },
   {
+    "name": "Hammerspoon",
+    "release": "0.9.100",
+    "slug": "hammerspoon"
+  },
+  {
     "name": "Handlebars.js",
     "release": "4.0.12",
     "slug": "handlebars"
+  },
+  {
+    "name": "Hapi",
+    "release": "21.3.2",
+    "slug": "hapi"
+  },
+  {
+    "name": "HAProxy",
+    "release": "2.9.0",
+    "slug": "haproxy~2.9"
+  },
+  {
+    "name": "HAProxy",
+    "release": "2.8.0",
+    "slug": "haproxy~2.8"
   },
   {
     "name": "HAProxy",
@@ -1415,6 +1525,11 @@
     "slug": "html"
   },
   {
+    "name": "htmx",
+    "release": "1.9.10",
+    "slug": "htmx"
+  },
+  {
     "name": "HTTP",
     "release": null,
     "slug": "http"
@@ -1461,6 +1576,11 @@
   },
   {
     "name": "Jinja",
+    "release": "3.1.x",
+    "slug": "jinja~3.1"
+  },
+  {
+    "name": "Jinja",
     "release": "3.0.x",
     "slug": "jinja~3.0"
   },
@@ -1480,13 +1600,18 @@
     "slug": "jinja~2.9"
   },
   {
+    "name": "Joi",
+    "release": "17.11.0",
+    "slug": "joi"
+  },
+  {
     "name": "jq",
-    "release": "1.6",
+    "release": "1.7",
     "slug": "jq"
   },
   {
     "name": "jQuery",
-    "release": "3.6.0",
+    "release": "3.7.1",
     "slug": "jquery"
   },
   {
@@ -1503,6 +1628,16 @@
     "name": "JSDoc",
     "release": "3.6.7",
     "slug": "jsdoc"
+  },
+  {
+    "name": "Julia",
+    "release": "1.10.0.2",
+    "slug": "julia~1.10"
+  },
+  {
+    "name": "Julia",
+    "release": "1.9.2",
+    "slug": "julia~1.9"
   },
   {
     "name": "Julia",
@@ -1571,8 +1706,13 @@
   },
   {
     "name": "Koa",
-    "release": "2.13.0",
+    "release": "2.15.0",
     "slug": "koa"
+  },
+  {
+    "name": "Kotlin",
+    "release": "1.9.0",
+    "slug": "kotlin~1.9"
   },
   {
     "name": "Kotlin",
@@ -1606,32 +1746,57 @@
   },
   {
     "name": "Kubernetes",
-    "release": "1.26",
+    "release": "1.29",
     "slug": "kubernetes"
   },
   {
     "name": "Kubernetes",
-    "release": "1.20",
-    "slug": "kubernetes~1.20"
+    "release": "1.28",
+    "slug": "kubernetes~1.28"
+  },
+  {
+    "name": "Kubernetes",
+    "release": "1.27",
+    "slug": "kubernetes~1.27"
+  },
+  {
+    "name": "Kubernetes",
+    "release": "1.26",
+    "slug": "kubernetes~1.26"
+  },
+  {
+    "name": "Kubernetes",
+    "release": "1.25",
+    "slug": "kubernetes~1.25"
+  },
+  {
+    "name": "Kubernetes",
+    "release": "1.24",
+    "slug": "kubernetes~1.24"
   },
   {
     "name": "Laravel",
-    "release": "9.3.8",
+    "release": "10.13.0",
+    "slug": "laravel~10"
+  },
+  {
+    "name": "Laravel",
+    "release": "9.52.8",
     "slug": "laravel~9"
   },
   {
     "name": "Laravel",
-    "release": "8.4.1",
+    "release": "8.83.27",
     "slug": "laravel~8"
   },
   {
     "name": "Laravel",
-    "release": "7.30.1",
+    "release": "7.30.6",
     "slug": "laravel~7"
   },
   {
     "name": "Laravel",
-    "release": "6.20.0",
+    "release": "6.20.44",
     "slug": "laravel~6"
   },
   {
@@ -1686,7 +1851,7 @@
   },
   {
     "name": "Leaflet",
-    "release": "1.9.1",
+    "release": "1.9.4",
     "slug": "leaflet~1.9"
   },
   {
@@ -1796,7 +1961,7 @@
   },
   {
     "name": "MariaDB",
-    "release": "10.9.2",
+    "release": "11.0.2",
     "slug": "mariadb"
   },
   {
@@ -1818,6 +1983,11 @@
     "name": "Markdown",
     "release": null,
     "slug": "markdown"
+  },
+  {
+    "name": "Matplotlib",
+    "release": "3.7.1",
+    "slug": "matplotlib~3.7"
   },
   {
     "name": "Matplotlib",
@@ -1911,12 +2081,12 @@
   },
   {
     "name": "Mongoose",
-    "release": "5.7.7",
+    "release": "7.4.1",
     "slug": "mongoose"
   },
   {
     "name": "nginx",
-    "release": "1.23.1",
+    "release": "1.25.1",
     "slug": "nginx"
   },
   {
@@ -1926,8 +2096,13 @@
   },
   {
     "name": "Nim",
-    "release": "1.4.8",
+    "release": "2.0.2",
     "slug": "nim"
+  },
+  {
+    "name": "Nim",
+    "release": "1.4.8",
+    "slug": "nim~1"
   },
   {
     "name": "Nix",
@@ -1936,12 +2111,12 @@
   },
   {
     "name": "Node.js",
-    "release": "19.0.1",
+    "release": "20.8.0",
     "slug": "node"
   },
   {
     "name": "Node.js",
-    "release": "18.12.1",
+    "release": "18.18.0",
     "slug": "node~18_lts"
   },
   {
@@ -1986,7 +2161,7 @@
   },
   {
     "name": "npm",
-    "release": "9.0.0",
+    "release": "10.2.5",
     "slug": "npm"
   },
   {
@@ -2060,6 +2235,11 @@
     "slug": "numpy~1.10"
   },
   {
+    "name": "Nushell",
+    "release": "0.85.0",
+    "slug": "nushell"
+  },
+  {
     "name": "OCaml",
     "release": "5.0",
     "slug": "ocaml"
@@ -2091,13 +2271,8 @@
   },
   {
     "name": "OpenJDK",
-    "release": "19",
-    "slug": "openjdk~19"
-  },
-  {
-    "name": "OpenJDK",
-    "release": "18",
-    "slug": "openjdk~18"
+    "release": "21",
+    "slug": "openjdk~21"
   },
   {
     "name": "OpenJDK",
@@ -2181,6 +2356,11 @@
   },
   {
     "name": "Perl",
+    "release": "5.38.0",
+    "slug": "perl~5.38"
+  },
+  {
+    "name": "Perl",
     "release": "5.36.0",
     "slug": "perl~5.36"
   },
@@ -2246,7 +2426,7 @@
   },
   {
     "name": "PHP",
-    "release": "8.2",
+    "release": "8.3",
     "slug": "php"
   },
   {
@@ -2275,6 +2455,11 @@
     "slug": "phpunit~4"
   },
   {
+    "name": "Playwright",
+    "release": "1.41.1",
+    "slug": "playwright"
+  },
+  {
     "name": "PointCloudLibrary",
     "release": "1.13.0",
     "slug": "point_cloud_library"
@@ -2286,7 +2471,12 @@
   },
   {
     "name": "PostgreSQL",
-    "release": "15.0",
+    "release": "16.1",
+    "slug": "postgresql~16"
+  },
+  {
+    "name": "PostgreSQL",
+    "release": "15.4",
     "slug": "postgresql~15"
   },
   {
@@ -2331,7 +2521,7 @@
   },
   {
     "name": "Prettier",
-    "release": "2.8.0",
+    "release": "3.0.0",
     "slug": "prettier"
   },
   {
@@ -2346,17 +2536,22 @@
   },
   {
     "name": "Pygame",
-    "release": "2.0.0",
+    "release": "2.4.0",
     "slug": "pygame"
   },
   {
     "name": "Python",
-    "release": "3.11.1",
+    "release": "3.12.1",
+    "slug": "python~3.12"
+  },
+  {
+    "name": "Python",
+    "release": "3.11.7",
     "slug": "python~3.11"
   },
   {
     "name": "Python",
-    "release": "3.10.9",
+    "release": "3.10.13",
     "slug": "python~3.10"
   },
   {
@@ -2391,8 +2586,13 @@
   },
   {
     "name": "PyTorch",
-    "release": "1.8.0",
-    "slug": "pytorch"
+    "release": "2.1",
+    "slug": "pytorch~2"
+  },
+  {
+    "name": "PyTorch",
+    "release": "1.13",
+    "slug": "pytorch~1"
   },
   {
     "name": "Q",
@@ -2551,6 +2751,11 @@
   },
   {
     "name": "Ruby",
+    "release": "3.3.0",
+    "slug": "ruby~3.3"
+  },
+  {
+    "name": "Ruby",
     "release": "3.2.0",
     "slug": "ruby~3.2"
   },
@@ -2596,8 +2801,13 @@
   },
   {
     "name": "Ruby / Minitest",
-    "release": "5.17.0",
+    "release": "5.20.0",
     "slug": "minitest"
+  },
+  {
+    "name": "Ruby on Rails",
+    "release": "7.1.2",
+    "slug": "rails~7.1"
   },
   {
     "name": "Ruby on Rails",
@@ -2641,7 +2851,7 @@
   },
   {
     "name": "Rust",
-    "release": "1.65.0",
+    "release": "1.75.0",
     "slug": "rust"
   },
   {
@@ -2658,6 +2868,16 @@
     "name": "Sanctuary",
     "release": "3.1.0",
     "slug": "sanctuary"
+  },
+  {
+    "name": "Sanctuary Def",
+    "release": "0.22.0",
+    "slug": "sanctuary_def"
+  },
+  {
+    "name": "Sanctuary Type Classes",
+    "release": "13.0.0",
+    "slug": "sanctuary_type_classes"
   },
   {
     "name": "Sass",
@@ -2811,12 +3031,12 @@
   },
   {
     "name": "Spring Boot",
-    "release": "2.7.0",
+    "release": "3.1.3",
     "slug": "spring_boot"
   },
   {
     "name": "SQLite",
-    "release": "3.40.0",
+    "release": "3.44.2",
     "slug": "sqlite"
   },
   {
@@ -2826,13 +3046,18 @@
   },
   {
     "name": "Support Tables",
-    "release": "1.0.30001442",
+    "release": "1.0.30001574",
     "slug": "browser_support_tables"
   },
   {
     "name": "Svelte",
-    "release": "3.55.0",
+    "release": "4.2.1",
     "slug": "svelte"
+  },
+  {
+    "name": "Svelte",
+    "release": "3.55.0",
+    "slug": "svelte~3"
   },
   {
     "name": "SVG",
@@ -2886,7 +3111,7 @@
   },
   {
     "name": "Tailwind CSS",
-    "release": "3.1.8",
+    "release": "3.3.2",
     "slug": "tailwindcss"
   },
   {
@@ -2941,7 +3166,7 @@
   },
   {
     "name": "Trio",
-    "release": "0.18.0",
+    "release": "0.22.2",
     "slug": "trio"
   },
   {
@@ -2961,8 +3186,13 @@
   },
   {
     "name": "TypeScript",
-    "release": "5.0.2",
+    "release": "5.3.3",
     "slug": "typescript"
+  },
+  {
+    "name": "TypeScript",
+    "release": "5.1.3",
+    "slug": "typescript~5.1"
   },
   {
     "name": "Underscore.js",
@@ -2975,9 +3205,19 @@
     "slug": "vagrant"
   },
   {
+    "name": "Varnish",
+    "release": "7.4",
+    "slug": "varnish"
+  },
+  {
     "name": "Vite",
-    "release": "4.1.1",
+    "release": "5.0.11",
     "slug": "vite"
+  },
+  {
+    "name": "Vite",
+    "release": "4.5.1",
+    "slug": "vite~4"
   },
   {
     "name": "Vite",
@@ -2986,12 +3226,12 @@
   },
   {
     "name": "Vitest",
-    "release": "0.30.1",
+    "release": "1.2.2",
     "slug": "vitest"
   },
   {
     "name": "Vue",
-    "release": "3.2.47",
+    "release": "3.4.5",
     "slug": "vue~3"
   },
   {
@@ -3061,7 +3301,7 @@
   },
   {
     "name": "webpack",
-    "release": "5.75.0",
+    "release": "5.89.0",
     "slug": "webpack~5"
   },
   {
@@ -3073,6 +3313,16 @@
     "name": "webpack",
     "release": "1.15.0",
     "slug": "webpack~1"
+  },
+  {
+    "name": "Werkzeug",
+    "release": "3.0.x",
+    "slug": "werkzeug~3.0"
+  },
+  {
+    "name": "Werkzeug",
+    "release": "2.3.x",
+    "slug": "werkzeug~2.3"
   },
   {
     "name": "Werkzeug",
@@ -3136,7 +3386,7 @@
   },
   {
     "name": "Zig",
-    "release": "0.10.0",
+    "release": "0.11.0",
     "slug": "zig"
   }
 ]
