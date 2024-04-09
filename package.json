@@ -10,16 +10,13 @@
   "license": "MIT",
   "icon": "icon.png",
   "engines": {
-    "vscode": "^1.63.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Other"
   ],
   "activationEvents": [
-    "onWebviewPanel:devdocs",
-    "onCommand:devdocs-adapter.search",
-    "onCommand:devdocs-adapter.docsets.manage",
-    "onCommand:devdocs-adapter.docsets.update"
+    "onWebviewPanel:devdocs"
   ],
   "main": "./out/main.js",
   "contributes": {
@@ -109,6 +106,6 @@
     "glob": "^7.2.0",
     "mocha": "^9.1.3",
     "typescript": "^4.5.4",
-    "vsce": "^2.9.2"
+    "@vscode/vsce": "^2.24.0"
   }
 }
