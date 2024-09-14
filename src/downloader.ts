@@ -367,10 +367,10 @@ export class Downloader {
         await this._writeFile('items.json', JSON.stringify(items));
     }
 
-    async download(slugs: DocSlug[], force = false): Promise<void> {
+    static async download(storePath: string, slugs: DocSlug[], force = false): Promise<void> {
         if (!force) {
             // Docset already on disk
-            slugs = slugs.filter(slug => !fs.existsSync(path.join(this._storePath, slug)));
+            slugs = slugs.filter(slug => !fs.existsSync(path.join(storePath, slug)));
         }
 
         await Promise.all(slugs.map(doc => window.withProgress(
@@ -379,8 +379,9 @@ export class Downloader {
                 location: ProgressLocation.Notification,
             },
             progress => {
-                this._reporter = (message, increment) => progress.report({ message, increment });
-                return this._download(doc);
+                const downloader = new Downloader(storePath);
+                downloader._reporter = (message, increment) => progress.report({ message, increment });
+                return downloader._download(doc);
             },
         )));
     }

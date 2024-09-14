@@ -15,7 +15,6 @@ export class DevDocsAdapter implements vscode.WebviewPanelSerializer {
 
     private _manifests: Map<DocSlug, DocMeta>;
     private _webviews: Map<DocSlug, vscode.WebviewPanel>;
-    private _downloader: Downloader;
 
     constructor(storePath: string, extensionPath: vscode.Uri) {
         this._storePath = storePath;
@@ -23,7 +22,6 @@ export class DevDocsAdapter implements vscode.WebviewPanelSerializer {
         this._items = [];
         this._webviews = new Map;
         this._manifests = new Map;
-        this._downloader = new Downloader(storePath);
     }
 
     async items(): Promise<DocItem[]> {
@@ -36,7 +34,7 @@ export class DevDocsAdapter implements vscode.WebviewPanelSerializer {
         this._items = [];
         this._manifests = new Map;
 
-        await this._downloader.download(slugs, force);
+        await Downloader.download(this._storePath, slugs, force);
 
         for (const slug of slugs) {
             // Manifest is already loaded
